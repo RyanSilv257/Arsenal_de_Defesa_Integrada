@@ -1,6 +1,16 @@
-.footer-container{
-    position: absolute;
+.top-bar{
+    background-color: #C86D19 ;
     display: flex;
-    align-items: center;
-
+    flex-direction: row;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    align-items: stretch;
 }
+.content-img{
+    height: 70px;
+}
+.content-txt{
+    color: white;
+}
+
