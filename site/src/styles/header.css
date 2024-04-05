@@ -47,13 +47,14 @@ body{
     font-size: 20px;
     padding: 10px;
     border-radius: 30px;
-    height: 20px;
+    height: 25px;
     background-color: #d9d9d9;
+    border: 0;
 }
 
 .pesquisar::placeholder{
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 50px;
     color: black;
 }
 
