@@ -33,18 +33,31 @@ function Header() {
                 </li>
                 <li id="navdrop" class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
+                    <img class='navimg' src="menu.png"></img>
                 </a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">Privacidade</a></li>
-                    <li><a class="dropdown-item" href="#">Contato</a></li>
+                    <li><a class="dropdown-item" href="#">Contato</a>
+                    </li>
                 </ul>
                 </li>
             </ul>
             </div>
         </div>
         </nav>
-        <div>
+
+        <div class='subnavbar'>
+            <form>
+                <input class="pesquisar" type="text" placeholder="Pesquisar"/>
+            </form>
+            <div class='sub-items'>
+                <a href="#">
+                <img src='carrinho.png'></img>
+                </a>
+                <a href="#">
+                <img src='usuario.png'></img>
+                </a>
+            </div>
         </div>
     </header>
     </>
