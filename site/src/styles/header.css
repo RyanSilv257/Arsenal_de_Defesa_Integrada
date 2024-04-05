@@ -1,0 +1,30 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.bg-body-tertiary {
+    border-top: 40px solid;
+    border-color: #2f3031;
+    background-color: #2f3031 !important;
+    height: 0;
+}
+
+.container-fluid {
+    background-color: #c86d19;
+}
+
+.header_img{
+    height: 90px;
+    background: url('');
+    position: absolute;
+    padding-bottom: 10px;
+}
+
+#armas{
+    padding-left: 100px;
+}
+
+#navdrop{
+    left: 20vw;
+}
