@@ -26,6 +26,15 @@ body{
     align-items: center;
 }
 
+.sub-title2{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+}
+
 hr {
     display: block;
     height: 5px;
@@ -37,6 +46,10 @@ hr {
     border-radius: 2px;
 }
 
+#title2{
+    width:70vw;
+}
+
 .items-div{
     display: flex;
     flex-direction: row;
@@ -46,6 +59,7 @@ hr {
     overflow-y: hidden;
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 50px;
 }
 
 .item{
@@ -65,24 +79,19 @@ hr {
 }
 
 .items-div::-webkit-scrollbar{
-    height: 10px;
+    height: 7px;
+    background: black;
 }
 
 .items-div::-webkit-scrollbar-thumb{
     background:orange;
-    border-radius: 10px;
 }
 
 .items-div::-webkit-scrollbar-button {
     width: 100px; 
+    background: #2f3031;
 }
 
-.items-div::-webkit-scrollbar-track-piece:end {
-    background: transparent;
-    margin-bottom: 100px; 
-}
-
-.items.div::-webkit-scrollbar-track-piece:start {
-    background: transparent;
-    margin-top: 100px;
+footer{
+    margin-top: 60px;
 }

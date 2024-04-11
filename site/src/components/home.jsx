@@ -61,6 +61,41 @@ function Home(){
 
         </div>
     </div>
+    <div class='sub-div'>
+        <div class=' sub-title2'>
+        <h1 id='title1'>PROMOÇÕES</h1>
+        <hr id='title2'/>
+        </div>
+    
+        <div class='items-div'>
+            <div class='item'>
+                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
+                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+            </div>
+            <div class='item'>
+                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
+                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+            </div>
+            <div class='item'>
+                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
+                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+            </div>
+            <div class='item'>
+                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
+                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+            </div>
+            <div class='item'>
+                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
+                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+            </div>
+            <div class='item'>
+                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
+                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+            </div>
+
+
+        </div>
+    </div>
 </div>
 </>
     );
