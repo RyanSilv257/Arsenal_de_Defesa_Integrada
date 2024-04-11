@@ -74,6 +74,14 @@ hr {
     margin-bottom: 10px;
 }
 
+a:link { 
+    text-decoration: none; 
+  } 
+
+.item p{
+    color: black;
+}
+
 .item img{
     border-radius: 10px 10px 0 0;
 }

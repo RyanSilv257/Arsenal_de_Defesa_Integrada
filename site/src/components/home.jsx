@@ -33,65 +33,80 @@ function Home(){
         </div>
     
         <div class='items-div'>
+        <a href='#'>
             <div class='item'>
                 <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
+            </a><a href='#'>
             <div class='item'>
                 <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
+            </a><a href='#'>
             <div class='item'>
                 <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
+            </a><a href='#'>
             <div class='item'>
                 <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
+            </a><a href='#'>
             <div class='item'>
                 <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
+            </a><a href='#'>
             <div class='item'>
                 <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
+            </a>
 
 
         </div>
     </div>
     <div class='sub-div'>
-        <div class=' sub-title2'>
+        <div class='sub-title2'>
         <h1 id='title1'>PROMOÇÕES</h1>
         <hr id='title2'/>
         </div>
     
         <div class='items-div'>
+            <a href='#'>
             <div class='item'>
                 <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
+            </a>
+            <a href='#'>
             <div class='item'>
                 <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
+            </a><a href='#'>
             <div class='item'>
                 <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
+            </a><a href='#'>
             <div class='item'>
                 <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
+            </a><a href='#'>
             <div class='item'>
                 <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
+            </a><a href='#'>
             <div class='item'>
                 <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
+            </a>
 
 
         </div>
