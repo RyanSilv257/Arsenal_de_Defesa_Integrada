@@ -80,3 +80,17 @@
    li {
     margin-bottom: 5px;
    }
+body {
+    background-color: #484d50;
+}
+
+input[type="submit"],
+button {
+    background-color: #FFA500; 
+    color: black; 
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #FF8C00; 
+}
