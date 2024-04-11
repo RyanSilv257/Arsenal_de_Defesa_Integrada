@@ -13,14 +13,14 @@
     margin-bottom: 0px;
     color: #ffff;
     font-size: 50px;
-    min-width: 50vw;
+    min-width: 45vw;
     text-align: center;
 }
 .content-txt2{
     margin-bottom: 0px;
     color: #ffff;
     font-size: 30px;
-    min-width: 50vw;
+    min-width: 45vw;
     text-align: center;
 }
 .content-img{
@@ -33,13 +33,14 @@
     color: white;
 }
 .low-bar{
-    margin-top: 20px;
+    border-top: 20px solid black;
     display: flex;
     flex-direction: row;
     height: 100px;
     justify-content: space-around;
     color: #ffff;
     font-size: 16px;
+    background-color: black;
     
 }
 .low-bar2{
@@ -48,6 +49,7 @@
     align-items: center;
     display: flex;
     color: #ffff;
+    background-color: black;
 }
 .content-txt3{
     text-align: center;
@@ -59,14 +61,16 @@
     height: 50px;
 }
 .low-bar3{
-    margin-top: 30px;
-    margin-bottom: 20px;
+    border-top: 30px solid black;
+    border-bottom: 80px solid black;
     height: 70px;
     justify-content: center;
     display: flex;
     color: #ffff;
     font-size: 16px;
     text-decoration: underline;
+    background-color: black;
+    
 }
 
 
