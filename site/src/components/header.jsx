@@ -52,7 +52,7 @@ function Header() {
             </form>
             <div class='sub-items'>
                 <a href="#">
-                <img src='carrinho.png'></img>
+                <img class="carrinho " src='carrinho.png'></img>
                 </a>
                 <a href="#">
                 <img src='usuario.png'></img>
