@@ -16,7 +16,7 @@ function Footer(){
             </div>
             <div class="low-bar2">
                 <p class ="content-txt3">Rua Acutirembiú,Jardim São Sebastião,<br/> São Paulo, SP,<br/> CEP: 08041-090.</p>
-                <img src=''></img>
+                <img class="content-img2" src="/18.png" alt="Proíbido para menores de 18 anos." />
             </div>
             <div class="low-bar3">
                 <p class ="content-txt3">Formas de pagamento aceitas: cartões de crédito 

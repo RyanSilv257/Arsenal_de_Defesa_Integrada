@@ -44,7 +44,7 @@
 }
 .low-bar2{
     height: 100px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     display: flex;
     color: #ffff;
@@ -52,6 +52,11 @@
 .content-txt3{
     text-align: center;
     font-size: 16px;
+    
+}
+.content-img2{
+    margin-left: 100px;
+    height: 50px;
 }
 .low-bar3{
     margin-top: 30px;
