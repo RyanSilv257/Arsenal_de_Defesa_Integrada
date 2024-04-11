@@ -9,7 +9,7 @@ function Footer(){
                 <img class="content-img" src="/logo_header.png"/>
                 <h2 class="content-txt">Arsenal de Defesa Integrada</h2>
             </div>
-            <div class="bg">
+            <div class="low-bar">
                 <p></p>
                 <p></p>
                 <p></p>

@@ -5,12 +5,16 @@
     position: absolute;
     bottom: 0px;
     width: 100%;
-    align-items: stretch;
+    justify-content: space-around;
 }
 .content-img{
     height: 70px;
+    position: absolute;
 }
 .content-txt{
     color: white;
+}
+.low-bar{
+    height: 100px;
 }
 
