@@ -5,14 +5,22 @@ function Footer(){
         <>
         <footer>
             <div class="top-bar">
-                <h1 class="content-txt" >ADI</h1>
+                <p class="content-txt1" >ADI</p>
                 <img class="content-img" src="/logo_header.png"/>
-                <h2 class="content-txt">Arsenal de Defesa Integrada</h2>
+                <p class="content-txt2">Arsenal de Defesa Integrada</p>
             </div>
             <div class="low-bar">
-                <p></p>
-                <p></p>
-                <p></p>
+                <p>CNPJ: 27.779.008/0001-54.</p>
+                <p>TEL: (32) 96025-3648.</p>
+                <p>ADI (Arsenal de Defesa Integrada )<br/>  ADIarsenal.com.br, Inc. ou suas  © 2024.</p>
+            </div>
+            <div class="low-bar2">
+                <p class ="content-txt3">Rua Acutirembiú,Jardim São Sebastião,<br/> São Paulo, SP,<br/> CEP: 08041-090.</p>
+                <img src=''></img>
+            </div>
+            <div class="low-bar3">
+                <p class ="content-txt3">Formas de pagamento aceitas: cartões de crédito 
+                (Visa, MasterCard, Elo e American Express), cartões de débito (Visa e Elo), Boleto e Pix.</p>
             </div>
         </footer> 
         </>
