@@ -74,15 +74,21 @@ function Registro(){
 
     return (
         <>
-            <form onSubmit={handleSubmit}>
-                <input 
-                    type="text"
-                    value={dataToInsert.nome}
-                    name="nome"
-                    onChange={handleChange}
-                    placeholder="Nome"
-                    required
-                    autoComplete="none"        
+        <div class="main.div">
+            <div class="">
+            <p class="content-txt" >ADI</p>
+                <img class="content-img2" src="/logo_header2.png"/>
+                <p class="content-txt">Arsenal de Defesa Integrada</p>
+            </div>    
+                <form onSubmit={handleSubmit}>
+                    <input 
+                        type="text"
+                        value={dataToInsert.nome}
+                        name="nome"
+                        onChange={handleChange}
+                        placeholder="Nome"
+                        required
+                        autoComplete="none"        
                 />
                 <input 
                     type="text"
@@ -105,6 +111,7 @@ function Registro(){
                 <button className="form_button">Save</button>
                 
             </form>
+        </div>
         </>
     )
 
