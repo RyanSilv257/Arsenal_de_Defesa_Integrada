@@ -32,7 +32,7 @@ function Header() {
                 <a class="nav-link active" aria-current="page" href="#">Nossas Licenças</a>
                 </li>
                 <li id="navdrop" class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <img class='navimg' src="menu.png"></img>
                 </a>
                 <ul class="dropdown-menu">
@@ -52,7 +52,7 @@ function Header() {
             </form>
             <div class='sub-items'>
                 <a href="#">
-                <img class="carrinho " src='carrinho.png'></img>
+                <img src='carrinho.png'></img>
                 </a>
                 <a href="#">
                 <img src='usuario.png'></img>
