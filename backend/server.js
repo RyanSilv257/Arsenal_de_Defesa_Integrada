@@ -30,6 +30,18 @@ const search = (callback)=>{
     });
 };
 
+const insertData = db.prepare(
+    `INSERT INTO usuario (nome, email, senha) 
+    VALUES(?, ?, ?)`,
+    (err)=>{
+        if(err){
+            console.error(err);
+        }else{
+            console.log("Dados inseridos com sucesso");
+        }
+    }
+);
+
 const server = http.createServer((req, res)=>{
     // Para permitir os CORS e que não tenha problemas neste exemplo.
     res.setHeader("Access-Control-Allow-Origin", "*");
@@ -41,17 +53,7 @@ const server = http.createServer((req, res)=>{
         res.end();
     });
 
-    const insertData = db.prepare(
-        `INSERT INTO usuario (nome, email, senha) 
-        VALUES(?, ?, ?)`,
-        (err)=>{
-            if(err){
-                console.error(err);
-            }else{
-                console.log("Dados inseridos com sucesso");
-            }
-        }
-    );
+
 
     if(req.method == "POST"){
         let body = "";
