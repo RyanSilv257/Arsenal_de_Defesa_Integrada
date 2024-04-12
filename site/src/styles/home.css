@@ -6,6 +6,12 @@ body{
     display: flex;
     flex-direction: column;
 }
+.dots-img{
+    position: absolute;
+    z-index: -2;
+    height: 700px;
+
+}
 
 #title1{
     color:white;
@@ -66,8 +72,8 @@ hr {
     width: auto;
     overflow-x: scroll;
     overflow-y: hidden;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 50px;
 }
 
