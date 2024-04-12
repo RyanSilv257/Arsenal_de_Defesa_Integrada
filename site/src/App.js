@@ -6,12 +6,12 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Home from './components/home';
 import Armas from './components/Armas';
+import Registro from './components/registro';
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 
 function App() {
   return (
     <>
-    <Header />
 
     <head>
       <style>
@@ -19,11 +19,11 @@ function App() {
       </style>
     </head>
       <Routes>
-        <Route path="/" element={<Home />}/>
+        <Route path="/" element={<><Header /><Home /><Footer /></>}/>
         <Route path="/Armas" element={<Armas />}/>
+        <Route path="/Registro" element={<Registro />}/>
       </Routes>
 
-    <Footer />
     </>
   );
 }
