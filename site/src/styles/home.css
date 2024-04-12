@@ -15,7 +15,16 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+.link-for-products{
+    position: relative;
+    display: flex;
+    width: 100%;
+    font-size: small;
+    justify-content: end;
+    padding-right: 30px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
 .sub-title{
     margin-top: 50px;
     margin-bottom: 20px;

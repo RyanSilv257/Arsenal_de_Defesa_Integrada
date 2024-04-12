@@ -68,6 +68,9 @@ function Home(){
 
         </div>
     </div>
+    <div class="link-for-products">
+        <a class="" href="#">veja mais.</a>
+    </div>
     <div class='sub-div'>
         <div class='sub-title2'>
         <h1 id='title1'>PROMOÇÕES</h1>
@@ -112,6 +115,9 @@ function Home(){
         </div>
     </div>
 </div>
+<div class="link-for-products">
+        <a class="" href="#">veja mais.</a>
+    </div>
 </>
     );
 }
