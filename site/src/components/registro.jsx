@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import{ useNavigate } from "react-router-dom";
-
+import "../styles/registro.css";
+import { Link } from "react-router-dom";
 
 function Registro(){
 
@@ -74,14 +75,18 @@ function Registro(){
 
     return (
         <>
-        <div class="main.div">
-            <div class="">
-            <p class="content-txt" >ADI</p>
-                <img class="content-img2" src="/logo_header2.png"/>
-                <p class="content-txt">Arsenal de Defesa Integrada</p>
-            </div>    
+        <div class="main-div">
+            <div class="t-bar">
+                <p class="logo-txt1" >ADI</p>
+                <img class="img-hd" src="/logo_header2.png"/>
+                <p class="logo-txt2">Arsenal de Defesa Integrada</p>
+            </div>  
+            <div class="txt1">
+                <p class="p">Registre-se:</p>    
+            </div>  
                 <form onSubmit={handleSubmit}>
-                    <input 
+                    <div class="div1">
+                    <input className="name-inp"
                         type="text"
                         value={dataToInsert.nome}
                         name="nome"
@@ -90,7 +95,9 @@ function Registro(){
                         required
                         autoComplete="none"        
                 />
-                <input 
+                </div>
+                <div class="div2">
+                <input className="email-inp"
                     type="text"
                     value={dataToInsert.email}
                     name="email"
@@ -99,7 +106,9 @@ function Registro(){
                     required
                     autoComplete="none"        
                 />
-                <input 
+                </div>
+                <div class="">
+                <input className="senha-inp"
                     type="text"
                     value={dataToInsert.senha}
                     name="senha"
@@ -108,7 +117,22 @@ function Registro(){
                     required
                     autoComplete="none"        
                 />
-                <button className="form_button">Save</button>
+                </div>
+                <div class="btn-s">
+                    <Link to="/">
+                <button className="form_button2"a href="#">Voltar ao ínicio</button>
+                    </Link>
+                <button className="form_button">Continuar</button>
+                </div>
+                <div class="txt2">
+                    <p>Já tem uma conta?</p>
+                </div>
+                <div class="href">
+                    <a href="#">Entrar</a>
+                </div>
+                <hr />
+
+            
                 
             </form>
         </div>
