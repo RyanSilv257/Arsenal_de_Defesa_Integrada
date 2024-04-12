@@ -4,7 +4,7 @@ import "../styles/header.css";
 function Header() {
     return(
     <>
-        
+
     <header> 
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -69,9 +69,11 @@ function Header() {
                 <a href="#">
                 <img src='carrinho.png'></img>
                 </a>
+                <Link to="/Registro">
                 <a href="#">
                 <img src='usuario.png'></img>
                 </a>
+                </Link>
             </div>
         </div>
     </header>
