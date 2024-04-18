@@ -20,5 +20,15 @@ function Armas() {
     <div class ='sub-title'>
     <h1 id='title1'>ARMAS</h1>
     </div>
+
+    <div class='items-div'>
+    <a href='#'>
+        <div class='item'>
+        <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
+        <p>Pistola Taurus TH380 Calibre .380ACP</p>
+        </div>
+    </a>
+
+    </div>
 </div>
 export default Armas;
