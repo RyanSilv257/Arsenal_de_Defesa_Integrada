@@ -84,8 +84,11 @@ function Registro(){
             <div class="txt1">
                 <p class="p">Registre-se:</p>    
             </div>  
+   
                 <form onSubmit={handleSubmit}>
                     <div class="div1">
+                        
+                    <p class="category1">Nome:</p>
                     <input className="name-inp"
                         type="text"
                         value={dataToInsert.nome}
@@ -96,7 +99,9 @@ function Registro(){
                         autoComplete="none"        
                 />
                 </div>
+                
                 <div class="div2">
+                <p class="category2">E-mail:</p>
                 <input className="email-inp"
                     type="text"
                     value={dataToInsert.email}
@@ -107,7 +112,8 @@ function Registro(){
                     autoComplete="none"        
                 />
                 </div>
-                <div class="">
+                <div class="div3">
+                <p class="category2">Senha:</p>
                 <input className="senha-inp"
                     type="text"
                     value={dataToInsert.senha}
@@ -118,21 +124,44 @@ function Registro(){
                     autoComplete="none"        
                 />
                 </div>
-                <div class="btn-s">
-                    <Link to="/">
-                <button className="form_button2"a href="#">Voltar ao ínicio</button>
-                    </Link>
-                <button className="form_button">Continuar</button>
+                <div class="cnt">
+                    <div class="btn-s">
+                        <Link to="/">
+                        <button className="form_button1">Voltar ao ínicio</button>
+                        </Link>
+                    </div>
+                    <div class="btn-l">
+                        <Link to ="/">
+                        <button className="form_button2">Continuar</button>
+                        </Link>
+                    </div>
                 </div>
                 <div class="txt2">
                     <p>Já tem uma conta?</p>
                 </div>
                 <div class="href">
-                    <a href="#">Entrar</a>
+                    <Link to="/">
+                        <a class="ent">Entrar</a>
+                    </Link>
                 </div>
+               
+                <div class="hr">
                 <hr />
+                </div>
 
-            
+                <div class="low-bar">
+                <p>CNPJ: 27.779.008/0001-54.</p>
+                <p>TEL: (32) 96025-3648.</p>
+                <p>ADI (Arsenal de Defesa Integrada )<br/>  ADIarsenal.com.br, Inc. ou suas  © 2024.</p>
+            </div>
+            <div class="low-bar2">
+                <p class ="content-txt3">Rua Acutirembiú,Jardim São Sebastião,<br/> São Paulo, SP,<br/> CEP: 08041-090.</p>
+                <img class="content-img2" src="/18.png" alt="Proíbido para menores de 18 anos." />
+            </div>
+            <div class="low-bar3">
+                <p class ="content-txt3">Formas de pagamento aceitas: cartões de crédito 
+                (Visa, MasterCard, Elo e American Express), cartões de débito (Visa e Elo), Boleto e Pix.</p>
+            </div>
                 
             </form>
         </div>
