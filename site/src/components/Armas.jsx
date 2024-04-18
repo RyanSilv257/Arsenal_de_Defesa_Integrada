@@ -20,5 +20,14 @@ function Armas() {
     <div class ='sub-title'>
     <h1 id='title1'>ARMAS</h1>
     </div>
+
+    <div class='items-div'>
+    <a href='#'>
+        <div class='item'>
+            
+        </div>
+    </a>
+
+    </div>
 </div>
 export default Armas;
