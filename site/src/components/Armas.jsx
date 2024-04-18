@@ -24,7 +24,8 @@ function Armas() {
     <div class='items-div'>
     <a href='#'>
         <div class='item'>
-            
+        <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
+        <p>Pistola Taurus TH380 Calibre .380ACP</p>
         </div>
     </a>
 
