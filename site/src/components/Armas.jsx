@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Armas.css";
+import "../styles/header.css";
+import "../styles/footer.css";
 
 function Armas() {
   return (
