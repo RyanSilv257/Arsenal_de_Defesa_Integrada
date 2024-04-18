@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Armas.css";
+import "../styles/header.css";
+import "../styles/footer.css";
 
 function Armas() {
   return (
@@ -24,7 +26,7 @@ function Armas() {
     <div class='items-div'>
     <a href='#'>
         <div class='item'>
-        <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
+        <img src="../ARSENAL_DE_DEFESA_INTEGRADA/components/PISTOLA_TAURUS.jpg" alt=''/>
         <p>Pistola Taurus TH380 Calibre .380ACP</p>
         </div>
     </a>
