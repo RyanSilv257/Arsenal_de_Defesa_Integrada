@@ -8,6 +8,7 @@ import Home from './components/home';
 import Armas from './components/Armas';
 import Registro from './components/registro';
 import Login from './components/login';
+import Lanternas from './components/Lanternas';
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/Armas" element={<><Header /><Armas /><Footer /></>}/>
         <Route path="/Registro" element={<Registro />}/>
         <Route path="/Login" element={<Login />}/>
+        <Route path="/Lanternas" element={<><Header /><Lanternas /><Footer /></>}/>
       </Routes>
 
     </>
