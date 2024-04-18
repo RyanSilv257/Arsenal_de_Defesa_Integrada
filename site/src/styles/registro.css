@@ -1,6 +1,5 @@
 body{
-    height: 800xpx;
-    background-color: black;
+    height: 800px;
 }
 .t-bar{
     background-color: #C86D19 ;
@@ -41,6 +40,27 @@ body{
 .p{
     width: 100vw;
 }
+.name-inp{
+    border-radius: 20px;
+    width: 600px;
+}
+.name-inp::-webkit-input-placeholder {
+    padding-left: 20px;
+}
+.email-inp{
+    border-radius: 20px;
+    width: 600px;
+}
+.email-inp::-webkit-input-placeholder {
+    padding-left: 20px;
+}
+.senha-inp{
+    border-radius: 20px;
+    width: 600px;
+}
+.senha-inp::-webkit-input-placeholder {
+    padding-left: 20px;
+}
 .div1{
     color: #ffff;
     display: flex;
@@ -63,7 +83,7 @@ body{
 .cnt{
     align-items: center;
     display: flex;
-    padding-left: 430px ;
+    padding-left: 400px ;
 }
 .btn-s{
     display: flex;
@@ -73,20 +93,31 @@ body{
     color: #ffff;
     height: 50px;
     width: 200px;
-    border-radius: 5px;
-    
+    border-radius: 10px;
+    margin-right:20px ;
+    transition: 0.3s;
+    border: none;
+}
+.form_button1:hover{
+    background-color: rgb(125, 125, 125);
+    color: #efa968;
 }
 .btn-l{
     display: flex;
 }
 .form_button2{
-    font-family: ;
     background-color: #C86D19;
     color: #ffff;
     height: 50px;
     width: 200px;
-    border-radius: 5px;
-    
+    border-radius: 10px;
+    margin-left: 40px;
+    transition: 0.3s; 
+    border: none;
+}
+.form_button2:hover{
+    background-color: #efa968;
+    color: #000000;
 }
 .txt2{
     padding-left: 1000px;
@@ -95,4 +126,49 @@ body{
 .ent{
     padding-left: 1100px;
     text-decoration: none;
+}
+.hr{
+    align-items: center;
+    display: flex;
+    padding-left: 200px;
+}
+.low-b4r{
+    border-top: 20px solid #2f3031;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-around;
+    color: #ffff;
+    font-size: 16px;
+    background-color: #2f3031;
+    
+}
+.low-b4r2{
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #ffff;
+    background-color: #2f3031;
+}
+.content-txt3{
+    text-align: center;
+    font-size: 16px;
+    
+}
+.content-img2{
+    margin-left: 100px;
+    height: 50px;
+}
+.low-b4r3{
+    border-top: 30px solid #2f3031;
+    border-bottom: 80px solid #2f3031;
+    height: 70px;
+    justify-content: center;
+    display: flex;
+    color: #ffff;
+    font-size: 16px;
+    text-decoration: underline;
+    background-color: #2f3031;
+    
 }

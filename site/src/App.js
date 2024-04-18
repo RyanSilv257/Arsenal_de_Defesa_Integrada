@@ -17,6 +17,7 @@ function App() {
     <head>
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
+        background-color: red;
       </style>
     </head>
       <Routes>
