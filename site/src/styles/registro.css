@@ -128,14 +128,24 @@ body{
 
 .ent{
     padding-left: 400px;
-    text-decoration: none;
-    margin-bottom: 50px;
 }
-.hr{
+    .href{
+        margin-bottom: 90px;
+    }
+
+.hr hr{
     align-items: center;
-    display: flex;
     padding-left: 200px;
+    display: block;
+    height: 5px;
+    width: 83vw;
+    background-color: #c86d19;
+    margin-left: 100px;
+    padding: 0;
+    opacity: 100%;
+    border-radius: 2px;
 }
+
 .low-b4r{
     border-top: 20px solid #2f3031;
     display: flex;

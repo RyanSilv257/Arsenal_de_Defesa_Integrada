@@ -50,7 +50,7 @@ body{
     align-items: center;
 }
 
-hr {
+.sub-div hr {
     display: block;
     height: 5px;
     width: 65vw;

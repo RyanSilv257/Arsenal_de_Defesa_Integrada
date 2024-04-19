@@ -6,7 +6,7 @@ function Footer(){
         <footer>
             <div class="top-bar">
                 <p class="content-txt1" >ADI</p>
-                <img class="content-img" src="/logo_header.png"/>
+                <img class="content-img" src="/logo_header2.png"/>
                 <p class="content-txt2">Arsenal de Defesa Integrada</p>
             </div>
             <div class="low-bar">

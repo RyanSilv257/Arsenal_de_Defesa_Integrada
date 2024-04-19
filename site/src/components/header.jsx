@@ -13,7 +13,7 @@ function Header() {
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <Link to="/">
-            <img src='/logo_header.png' class='header_img'></img>
+            <img src='/logo_header2.png' class='header_img'></img>
             </Link>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li id='armas' class="nav-item">

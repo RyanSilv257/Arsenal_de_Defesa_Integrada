@@ -35,7 +35,7 @@ function Registro(){
             // Se não encontrar o item, redireciona para a página principal.
             if (!redirected) {
                 setRedirected(true);
-                navigate("/Registro");
+                // navigate("/Registro");
              }
         }   
     })
@@ -107,7 +107,7 @@ function Registro(){
                     value={dataToInsert.email}
                     name="email"
                     onChange={handleChange}
-                    placeholder="email"
+                    placeholder="Email"
                     required
                     autoComplete="none"        
                 />
@@ -119,7 +119,7 @@ function Registro(){
                     value={dataToInsert.senha}
                     name="senha"
                     onChange={handleChange}
-                    placeholder="senha"
+                    placeholder="Senha"
                     required
                     autoComplete="none"        
                 />
