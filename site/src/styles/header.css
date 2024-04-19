@@ -26,7 +26,7 @@ body{
 }
 .navimg{
     -webkit-transition: -webkit-transform 1s ;
-    height: 38px;
+    height: 37px;
 }
 .navimg:hover{
     -webkit-transform: rotate(270deg) translateZ(0);
