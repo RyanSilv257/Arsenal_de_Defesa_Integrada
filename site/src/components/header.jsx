@@ -42,7 +42,7 @@ function Header() {
                 </Link>
                 </li>
                 <li class="nav-item">
-                <Link to="/Lincencas">
+                <Link to="/Lincensas">
                 <a class="nav-link active" aria-current="page" href="#">Nossas Licenças</a>
                 </Link>
                 </li>
