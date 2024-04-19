@@ -44,21 +44,18 @@ body{
     border-radius: 20px;
     width: 500px;
 }
-.name-inp::-webkit-input-placeholder {
-    padding-left: 20px;
-}
+
 .email-inp{
     border-radius: 20px;
     width: 500px;
 }
-.email-inp::-webkit-input-placeholder {
-    padding-left: 20px;
-}
+
 .senha-inp{
     border-radius: 20px;
     width: 500px;
 }
-.senha-inp::-webkit-input-placeholder {
+
+form input {
     padding-left: 20px;
 }
 .div1{
