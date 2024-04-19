@@ -6,12 +6,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-.dots-img{
-    position: absolute;
-    z-index: -2;
-    height: 700px;
-
-}
 
 #title1{
     color:white;

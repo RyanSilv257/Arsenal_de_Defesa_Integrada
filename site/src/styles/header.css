@@ -10,6 +10,14 @@ body{
     background-color: #2f3031 !important;
     height: 0;
 }
+.user-img{
+    height: 25px;
+    padding-right: 35px;
+}
+.cart{
+    height: 30px;
+    padding-right: 60px;
+}
 
 .container-fluid {
     background-color: #c86d19;
