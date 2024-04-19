@@ -20,7 +20,12 @@ function Lanternas(){
     <link rel="stylesheet" type="text/css" href="lanternas.css"/>
     <title>Lanternas</title>
     <header>
-        <h1>Lanternas</h1>
+    <div class='sub-div'>
+        <div class='sub-title'>
+            <h1 id='title1'>LANTERNAS</h1>
+            <hr />
+        </div>
+     </div>   
     </header>
     <section>
         <div class="product">

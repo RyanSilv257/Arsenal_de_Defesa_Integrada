@@ -62,3 +62,32 @@
   .product button:hover {
     background-color: #e65c00; 
   }
+
+/*----------------------------Barra----------------------------------*/
+  #title1{
+    color:white;
+}
+
+.sub-div{
+    display: flex;
+    flex-direction: column;
+}
+  .sub-title{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+}
+.sub-div hr {
+  display: block;
+  height: 5px;
+  width: 65vw;
+  background-color: #c86d19;
+  margin: 1em 0;
+  padding: 0;
+  opacity: 100%;
+  border-radius: 2px;
+}
