@@ -7,8 +7,8 @@ function licensas() {
     return(
         <div className="container">
             <Header title="Licenses" />
-            <h1>Licenses Page</h1>
-            <p>Here is some information about the licenses for this project.</p>
+            <h1>Licensas</h1>
+            <p>Texto pra encher espaço</p>
             <Footer />
         </div>
     );
