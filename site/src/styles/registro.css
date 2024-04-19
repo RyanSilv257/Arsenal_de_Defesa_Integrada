@@ -43,16 +43,19 @@ body{
 .name-inp{
     border-radius: 20px;
     width: 500px;
+    border: black;
 }
 
 .email-inp{
     border-radius: 20px;
     width: 500px;
+    border: black;
 }
 
 .senha-inp{
     border-radius: 20px;
     width: 500px;
+    border: black;
 }
 
 form input {
@@ -115,7 +118,7 @@ form input {
 }
 .form_button2:hover{
     background-color: #efa968;
-    color: #000000;
+    color: black;
 }
 .txt2{
     padding-left: 400px;
