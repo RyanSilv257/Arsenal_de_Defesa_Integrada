@@ -17,8 +17,8 @@ body{
 
 .header_img{
     position: absolute;
-    height: 100px;
-    padding-bottom: 10px;
+    height: 80px;
+    top: -35px;
 }
 
 .nav-item{
@@ -41,7 +41,7 @@ body{
 
 .subnavbar{
     background-color: white;
-    height: 6vh;
+    height: 7vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,3 +67,12 @@ body{
     position: absolute;
     right: 100px;
 }
+.carrinho{
+    height: 50px;
+}
+.nav-link{
+    transition: 0.3s;
+}
+.nav-link:hover{
+   color: #ffff !important;
+   }

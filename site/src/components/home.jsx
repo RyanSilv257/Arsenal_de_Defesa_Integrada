@@ -25,7 +25,8 @@ function Home(){
         <span class="visually-hidden">Next</span>
     </button>
     </div>
-
+    <div class="bg">
+        
     <div class='sub-div'>
         <div class='sub-title'>
         <h1 id='title1'>MAIS VENDIDOS</h1>
@@ -67,6 +68,9 @@ function Home(){
 
 
         </div>
+    </div>
+    <div class="link-for-products">
+        <a class="" href="#">veja mais.</a>
     </div>
     <div class='sub-div'>
         <div class='sub-title2'>
@@ -111,7 +115,12 @@ function Home(){
 
         </div>
     </div>
+    <div class="link-for-products">
+        <a class="" href="#">veja mais.</a>
+    </div>
+    </div>
 </div>
+
 </>
     );
 }
