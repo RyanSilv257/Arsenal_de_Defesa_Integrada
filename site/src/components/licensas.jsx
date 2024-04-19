@@ -1,12 +1,13 @@
 import React from "react";
+import Header from "../components/header";
+import Footer from "../components/footer";
 import "../styles/licensas.css";
-import "../components/header";
-import "../components/footer";
-
-function licensas() {
-    return(
+function Licensas() {
+    return (
         <div>
-            
+            <Header />
+            {TESTE}
+            <Footer />
         </div>
     );
-};
+}
