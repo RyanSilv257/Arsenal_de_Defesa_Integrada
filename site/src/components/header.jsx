@@ -18,12 +18,12 @@ function Header() {
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li id='armas' class="nav-item">
                 <Link to="/Armas">
-                <a class="nav-link active" aria-current="page" href="#">Armas</a>
+                <a class="nav-link active" aria-current="page" href="">Armas</a>
                 </Link>
                 </li>
                 <li class="nav-item">
                 <Link to ="/Acessorios">
-                <a class="nav-link active" aria-current="page" href="#">Acessórios</a>
+                <a class="nav-link active" aria-current="page" href="">Acessórios</a>
                 </Link>
                 </li>
                 <li class="nav-item">

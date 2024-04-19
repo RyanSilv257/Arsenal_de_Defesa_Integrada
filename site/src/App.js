@@ -9,6 +9,7 @@ import Armas from './components/Armas';
 import Registro from './components/registro';
 import Login from './components/login';
 import Lanternas from './components/Lanternas';
+import Acessorios from './components/Acessorios';
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/Registro" element={<Registro />}/>
         <Route path="/Login" element={<Login />}/>
         <Route path="/Lanternas" element={<><Header /><Lanternas /><Footer /></>}/>
+        <Route path="/Acessorios" element={<><Header /><Acessorios /><Footer /></>}/>
       </Routes>
 
     </>
