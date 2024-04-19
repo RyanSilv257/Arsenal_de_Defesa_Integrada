@@ -1,75 +1,37 @@
-import React, { useState, useEffect } from "react";
-import{ useNavigate } from "react-router-dom";
+import React, { useState } from "react";
 import "../styles/registro.css";
 import { Link } from "react-router-dom";
 
 function Registro(){
 
-    const [result, setResult] = useState ([]);
-    const [dataToInsert, setDataToInsert] = useState({
-    nome: "",
-    email: "",
-    senha: ""
-    });
-    const [redirected, setRedirected ] = useState(false);
+    const [nome, setNome] = useState('');
+    const [email, setEmail] = useState('');
+    const [senha, setSenha] = useState('');
     
-    const navigate = useNavigate();
+    const handleRegistro = (e) => {
+        e.preventDefault(); // Evitar o comportamento padrão de envio do formulário
 
-    useEffect(() => {
-        fetch("http://localhost:3000")
-            .then((res) => res.json())
-            .then((data) => {
-                setResult(data);
-            
-                // Procura o item com o mesmo ProductID que o pathname.
-                const foundItem = data.find(
-                (item) => window.location.pathname === `/modify/${item.id}`
-                );
-    
-                if (foundItem) {
-                setDataToInsert((prevState) => ({
-                ...prevState,
-                ...foundItem,
-        }));
-    } else {
-            // Se não encontrar o item, redireciona para a página principal.
-            if (!redirected) {
-                setRedirected(true);
-                // navigate("/Registro");
-             }
-        }   
-    })
-    .catch((err) => { 
-      console.error(err);
-        });
-    },[]);
-
-    // Envia as informações para o backend quando o botão de enviar é clicado.
-    const handleSubmit = (e) => {
-        const foundItem = result.find(
-    (item) => window.location.pathname === `/modify/${item.id}`
-    );
-    if (foundItem) {
-      fetch("http://localhost:3000", {
-        method: "PUT",
-        body: JSON.stringify(dataToInsert),
-        headers: {"Content-Type": "application/json"},
-        });
-        navigate("/Registro")
-        } else {
-            fetch("http://localhost:3000", {
-            method: "POST",
-            body: JSON.stringify(dataToInsert),
-            headers: {"Content-Type": "application/json"},
+        fetch('http://localhost:3001/registro', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                nome: nome,
+                email: email,
+                senha: senha
+            })
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.message) {
+                    alert(data.message);
+                }
+            })
+            .catch(err => {
+                console.error('Erro ao tentar fazer o registro:', err);
+                alert('Erro ao tentar fazer o registro. Por favor, tente novamente.');
             });
-        }
-    };
-    // Armazena as informações no estado conforme são digitados.
-    const handleChange = (e) => {
-        setDataToInsert({
-        ...dataToInsert,
-        [e.target.name]: e.target.value,
-        });
     };
 
 
@@ -82,43 +44,42 @@ function Registro(){
                 <p class="logo-txt2">Arsenal de Defesa Integrada</p>
             </div>  
             <div class="txt1">
-                <p class="p">Registre-se:</p>    
+                <h1 class="p">Registre-se:</h1>    
             </div>  
    
-                <form onSubmit={handleSubmit}>
+            <form onSubmit={handleRegistro}>
                     <div class="div1">
-                        
+
                     <p class="category1">Nome:</p>
                     <input className="name-inp"
                         type="text"
-                        value={dataToInsert.nome}
+                        value={nome}
                         name="nome"
-                        onChange={handleChange}
+                        onChange={(e) => setNome(e.target.value)}
                         placeholder="Nome"
                         required
                         autoComplete="none"        
                 />
                 </div>
-                
                 <div class="div2">
-                <p class="category2">E-mail:</p>
+                <p class="category">E-mail:</p>
                 <input className="email-inp"
-                    type="text"
-                    value={dataToInsert.email}
+                    type="email"
+                    value={email}
                     name="email"
-                    onChange={handleChange}
+                    onChange={(e) => setEmail(e.target.value)}
                     placeholder="Email"
                     required
                     autoComplete="none"        
                 />
                 </div>
                 <div class="div3">
-                <p class="category2">Senha:</p>
+                <p class="category">Senha:</p>
                 <input className="senha-inp"
-                    type="text"
-                    value={dataToInsert.senha}
+                    type="password"
+                    value={senha}
                     name="senha"
-                    onChange={handleChange}
+                    onChange={(e) => setSenha(e.target.value)}
                     placeholder="Senha"
                     required
                     autoComplete="none"        
@@ -131,16 +92,14 @@ function Registro(){
                         </Link>
                     </div>
                     <div class="btn-l">
-                        <Link to ="/">
-                        <button className="form_button2">Continuar</button>
-                        </Link>
+                        <button type="submit" className="form_button2">Confirmar</button>
                     </div>
                 </div>
                 <div class="txt2">
                     <p>Já tem uma conta?</p>
                 </div>
                 <div class="href">
-                    <Link to="/">
+                    <Link to="/Login">
                         <a class="ent">Entrar</a>
                     </Link>
                 </div>
