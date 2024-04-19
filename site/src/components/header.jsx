@@ -67,11 +67,11 @@ function Header() {
             </form>
             <div class='sub-items'>
                 <a href="#">
-                <img src='carrinho.png'></img>
+                <img class="cart" src='carrinho.png'></img>
                 </a>
                 <Link to="/Registro">
                 <a href="#">
-                <img src='usuario.png'></img>
+                <img class=" user-img" src='usuario.png'></img>
                 </a>
                 </Link>
             </div>
