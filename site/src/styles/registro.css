@@ -43,22 +43,22 @@ body{
 .name-inp{
     border-radius: 20px;
     width: 500px;
+    border: black;
 }
-.name-inp::-webkit-input-placeholder {
-    padding-left: 20px;
-}
+
 .email-inp{
     border-radius: 20px;
     width: 500px;
+    border: black;
 }
-.email-inp::-webkit-input-placeholder {
-    padding-left: 20px;
-}
+
 .senha-inp{
     border-radius: 20px;
     width: 500px;
+    border: black;
 }
-.senha-inp::-webkit-input-placeholder {
+
+form input {
     padding-left: 20px;
 }
 .div1{
@@ -118,7 +118,7 @@ body{
 }
 .form_button2:hover{
     background-color: #efa968;
-    color: #000000;
+    color: black;
 }
 .txt2{
     padding-left: 400px;
