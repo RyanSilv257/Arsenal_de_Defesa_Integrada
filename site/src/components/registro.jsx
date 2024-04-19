@@ -172,7 +172,7 @@ function Registro(){
                     <p>Já tem uma conta?</p>
                 </div>
                 <div class="href">
-                    <Link to="/">
+                    <Link to="/Login">
                         <a class="ent">Entrar</a>
                     </Link>
                 </div>
