@@ -160,7 +160,7 @@ form input {
 }
 .low-b4r2{
     height: 100px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     display: flex;
     color: #ffff;
@@ -169,11 +169,13 @@ form input {
 .content-txt3{
     text-align: center;
     font-size: 16px;
+    padding-left: 415px;
     
 }
 .content-img2{
     margin-left: 100px;
     height: 50px;
+    margin-right: 160px;
 }
 .low-b4r3{
     border-top: 30px solid #2f3031;

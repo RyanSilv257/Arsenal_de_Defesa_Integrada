@@ -118,7 +118,7 @@ function Registro(){
                 <img class="content-img2" src="/18.png" alt="Proíbido para menores de 18 anos." />
             </div>
             <div class="low-b4r3">
-                <p class ="content-txt3">Formas de pagamento aceitas: cartões de crédito 
+                <p class ="content-txt4">Formas de pagamento aceitas: cartões de crédito 
                 (Visa, MasterCard, Elo e American Express), cartões de débito (Visa e Elo), Boleto e Pix.</p>
             </div>
                 
