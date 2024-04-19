@@ -101,7 +101,7 @@ function Registro(){
                 </div>
                 
                 <div class="div2">
-                <p class="category2">E-mail:</p>
+                <p class="category">E-mail:</p>
                 <input className="email-inp"
                     type="text"
                     value={dataToInsert.email}
@@ -113,7 +113,7 @@ function Registro(){
                 />
                 </div>
                 <div class="div3">
-                <p class="category2">Senha:</p>
+                <p class="category">Senha:</p>
                 <input className="senha-inp"
                     type="text"
                     value={dataToInsert.senha}
