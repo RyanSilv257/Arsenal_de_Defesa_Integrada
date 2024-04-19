@@ -1,5 +1,4 @@
-
-import'../styles/lanternas.css';
+import'../styles/acessorios.css';
 import  produto1 from "../Lanternas/solaris.jpg"
 import  produto2 from "../Lanternas/blitz.jpg"
 import  produto3 from "../Lanternas/corvus.jpg"
@@ -9,8 +8,7 @@ import  produto6 from "../Lanternas/sigma.jpg"
 import  produto7 from "../Lanternas/sirius.jpg"
 import  produto8 from "../Lanternas/Lanterna de Cabeça Multifuncional Invictus Atlas 600 Lúmens.jpg"
 
-/*---------------------------------------------------------------------------------------*/
-function Lanternas(){
+function Acessorios(){
     return(
         <>
 
@@ -21,11 +19,12 @@ function Lanternas(){
     <header>
     <div class='sub-div'>
         <div class='sub-title'>
-            <h1 id='title1'>LANTERNAS</h1>
+            <h1 id='title1'>ACESSÓRIOS</h1>
             <hr />
         </div>
      </div>   
     </header>
+    
     <section>
         <div class="product">
             <img src={produto1} alt="Acessório de caça 1"/>
@@ -88,4 +87,4 @@ function Lanternas(){
     )
 }
 
-export default Lanternas
+export default Acessorios
