@@ -10,6 +10,14 @@ body{
     background-color: #2f3031 !important;
     height: 0;
 }
+.user-img{
+    height: 25px;
+    padding-right: 35px;
+}
+.cart{
+    height: 30px;
+    padding-right: 40px;
+}
 
 .container-fluid {
     background-color: #c86d19;
@@ -26,6 +34,7 @@ body{
 }
 .navimg{
     -webkit-transition: -webkit-transform 1s ;
+    height: 37px;
 }
 .navimg:hover{
     -webkit-transform: rotate(270deg) translateZ(0);

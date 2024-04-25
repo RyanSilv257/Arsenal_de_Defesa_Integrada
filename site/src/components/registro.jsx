@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import{ useNavigate } from "react-router-dom";
+import React, { useState } from "react";
 import "../styles/registro.css";
 import { Link } from "react-router-dom";
 
@@ -105,7 +104,8 @@ function Registro(){
     //     ...dataToInsert,
     //     [e.target.name]: e.target.value,
     //     });
-    // };
+    // 
+
 
 
     return (
@@ -117,7 +117,7 @@ function Registro(){
                 <p class="logo-txt2">Arsenal de Defesa Integrada</p>
             </div>  
             <div class="txt1">
-                <p class="p">Registre-se:</p>    
+                <h1 class="p">Registre-se:</h1>    
             </div>  
    
             <form onSubmit={handleRegistro}>
@@ -149,7 +149,7 @@ function Registro(){
                 <div class="div3">
                 <p class="category">Senha:</p>
                 <input className="senha-inp"
-                    type="text"
+                    type="password"
                     value={senha}
                     name="senha"
                     onChange={(e) => setSenha(e.target.value)}
@@ -191,7 +191,7 @@ function Registro(){
                 <img class="content-img2" src="/18.png" alt="Proíbido para menores de 18 anos." />
             </div>
             <div class="low-b4r3">
-                <p class ="content-txt3">Formas de pagamento aceitas: cartões de crédito 
+                <p class ="content-txt4">Formas de pagamento aceitas: cartões de crédito 
                 (Visa, MasterCard, Elo e American Express), cartões de débito (Visa e Elo), Boleto e Pix.</p>
             </div>
                 
@@ -201,6 +201,6 @@ function Registro(){
     )
 
 
-}
+};
 
 export default Registro;
