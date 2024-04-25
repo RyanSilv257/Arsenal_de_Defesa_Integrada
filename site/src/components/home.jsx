@@ -92,7 +92,7 @@ function Home(){
             </div>
             </a><a href='#'>
             <div class='item'>
-                <img class=" products" src="Produtos/NAUTIKA Tour R$.jpg" alt=''/>
+                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
             </a><a href='#'>
