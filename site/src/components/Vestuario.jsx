@@ -4,9 +4,14 @@ import  produto2 from "../Produtos/CALÇA TÁTICA MASCULINA COYOTE.jpeg"
 import  produto3 from "../Produtos/COMBAT SHIRT WOODLAND ALPHA BRAVO.jpeg"
 import  produto4 from "../Produtos/Jaqueta Militar m65.jpeg"
 import  produto5 from "../Produtos/CALÇA TÁTICA MASCULINA WOODLAND.jpeg"
-import  produto6 from "../Produtos/Canivete Tático Shark Green Militar Original Invictus R$118,90.jpeg"
-import  produto7 from "../Produtos/CANIVETE TORO SOCO INGLÊS TÁTICO NAUTIKA R$ 147,00.jpeg"
-import  produto8 from "../Produtos/Ferramenta multiuso tática Spor TAG em aço inox R$ 62,90.jpeg"
+import  produto6 from "../Produtos/Jaqueta Jeans Militar Masculina Com Zíper, Jaqueta Bomber R$ 193.jpg"
+import  produto7 from "../Produtos/Jaqueta Tática Raptor Tan - Evo Tactical Militar Camping R$ 376.jpg"
+import  produto8 from "../Produtos/Gandola Assault Jaqueta Militar Mult. Black R$ 179.jpg"
+import  produto9 from "../Produtos/Luva Tática Oficial Militar Em Couro Legítimo R$ 79.jpg"
+import  produto10 from "../Produtos/Luva Bunker Invictus - Tática Militar Profissional.JPG R$ 266.jpg"
+import  produto11 from "../Produtos/Luvas Tatica Militar Airsoft Paintball Meio Dedo Microfibra R$64.jpg"
+import  produto12 from "../Produtos/Calça Masculina Tática Militares À Prova Dágua R$ 137.jpg"
+
 /*_____________________________________________________________________________________________________*/
 function Vestuario(){
     return(
@@ -63,22 +68,50 @@ function Vestuario(){
 { /*____________________________________________6____________________________________________________________*/ }
     <div class="product">
         <img src={produto6} alt="Acessório de caça 6"/>
-        <h2>Canivete Tático Shark Green Militar Original Invictus R$118,90</h2>
-        <p>R$118,90</p>
+        <h2>Jaqueta Jeans Militar Masculina Com Zíper, Jaqueta Bomber</h2>
+        <p>R$193,00</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*____________________________________________7____________________________________________________________*/ }
     <div class="product">
         <img src={produto7} alt="Acessório de caça 7"/>
-        <h2>CANIVETE TORO SOCO INGLÊS TÁTICO NAUTIKA R$ 147,00.jpeg</h2>
-        <p>R$147,00</p>
+        <h2>Jaqueta Tática Raptor Tan - Evo Tactical Militar Camping</h2>
+        <p>R$376,00</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*_____________________________________________8___________________________________________________________*/ }
     <div class="product">
         <img src={produto8} alt="Acessório de caça 8"/>
-        <h2>Ferramenta multiuso tática Spor TAG em aço inox</h2>
-        <p>R$62,90</p>
+        <h2>Gandola Assault Jaqueta Militar Mult. Black</h2>
+        <p>R$179,00</p>
+        <button>Adicionar ao carrinho</button>
+    </div>
+{ /*_____________________________________________9___________________________________________________________*/ }
+    <div class="product">
+        <img src={produto9} alt="Acessório de caça 9"/>
+        <h2>Luva Tática Oficial Militar Em Couro Legítimo</h2>
+        <p>R$79,90</p>
+        <button>Adicionar ao carrinho</button>
+    </div>
+{ /*_____________________________________________10___________________________________________________________*/ }
+    <div class="product">
+        <img src={produto10} alt="Acessório de caça 10"/>
+        <h2>Luva Bunker Invictus - Tática Militar Profissional</h2>
+        <p>R$266,00</p>
+        <button>Adicionar ao carrinho</button>
+    </div>
+{ /*_____________________________________________11___________________________________________________________*/ }
+    <div class="product">
+        <img src={produto11} alt="Acessório de caça 11"/>
+        <h2>Luvas Tatica Militar Airsoft Paintball Meio Dedo Microfibra</h2>
+        <p>R$64,90</p>
+        <button>Adicionar ao carrinho</button>
+    </div>
+{ /*_____________________________________________12___________________________________________________________*/ }
+    <div class="product">
+        <img src={produto12} alt="Acessório de caça 12"/>
+        <h2>Calça Masculina Tática Militares À Prova Dágua</h2>
+        <p>R$137,90</p>
         <button>Adicionar ao carrinho</button>
     </div>
     </section>
