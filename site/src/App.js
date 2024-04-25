@@ -11,6 +11,8 @@ import Login from './components/login';
 import Lanternas from './components/Lanternas';
 import Acessorios from './components/Acessorios';
 import Licensas from './components/licensas';
+import Cutelaria from './components/Cutelaria';
+import Vestuario from './components/Vestuario';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {

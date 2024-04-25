@@ -1,7 +1,7 @@
 import'../styles/acessorios.css';
 import  produto1 from "../Produtos/CALÇA CARGO VERDE MILITAR.jpeg"
 import  produto2 from "../Produtos/CALÇA TÁTICA MASCULINA COYOTE.jpeg"
-import  produto3 from "../Produtos/Canivete Tático Militar Camuflado R$ 149,00.jpeg"
+import  produto3 from "../Produtos/COMBAT SHIRT WOODLAND ALPHA BRAVO.jpeg"
 import  produto4 from "../Produtos/CANIVETE TÁTICO MILITAR LANTERNA PEDERNEIRA BORLOV NAUTIKA AÇO INOX SOBREVIVENCIA R$ 88,26.jpeg"
 import  produto5 from "../Produtos/CANIVETE TÁTICO MILITAR SEMI AUTOMÁTICO XD-13 R$ 167,87.jpeg"
 import  produto6 from "../Produtos/Canivete Tático Shark Green Militar Original Invictus R$118,90.jpeg"
@@ -42,7 +42,7 @@ function Vestuario(){
  { /*___________________________________________3_____________________________________________________________*/ }
         <div class="product">
             <img src={produto3} alt="Acessório de caça 3"/>
-            <h2>Canivete Tático Militar Camuflado</h2>
+            <h2>COMBAT SHIRT WOODLAND ALPHA BRAVO</h2>
             <p>R$149,00</p>
             <button>Adicionar ao carrinho</button>
         </div>
