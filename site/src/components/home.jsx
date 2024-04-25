@@ -70,7 +70,7 @@ function Home(){
         </div>
     </div>
     <div class="link-for-products">
-        <a class="" href="#">veja mais.</a>
+        <a class="" href="#">Veja mais</a>
     </div>
     <div class='sub-div'>
         <div class='sub-title2'>
@@ -116,7 +116,7 @@ function Home(){
         </div>
     </div>
     <div class="link-for-products">
-        <a class="" href="#">veja mais.</a>
+        <a class="" href="#">Veja mais</a>
     </div>
     </div>
 </div>
