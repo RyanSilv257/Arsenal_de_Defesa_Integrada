@@ -9,7 +9,7 @@ function Registro(){
     const [senha, setSenha] = useState('');
     
     const handleRegistro = (e) => {
-        e.preventDefault(); // Evitar o comportamento padrão de envio do formulário
+        e.preventDefault(); 
 
         fetch('http://localhost:3001/registro', {
             method: 'POST',
