@@ -1,4 +1,4 @@
-import'../styles/acessorios.css';
+import'../styles/geral.css';
 import  produto1 from "../Produtos/Colete Tático Modular Presilhas WWART AERO Preto R$ 389,00.jpeg"
 import  produto2 from "../Produtos/Paracord Planet Certificado de Paracord Tipo III Mil-C-5040 R$109,99.jpeg"
 import  produto3 from "../Produtos/Spray Para Defesa Pessoal Poly Defensor 50g.jpeg"
@@ -18,7 +18,7 @@ function Acessorios(){
 
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="acessorios.css"/>
+    <link rel="stylesheet" type="text/css" href="geral.css"/>
     <title>Lanternas</title>
     <header>
     <div class='sub-div'>

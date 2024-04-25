@@ -1,9 +1,9 @@
-import'../styles/acessorios.css';
+import'../styles/geral.css';
 import  produto1 from "../Produtos/CALÇA CARGO VERDE MILITAR.jpeg"
 import  produto2 from "../Produtos/CALÇA TÁTICA MASCULINA COYOTE.jpeg"
 import  produto3 from "../Produtos/COMBAT SHIRT WOODLAND ALPHA BRAVO.jpeg"
-import  produto4 from "../Produtos/CANIVETE TÁTICO MILITAR LANTERNA PEDERNEIRA BORLOV NAUTIKA AÇO INOX SOBREVIVENCIA R$ 88,26.jpeg"
-import  produto5 from "../Produtos/CANIVETE TÁTICO MILITAR SEMI AUTOMÁTICO XD-13 R$ 167,87.jpeg"
+import  produto4 from "../Produtos/Jaqueta Militar m65.jpeg"
+import  produto5 from "../Produtos/CALÇA TÁTICA MASCULINA WOODLAND.jpeg"
 import  produto6 from "../Produtos/Canivete Tático Shark Green Militar Original Invictus R$118,90.jpeg"
 import  produto7 from "../Produtos/CANIVETE TORO SOCO INGLÊS TÁTICO NAUTIKA R$ 147,00.jpeg"
 import  produto8 from "../Produtos/Ferramenta multiuso tática Spor TAG em aço inox R$ 62,90.jpeg"
@@ -14,7 +14,7 @@ function Vestuario(){
 
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="acessorios.css"/>
+    <link rel="stylesheet" type="text/css" href="geral.css"/>
     <title>Lanternas</title>
     <header>
     <div class='sub-div'>
@@ -49,15 +49,15 @@ function Vestuario(){
 { /*____________________________________________4____________________________________________________________*/ }
         <div class="product">
             <img src={produto4} alt="Acessório de caça 4"/>
-            <h2>CANIVETE TÁTICO MILITAR LANTERNA PEDERNEIRA BORLOV NAUTIKA AÇO INOX SOBREVIVENCIA</h2>
-            <p>R$88,26</p>
+            <h2>Jaqueta Militar m65</h2>
+            <p>R$318,00</p>
             <button>Adicionar ao carrinho</button>
         </div>
 { /*____________________________________________5____________________________________________________________*/ }
     <div class="product">
         <img src={produto5} alt="Acessório de caça 5"/>
-        <h2>CANIVETE TÁTICO MILITAR SEMI AUTOMÁTICO XD-13</h2>
-        <p>R$167,87</p>
+        <h2>CALÇA TÁTICA MASCULINA WOODLAND</h2>
+        <p>R$199,90</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*____________________________________________6____________________________________________________________*/ }

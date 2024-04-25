@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Armas.css";
+import "../styles/geral.css";
 
 
 function Armas() {

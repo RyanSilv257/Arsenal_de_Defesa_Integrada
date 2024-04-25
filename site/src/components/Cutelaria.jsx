@@ -1,4 +1,4 @@
-import'../styles/acessorios.css';
+import'../styles/geral.css';
 import  produto1 from "../Produtos/Machado Tático.jpeg"
 import  produto2 from "../Produtos/Canivete suiço tatico multifuncional.jpeg"
 import  produto3 from "../Produtos/Canivete Tático Militar Camuflado R$ 149,00.jpeg"
@@ -14,7 +14,7 @@ function Cutelaria(){
 
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="acessorios.css"/>
+    <link rel="stylesheet" type="text/css" href="geral.css"/>
     <title>Lanternas</title>
     <header>
     <div class='sub-div'>
