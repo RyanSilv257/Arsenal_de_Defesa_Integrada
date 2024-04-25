@@ -5,7 +5,7 @@ function Licensas(){
     <div>
         <h1>
             
-            A ADI (Arsenal de Defesa Integrada) tem o orgulho de anunciar que obteve todas as licenças necessárias para operar legalmente e comercializar uma ampla gama de produtos relacionados à segurança e defesa, em conformidade com as leis brasileiras, especialmente o Estatuto do Desarmamento. Seguindo rigorosamente os procedimentos legais estabelecidos, a ADI adquiriu as seguintes autorizações:
+A ADI (Arsenal de Defesa Integrada) tem o orgulho de anunciar que obteve todas as licenças necessárias para operar legalmente e comercializar uma ampla gama de produtos relacionados à segurança e defesa, em conformidade com as leis brasileiras, especialmente o Estatuto do Desarmamento. Seguindo rigorosamente os procedimentos legais estabelecidos, a ADI adquiriu as seguintes autorizações:
 
 1. *Certificado de Registro (CR) de Pessoa Jurídica:* Concedido pelo Exército Brasileiro, esse certificado permite à ADI exercer a atividade de comércio de armas de fogo e munições, conforme estipulado pelo Estatuto do Desarmamento. Essa autorização é essencial para garantir a legalidade das operações da empresa no mercado de armas.
 
