@@ -10,7 +10,9 @@ import Registro from './components/registro';
 import Login from './components/login';
 import Lanternas from './components/Lanternas';
 import Acessorios from './components/Acessorios';
-import Licensas from './components/licensas';
+
+
+import Licensas from './components/Licensas';
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 
 function App() {
@@ -30,7 +32,8 @@ function App() {
         <Route path="/Login" element={<Login />}/>
         <Route path="/Lanternas" element={<><Header /><Lanternas /><Footer /></>}/>
         <Route path="/Acessorios" element={<><Header /><Acessorios /><Footer /></>}/>
-        <Route path="/Licensas" element={<><Header /><Licensas /><Footer /></>}/>
+        <Route path="/Cutelaria" element={<><Header /><Cutelaria /><Footer /></>}/>
+        <Route path="/Vestuario" element={<><Header /><Vestuario /><Footer /></>}/>
       </Routes>
 
     </>

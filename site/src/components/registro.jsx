@@ -35,6 +35,79 @@ function Registro(){
     };
 
 
+
+
+
+
+    // const [result, setResult] = useState ([]);
+    // const [dataToInsert, setDataToInsert] = useState({
+    // nome: "",
+    // email: "",
+    // senha: ""
+    // });
+    // const [redirected, setRedirected ] = useState(false);
+    
+    // const navigate = useNavigate();
+
+    // useEffect(() => {
+    //     fetch("http://localhost:3000")
+    //         .then((res) => res.json())
+    //         .then((data) => {
+    //             setResult(data);
+            
+    //             // Procura o item com o mesmo ProductID que o pathname.
+    //             const foundItem = data.find(
+    //             (item) => window.location.pathname === `/modify/${item.id}`
+    //             );
+    
+    //             if (foundItem) {
+    //             setDataToInsert((prevState) => ({
+    //             ...prevState,
+    //             ...foundItem,
+    //     }));
+    // } else {
+    //         // Se não encontrar o item, redireciona para a página principal.
+    //         if (!redirected) {
+    //             setRedirected(true);
+    //             navigate("/Registro");
+    //          }
+    //     }   
+    // })
+    // .catch((err) => { 
+    //   console.error(err);
+    //     });
+    // },[]);
+
+    // // Envia as informações para o backend quando o botão de enviar é clicado.
+    // const handleSubmit = (e) => {
+    //     const foundItem = result.find(
+    // (item) => window.location.pathname === `/modify/${item.id}`
+    // );
+    // if (foundItem) {
+    //   fetch("http://localhost:3000", {
+    //     method: "PUT",
+    //     body: JSON.stringify(dataToInsert),
+    //     headers: {"Content-Type": "application/json"},
+    //     });
+    //     navigate("/Registro")
+    //     } else {
+    //         fetch("http://localhost:3000", {
+    //         method: "POST",
+    //         body: JSON.stringify(dataToInsert),
+    //         headers: {"Content-Type": "application/json"},
+    //         });
+    //     }
+    // };
+    // // Armazena as informações no estado conforme são digitados.
+    // const handleChange = (e) => {
+    //     setDataToInsert({
+    //     ...dataToInsert,
+    //     [e.target.name]: e.target.value,
+    //     });
+    // 
+
+
+
     return (
         <>
         <div class="main-div">
@@ -128,6 +201,6 @@ function Registro(){
     )
 
 
-}
+};
 
 export default Registro;

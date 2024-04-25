@@ -32,7 +32,7 @@ function Header() {
                 </Link>
                 </li>
                 <li class="nav-item">
-                <Link to="/Vestuarios">
+                <Link to="/Vestuario">
                 <a class="nav-link active" aria-current="page" href="#">Vestuário</a>
                 </Link>
                 </li>
