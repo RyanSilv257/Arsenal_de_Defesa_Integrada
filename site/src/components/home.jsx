@@ -92,23 +92,24 @@ function Home(){
             </div>
             </a><a href='#'>
             <div class='item'>
-                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
-                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+                <img src="Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg" alt=''/>
+                <p>Revólver RT 066 Taurus Cal 357Mag
+                </p>
             </div>
             </a><a href='#'>
             <div class='item'>
-                <img class="products"src="produtos/PISTOLA_TAURUS.jpg" alt=''/>
-                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+                <img class="products"src="Produtos/RIFLE CBC PUMP ACTION GALERY CAL 22LR CORONHA DE MADEIRA.jpeg" alt=''/>
+                <p>Rifle CBC Pump Action Galery Cal 22LR</p>
             </div>
             </a><a href='#'>
             <div class='item'>
-                <img class="products" src="Produtos/PISTOLA_TAURUS.jpg" alt=''/>
-                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+                <img class="products" src="Produtos/RIFLE .22 SEMIAUTOMÁTICO TACTICAL CORONHA TÁTICA EM POLIPROPILENO PRETA- CBC R$3.652,00.jpeg" alt=''/>
+                <p>Rifle.22 Tactical Coronha Tática CBC</p>
             </div>
             </a><a href='#'>
             <div class='item'> 
-                <img class="products" src="Produtos/PISTOLA_TAURUS.jpg" alt=''/>
-                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+                <img class="products" src="Produtos/Red Dot Frenzy-S 1x17x24 MIC - Vector Optics.jpeg" alt=''/>
+                <p>Red Dot Vector 1x17x24 MIC</p>
             </div>
             </a>
 
