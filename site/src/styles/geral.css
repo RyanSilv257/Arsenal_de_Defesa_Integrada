@@ -32,7 +32,7 @@
     text-align: center;
     background-color: #333333; 
   }
-  
+/*Tamanho das Imagens*/  
   .product img {
     max-width: 100%;
     height: auto;
@@ -40,7 +40,7 @@
     margin-bottom: 15px;
     max-height: 250px;
   }
-  
+/*Texto*/  
   .product h2 {
     font-size: 1.2rem;
     margin-bottom: 10px;
