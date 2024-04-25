@@ -32,7 +32,7 @@ function Header() {
                 </Link>
                 </li>
                 <li class="nav-item">
-                <Link to="/Vestuarios">
+                <Link to="/Vestuario">
                 <a class="nav-link active" aria-current="page" href="#">Vestuário</a>
                 </Link>
                 </li>
@@ -42,7 +42,7 @@ function Header() {
                 </Link>
                 </li>
                 <li class="nav-item">
-                <Link to="/Lincencas">
+                <Link to="/Licensas">
                 <a class="nav-link active" aria-current="page" href="#">Nossas Licenças</a>
                 </Link>
                 </li>
@@ -51,8 +51,10 @@ function Header() {
                     <img class='navimg' src="menu.png"></img>
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Privacidade</a></li>
-                    <li><a class="dropdown-item" href="#">Contato</a>
+                    <li><Link to="/Privacidade"><a class="dropdown-item" href="#">Privacidade</a></Link></li>
+                    <li><Link to="/Contato"><a class="dropdown-item" href="#">Contato</a></Link>
+                    </li>
+                    <li><Link to="/Sobre"><a class="dropdown-item" href="#">Sobre</a></Link>
                     </li>
                 </ul>
                 </li>
@@ -67,11 +69,11 @@ function Header() {
             </form>
             <div class='sub-items'>
                 <a href="#">
-                <img src='carrinho.png'></img>
+                <img class="cart" src='carrinho.png'></img>
                 </a>
-                <Link to="/Registro">
+                <Link to="/Login">
                 <a href="#">
-                <img src='usuario.png'></img>
+                <img class=" user-img" src='usuario.png'></img>
                 </a>
                 </Link>
             </div>

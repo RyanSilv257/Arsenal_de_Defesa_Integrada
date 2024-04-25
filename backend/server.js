@@ -29,6 +29,7 @@ app.get('/', (req, res) => {
     res.json({ message: "Backend is up and running!" });
 });
 
+// Rota para checar login
 app.post('/login', (req, res) => {
     const { email, senha } = req.body;
     if (!email || !senha) {
@@ -65,74 +66,6 @@ app.post('/registro', (req, res) => {
     });
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-// const search = (callback)=>{
-//     db.all("SELECT * FROM usuario", (err, rows)=>{
-//         if(err){
-//             console.error(err);
-//         }else{
-//             callback(rows);
-//         }
-//     });
-// };
-
-// const insertData = db.prepare(
-//     `INSERT INTO usuario (nome, email, senha) 
-//     VALUES(?, ?, ?)`,
-//     (err)=>{
-//         if(err){
-//             console.error(err);
-//         }else{
-//             console.log("Dados inseridos com sucesso");
-//         }
-//     }
-// );
-
-// const server = http.createServer((req, res)=>{
-//     // Para permitir os CORS e que não tenha problemas neste exemplo.
-//     res.setHeader("Access-Control-Allow-Origin", "*");
-//     res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
-//     res.setHeader("Access-Control-Allow-Headers", "Content-Type");
-//     // Retorna todas informações para o servidor.
-//     search((result)=>{
-//         res.write(JSON.stringify(result));
-//         res.end();
-//     });
-
-
-
-//     if(req.method == "POST"){
-//         let body = "";
-//         // Recebe as informações enviadas para o servidor.
-//         req.on("data", (chunk)=>{
-//             body += chunk;
-//         });
-//         req.on("end", ()=>{
-//             // Converte as informações.
-//             const parsedBody = JSON.parse(body);
-//             console.log(parsedBody);
-//             // Usa a consulta preparada para inserir os dados recebidos do Frontend.
-//             insertData.run(
-//                 parsedBody.nome,
-//                 parsedBody.email,
-//                 parsedBody.senha
-//             );
-//             console.log("Dados criados com sucesso.")
-//         });
-    
-
-// }});
 
 
 

@@ -9,7 +9,7 @@ function Registro(){
     const [senha, setSenha] = useState('');
     
     const handleRegistro = (e) => {
-        e.preventDefault(); // Evitar o comportamento padrão de envio do formulário
+        e.preventDefault(); 
 
         fetch('http://localhost:3001/registro', {
             method: 'POST',
@@ -33,6 +33,79 @@ function Registro(){
                 alert('Erro ao tentar fazer o registro. Por favor, tente novamente.');
             });
     };
+
+
+
+
+
+
+    // const [result, setResult] = useState ([]);
+    // const [dataToInsert, setDataToInsert] = useState({
+    // nome: "",
+    // email: "",
+    // senha: ""
+    // });
+    // const [redirected, setRedirected ] = useState(false);
+    
+    // const navigate = useNavigate();
+
+    // useEffect(() => {
+    //     fetch("http://localhost:3000")
+    //         .then((res) => res.json())
+    //         .then((data) => {
+    //             setResult(data);
+            
+    //             // Procura o item com o mesmo ProductID que o pathname.
+    //             const foundItem = data.find(
+    //             (item) => window.location.pathname === `/modify/${item.id}`
+    //             );
+    
+    //             if (foundItem) {
+    //             setDataToInsert((prevState) => ({
+    //             ...prevState,
+    //             ...foundItem,
+    //     }));
+    // } else {
+    //         // Se não encontrar o item, redireciona para a página principal.
+    //         if (!redirected) {
+    //             setRedirected(true);
+    //             navigate("/Registro");
+    //          }
+    //     }   
+    // })
+    // .catch((err) => { 
+    //   console.error(err);
+    //     });
+    // },[]);
+
+    // // Envia as informações para o backend quando o botão de enviar é clicado.
+    // const handleSubmit = (e) => {
+    //     const foundItem = result.find(
+    // (item) => window.location.pathname === `/modify/${item.id}`
+    // );
+    // if (foundItem) {
+    //   fetch("http://localhost:3000", {
+    //     method: "PUT",
+    //     body: JSON.stringify(dataToInsert),
+    //     headers: {"Content-Type": "application/json"},
+    //     });
+    //     navigate("/Registro")
+    //     } else {
+    //         fetch("http://localhost:3000", {
+    //         method: "POST",
+    //         body: JSON.stringify(dataToInsert),
+    //         headers: {"Content-Type": "application/json"},
+    //         });
+    //     }
+    // };
+    // // Armazena as informações no estado conforme são digitados.
+    // const handleChange = (e) => {
+    //     setDataToInsert({
+    //     ...dataToInsert,
+    //     [e.target.name]: e.target.value,
+    //     });
+    // 
+
 
 
     return (
@@ -118,7 +191,7 @@ function Registro(){
                 <img class="content-img2" src="/18.png" alt="Proíbido para menores de 18 anos." />
             </div>
             <div class="low-b4r3">
-                <p class ="content-txt3">Formas de pagamento aceitas: cartões de crédito 
+                <p class ="content-txt4">Formas de pagamento aceitas: cartões de crédito 
                 (Visa, MasterCard, Elo e American Express), cartões de débito (Visa e Elo), Boleto e Pix.</p>
             </div>
                 
@@ -128,6 +201,6 @@ function Registro(){
     )
 
 
-}
+};
 
 export default Registro;

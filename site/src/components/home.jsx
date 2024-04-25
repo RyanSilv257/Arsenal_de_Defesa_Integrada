@@ -41,28 +41,28 @@ function Home(){
             </div>
             </a><a href='#'>
             <div class='item'>
-                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
-                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+                <img class ="products" src="Produtos/bolsa1.jpg" alt=''/>
+                <p>Bolsa Tática Guerrilha</p>
             </div>
             </a><a href='#'>
             <div class='item'>
-                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
-                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+                <img class ="products" src="Produtos/Machado Tático.jpeg" alt=''/>
+                <p>Machado Tático AXEL</p>
             </div>
             </a><a href='#'>
             <div class='item'>
-                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
-                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+                <img class ="products" src="Produtos/MUNIÇÃO 9MM LUGER ETOG 124GR TREINA.jpeg" alt=''/>
+                <p>Munição 9MM Luger Etog 124GR Treina</p>
             </div>
             </a><a href='#'>
             <div class='item'>
-                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
-                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+                <img class="products" src="Produtos/REVÓLVER RT 065 TAURUS CAL 357 MAG.jpeg" alt=''/>
+                <p>Revólver RT 065 Taurus CAL 357 MAG</p>
             </div>
             </a><a href='#'>
             <div class='item'>
-                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
-                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+                <img class ="products"src="Produtos/MUNIÇÃO CBC .357 MAGNUM POLYMATCH 158GR.jpeg" alt=''/>
+                <p>Munição CBC.357 Magnum Polymach 158GR</p>
             </div>
             </a>
 
@@ -81,34 +81,35 @@ function Home(){
         <div class='items-div'>
             <a href='#'>
             <div class='item'>
-                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
+                <img class="products" src="Produtos/ESPINGARDA CBC PUMP MILITARY 3.0 19POL CAL 12.jpeg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
             </a>
             <a href='#'>
             <div class='item'>
-                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
+                <img class="products " src="Produtos/Capacete Tático cobertura Completa R$330,82.jpeg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
             </a><a href='#'>
             <div class='item'>
-                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
-                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+                <img src="Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg" alt=''/>
+                <p>Revólver RT 066 Taurus Cal 357Mag
+                </p>
             </div>
             </a><a href='#'>
             <div class='item'>
-                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
-                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+                <img class="products"src="Produtos/RIFLE CBC PUMP ACTION GALERY CAL 22LR CORONHA DE MADEIRA.jpeg" alt=''/>
+                <p>Rifle CBC Pump Action Galery Cal 22LR</p>
             </div>
             </a><a href='#'>
             <div class='item'>
-                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
-                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+                <img class="products" src="Produtos/RIFLE .22 SEMIAUTOMÁTICO TACTICAL CORONHA TÁTICA EM POLIPROPILENO PRETA- CBC R$3.652,00.jpeg" alt=''/>
+                <p>Rifle.22 Tactical Coronha Tática CBC</p>
             </div>
             </a><a href='#'>
-            <div class='item'>
-                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
-                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+            <div class='item'> 
+                <img class="products" src="Produtos/Red Dot Frenzy-S 1x17x24 MIC - Vector Optics.jpeg" alt=''/>
+                <p>Red Dot Vector 1x17x24 MIC</p>
             </div>
             </a>
 
