@@ -1,1 +1,45 @@
-//import '../styles/produtos.css'
+import '../styles/produto.css'
+    
+function Produto (){
+            return(
+        <>
+        <div class="content-bd">
+        <hr/>
+        <h1>Produtos</h1>
+        <hr/>
+        </div>
+        <div class="pdt-maindiv">
+            <div class="pdt-1">
+                <img class="pdt-img" src="Produtos/pistola-stoeger-str9-9mm.jpg" alt="" />
+                <h1 class="pdt-price">R$7.263,16 </h1>
+                <p class ="pdt-sub">ou em até 10 vezes sem juros</p>
+            </div>
+            <div class="pdt-2">
+                <h1 class="pdt-name">PISTOLA STOEGER STR9 CAL 9MM</h1>
+                <button class ="buy">Comprar</button>
+            </div>
+        </div>
+        <div class="content-dcp">
+            <div class="content-description">
+                <h1 class="dcpt">Descição do produto:</h1>
+                <p class="dect">Esta 9mm disparada por Striker vem <br />com recursos que você esperaria de uma pistola<br />
+                que custa o dobro. <br />Seu trilho integrado, segurança interna, <br />
+                liberação de magazine reversível, <br />
+                serrilhados deslizantes otimizados, <br />
+                sistema de visão de três pontos e ergonomia <br />
+                aprimorada fornecem desempenho e conforto consistentes.</p>
+                <br />
+                <br />
+                A renomada pistola Stoeger STR9, <br />
+                calibre 9mm, <br />
+                é reconhecida por sua excelência em qualidade e confiabilidade. <br />
+                Seu design ergonômico proporciona conforto durante o manuseio, <br />
+                enquanto os controles ambidestros garantem <br />
+                acessibilidade para usuários destros e canhotos. <p />
+            </div>
+        </div>
+        </>
+        )
+            }
+
+export default Produto

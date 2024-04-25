@@ -11,6 +11,7 @@ import  produto9 from "../Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg"
 import  produto10 from "../Produtos/ESPINGARDA CBC PUMP MILITARY 3.0 19POL CAL 12.jpeg"
 import  produto11 from "../Produtos/PISTOLA TAURUS TH380 CALIBRE .380ACP.jpeg"
 import  produto12 from "../Produtos/PISTOLA TAURUS TS9C GRAPHENE.jpeg"
+import { Link } from 'react-router-dom';
 /*_____________________________________________________________________________________________________*/
 function Armas(){
     return(
@@ -34,7 +35,9 @@ function Armas(){
             <img src={produto1} alt="Acessório de caça 1"/>
             <h2>PISTOLA TAURUS 838C CALIBRE .380ACP</h2>
             <p>R$8.089,90</p>
+            <Link to="/Produto">
             <button>Adicionar ao carrinho</button>
+            </Link>
         </div>
 { /*____________________________________________2____________________________________________________________*/ }
         <div class="product">

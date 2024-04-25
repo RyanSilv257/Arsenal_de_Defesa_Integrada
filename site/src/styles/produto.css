@@ -1,0 +1,90 @@
+.content-bd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap:10px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.content-bd hr{
+  display: block;
+  height: 2px;
+  width: 41vw;
+  background-color: #c86d19;
+  padding: 0;
+  opacity: 100%;
+  border-radius: 2px;
+  border: 0;
+}
+
+.pdt-maindiv{
+
+    background: #c86d19;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+
+}
+.pdt-1 img{
+    
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom:25px ;
+}
+
+.pdt-1{
+    margin-top: 60px;
+    align-items: center;
+    flex-direction: center;
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    text-align: center;
+    margin-bottom:60px;
+}
+.pdt-1 h1{
+    font-size: 50px;
+}
+.pdt-price{
+    color: #FFAF66;
+}
+
+.pdt-2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column ;
+    width: 45vw;
+    text-align:start;
+    justify-content: center;
+    gap: 185px;
+
+}
+.pdt-2 button{
+    height: 70px;
+    background-color: #0b0b0b;
+    border:none;
+    color: #f8f8f8;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 40vw;
+    font-size: 35px;
+}
+.pdt-2 button:hover{
+    color: #000;
+    background-color: #FFfF;
+}
+.pdt-2 h1{
+    text-decoration: underline;
+}
+.content-dcp{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+}
