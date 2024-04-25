@@ -1,5 +1,5 @@
 import'../styles/acessorios.css';
-import  produto1 from "../Produtos/Machado Tático.jpeg"
+import  produto1 from "../Produtos/CALÇA CARGO VERDE MILITAR.jpeg"
 import  produto2 from "../Produtos/Canivete suiço tatico multifuncional.jpeg"
 import  produto3 from "../Produtos/Canivete Tático Militar Camuflado R$ 149,00.jpeg"
 import  produto4 from "../Produtos/CANIVETE TÁTICO MILITAR LANTERNA PEDERNEIRA BORLOV NAUTIKA AÇO INOX SOBREVIVENCIA R$ 88,26.jpeg"
@@ -28,8 +28,8 @@ function Vestuario(){
     <section>
         <div class="product">
             <img src={produto1} alt="Acessório de caça 1"/>
-            <h2>Machado Tático</h2>
-            <p>R$197,00</p>
+            <h2>CALÇA CARGO VERDE MILITAR</h2>
+            <p>R$199,90</p>
             <button>Adicionar ao carrinho</button>
         </div>
 { /*____________________________________________2____________________________________________________________*/ }
