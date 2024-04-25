@@ -11,7 +11,7 @@ import Login from './components/login';
 import Lanternas from './components/Lanternas';
 import Acessorios from './components/Acessorios';
 import Licensas from './components/licensas';
-import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
