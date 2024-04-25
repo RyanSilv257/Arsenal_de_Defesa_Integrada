@@ -1,4 +1,4 @@
-import "../styles/Licensas.css";
+import "../styles/licensas.css";
  
 function Licensas(){
     return(
@@ -33,4 +33,4 @@ Além disso, é importante destacar que a venda de armas de fogo no Brasil foi t
 }
 
 
-export default Licensas
+export default Licensas;

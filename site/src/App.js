@@ -10,7 +10,7 @@ import Registro from './components/registro';
 import Login from './components/login';
 import Lanternas from './components/Lanternas';
 import Acessorios from './components/Acessorios';
-import Licensas from './components/Licensas';
+import Licensas from './components/licensas';
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 
 function App() {
