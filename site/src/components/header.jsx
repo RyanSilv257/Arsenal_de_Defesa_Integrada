@@ -69,7 +69,7 @@ function Header() {
                 <a href="#">
                 <img class="cart" src='carrinho.png'></img>
                 </a>
-                <Link to="/Registro">
+                <Link to="/Login">
                 <a href="#">
                 <img class=" user-img" src='usuario.png'></img>
                 </a>
