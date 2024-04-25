@@ -38,6 +38,7 @@
     height: auto;
     border-radius: 5px;
     margin-bottom: 15px;
+    max-height: 250px;
   }
   
   .product h2 {
@@ -84,7 +85,7 @@
 .sub-div hr {
   display: block;
   height: 5px;
-  width: 71vw;
+  width: 65vw;
   background-color: #c86d19;
   margin: 1em 0;
   padding: 0;
