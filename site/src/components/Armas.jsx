@@ -4,9 +4,13 @@ import  produto2 from "../Produtos/PISTOLA STOEGER STR9 CAL 9MM.jpeg"
 import  produto3 from "../Produtos/RIFLE .22 SEMIAUTOMÁTICO TACTICAL CORONHA TÁTICA EM POLIPROPILENO PRETA- CBC R$3.652,00.jpeg"
 import  produto4 from "../Produtos/REVÓLVER RT 065 TAURUS CAL 357 MAG.jpeg"
 import  produto5 from "../Produtos/RIFLE CBC PUMP ACTION GALERY CAL 22LR CORONHA DE MADEIRA.jpeg"
-import  produto6 from "../Produtos/Canivete Tático Shark Green Militar Original Invictus R$118,90.jpeg"
-import  produto7 from "../Produtos/CANIVETE TORO SOCO INGLÊS TÁTICO NAUTIKA R$ 147,00.jpeg"
-import  produto8 from "../Produtos/Ferramenta multiuso tática Spor TAG em aço inox R$ 62,90.jpeg"
+import  produto6 from "../Produtos/Carabina Rossi Puma Tática .357 MAG - Preta R$ 9.690,00.jpeg"
+import  produto7 from "../Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg"
+import  produto8 from "../Produtos/Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250 R$2,890.00.jpeg"
+import  produto9 from "../Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg"
+import  produto10 from "../Produtos/ESPINGARDA CBC PUMP MILITARY 3.0 19POL CAL 12.jpeg"
+import  produto11 from "../Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg"
+import  produto12 from "../Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg"
 /*_____________________________________________________________________________________________________*/
 function Armas(){
     return(
@@ -63,22 +67,50 @@ function Armas(){
 { /*____________________________________________6____________________________________________________________*/ }
     <div class="product">
         <img src={produto6} alt="Acessório de caça 6"/>
-        <h2>Canivete Tático Shark Green Militar Original Invictus R$118,90</h2>
-        <p>R$118,90</p>
+        <h2>Carabina Rossi Puma Tática .357 MAG - Preta</h2>
+        <p>R$9.690,00</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*____________________________________________7____________________________________________________________*/ }
     <div class="product">
         <img src={produto7} alt="Acessório de caça 7"/>
-        <h2>CANIVETE TORO SOCO INGLÊS TÁTICO NAUTIKA R$ 147,00.jpeg</h2>
-        <p>R$147,00</p>
+        <h2>REVÓLVER RT066 TAURUS CAL 357MAG</h2>
+        <p>R$5.099,00</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*_____________________________________________8___________________________________________________________*/ }
     <div class="product">
         <img src={produto8} alt="Acessório de caça 8"/>
-        <h2>Ferramenta multiuso tática Spor TAG em aço inox</h2>
-        <p>R$62,90</p>
+        <h2>Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250</h2>
+        <p>R$R$2,890.00</p>
+        <button>Adicionar ao carrinho</button>
+    </div>
+{ /*_____________________________________________9___________________________________________________________*/ }
+    <div class="product">
+        <img src={produto9} alt="Acessório de caça 9"/>
+        <h2>Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250</h2>
+        <p>R$R$2,890.00</p>
+        <button>Adicionar ao carrinho</button>
+    </div>
+{ /*_____________________________________________10___________________________________________________________*/ }
+    <div class="product">
+        <img src={produto10} alt="Acessório de caça 10"/>
+        <h2>ESPINGARDA CBC PUMP MILITARY 3.0 19POL CAL 12</h2>
+        <p>R$R$8.299,90</p>
+        <button>Adicionar ao carrinho</button>
+    </div>
+{ /*_____________________________________________11___________________________________________________________*/ }
+    <div class="product">
+        <img src={produto11} alt="Acessório de caça 11"/>
+        <h2>Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250</h2>
+        <p>R$R$2,890.00</p>
+        <button>Adicionar ao carrinho</button>
+    </div>
+    { /*_____________________________________________12___________________________________________________________*/ }
+    <div class="product">
+        <img src={produto12} alt="Acessório de caça 12"/>
+        <h2>Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250</h2>
+        <p>R$R$2,890.00</p>
         <button>Adicionar ao carrinho</button>
     </div>
     </section>
