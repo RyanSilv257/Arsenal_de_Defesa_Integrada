@@ -51,8 +51,10 @@ function Header() {
                     <img class='navimg' src="menu.png"></img>
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Privacidade</a></li>
-                    <li><a class="dropdown-item" href="#">Contato</a>
+                    <li><Link to="/Privacidade"><a class="dropdown-item" href="#">Privacidade</a></Link></li>
+                    <li><Link to="/Contato"><a class="dropdown-item" href="#">Contato</a></Link>
+                    </li>
+                    <li><Link to="/Sobre"><a class="dropdown-item" href="#">Sobre</a></Link>
                     </li>
                 </ul>
                 </li>
