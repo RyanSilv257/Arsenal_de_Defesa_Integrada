@@ -1,6 +1,6 @@
 import'../styles/acessorios.css';
 import  produto1 from "../Produtos/CALÇA CARGO VERDE MILITAR.jpeg"
-import  produto2 from "../Produtos/Canivete suiço tatico multifuncional.jpeg"
+import  produto2 from "../Produtos/CALÇA TÁTICA MASCULINA COYOTE.jpeg"
 import  produto3 from "../Produtos/Canivete Tático Militar Camuflado R$ 149,00.jpeg"
 import  produto4 from "../Produtos/CANIVETE TÁTICO MILITAR LANTERNA PEDERNEIRA BORLOV NAUTIKA AÇO INOX SOBREVIVENCIA R$ 88,26.jpeg"
 import  produto5 from "../Produtos/CANIVETE TÁTICO MILITAR SEMI AUTOMÁTICO XD-13 R$ 167,87.jpeg"
@@ -35,8 +35,8 @@ function Vestuario(){
 { /*____________________________________________2____________________________________________________________*/ }
         <div class="product">
             <img src={produto2} alt="Acessório de caça 2"/>
-            <h2>Canivete suiço tatico multifuncional</h2>
-            <p>$179,90</p>
+            <h2>CALÇA TÁTICA MASCULINA COYOTE</h2>
+            <p>R$199,90</p>
             <button>Adicionar ao carrinho</button>
         </div>
  { /*___________________________________________3_____________________________________________________________*/ }
