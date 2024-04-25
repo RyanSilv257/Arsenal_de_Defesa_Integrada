@@ -1,0 +1,30 @@
+.lic-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.lic-title h1{
+    font-size: 50px;
+}
+
+.lic-title hr{
+    display: block;
+  height: 2px;
+  width: 32vw;
+  background-color: #c86d19;
+  padding: 0;
+  opacity: 100%;
+  border-radius: 2px;
+  border: 0;
+}
+
+.lic-div {
+    margin-top: 30px;
+    padding: 0 70px;
+    text-align: center;
+}
+
