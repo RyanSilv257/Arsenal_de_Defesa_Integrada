@@ -7,7 +7,7 @@ function Login(){
     const [senha, setSenha] = useState('');
     
     const handleLogin = (e) => {
-        e.preventDefault(); // Evitar o comportamento padrão de envio do formulário
+        e.preventDefault(); 
 
         fetch('http://localhost:3001/login', {
             method: 'POST',
