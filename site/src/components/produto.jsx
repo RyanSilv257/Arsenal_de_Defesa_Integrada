@@ -14,7 +14,7 @@ import StarRating from './StarRating';
         <div class="pdt-maindiv">
             <div class="pdt-1">
                 <img class="pdt-img" src="Produtos/pistola-stoeger-str9-9mm.jpg" alt="" />
-                <h1 class="pdt-price">R$7.263,16 </h1>
+                <h1 class="pdt-price">R$8.089,90 </h1>
                 <p class ="pdt-sub">ou em até 10 vezes sem juros</p>
             </div>
             <div class="pdt-2">

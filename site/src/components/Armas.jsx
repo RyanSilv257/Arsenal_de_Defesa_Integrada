@@ -1,6 +1,6 @@
 import'../styles/geral.css';
-import  produto1 from "../Produtos/PISTOLA TAURUS 838C CALIBRE .380ACP.jpeg"
-import  produto2 from "../Produtos/PISTOLA STOEGER STR9 CAL 9MM.jpeg"
+import  produto1 from "../Produtos/pistola-stoeger-str9-9mm.jpg"
+import  produto2 from "../Produtos/PISTOLA TAURUS 838C CALIBRE .380ACP.jpeg"
 import  produto3 from "../Produtos/RIFLE .22 SEMIAUTOMÁTICO TACTICAL CORONHA TÁTICA EM POLIPROPILENO PRETA- CBC R$3.652,00.jpeg"
 import  produto4 from "../Produtos/REVÓLVER RT 065 TAURUS CAL 357 MAG.jpeg"
 import  produto5 from "../Produtos/RIFLE CBC PUMP ACTION GALERY CAL 22LR CORONHA DE MADEIRA.jpeg"
@@ -33,7 +33,7 @@ function Armas(){
     <section>
         <div class="product">
             <img src={produto1} alt="Acessório de caça 1"/>
-            <h2>PISTOLA TAURUS 838C CALIBRE .380ACP</h2>
+            <h2>PISTOLA TAURUS stoeger str9 9mm</h2>
             <p>R$8.089,90</p>
             <Link to="/Produto">
             <button>Adicionar ao carrinho</button>
@@ -42,7 +42,7 @@ function Armas(){
 { /*____________________________________________2____________________________________________________________*/ }
         <div class="product">
             <img src={produto2} alt="Acessório de caça 2"/>
-            <h2>PISTOLA STOEGER STR9 CAL 9MM</h2>
+            <h2>PISTOLA TAURUS 838C CALIBRE .380ACP</h2>
             <p>R$8.559,00</p>
             <button>Adicionar ao carrinho</button>
         </div>
