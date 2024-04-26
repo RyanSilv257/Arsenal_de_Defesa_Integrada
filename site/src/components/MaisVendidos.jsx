@@ -1,5 +1,5 @@
 import'../styles/geral.css';
-import  produto1 from "../Produtos/pistola-stoeger-str9-9mm.jpg"
+import  produto1 from "../Produtos/PISTOLA TAURUS 838C CALIBRE .380ACP.jpeg"
 import  produto2 from "../Produtos/bolsa1.jpg"
 import  produto3 from "../Produtos/RIFLE .22 SEMIAUTOMÁTICO TACTICAL CORONHA TÁTICA EM POLIPROPILENO PRETA- CBC R$3.652,00.jpeg"
 import  produto4 from "../Produtos/Lanterna de Choque - Defesa Pessoal 800 TYPE.jpeg"
