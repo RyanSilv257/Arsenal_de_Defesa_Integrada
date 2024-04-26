@@ -7,7 +7,7 @@ function Home(){
     <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
         <div class="carousel-item active">
-        <img src="carrossel.png" class="d-block w-100" alt="..."/>
+        <img src="carrossel.jpeg" class="d-block w-100" alt="..."/>
         </div>
         <div class="carousel-item">
         <img src="carrossel2.png" class="d-block w-100" alt="..."/>

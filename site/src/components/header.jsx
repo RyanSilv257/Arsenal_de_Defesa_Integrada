@@ -43,7 +43,7 @@ function Header() {
                 </li>
                 <li class="nav-item">
                 <Link to="/Licensas">
-                <a class="nav-link active" aria-current="page" href="#">Nossas Licenças</a>
+                <a class="nav-link active" aria-current="page" href="#">Mais Vendidos</a>
                 </Link>
                 </li>
                 <li id="navdrop" class="nav-item dropdown">
@@ -55,6 +55,8 @@ function Header() {
                     <li><Link to="/Contato"><a class="dropdown-item" href="#">Contato</a></Link>
                     </li>
                     <li><Link to="/Sobre"><a class="dropdown-item" href="#">Sobre</a></Link>
+                    </li>
+                    <li><Link to="/licensas"><a class="dropdown-item" href="#">Nossas Licenças</a></Link>
                     </li>
                 </ul>
                 </li>
