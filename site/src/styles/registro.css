@@ -41,26 +41,37 @@ body{
     width: 100vw;
 }
 .name-inp{
-    border-radius: 20px;
     width: 500px;
-    border: black;
+    border: none;
+    background-color: #1f1f1f;
+    border-bottom: 1px solid white;
+    color: white;
 }
 
 .email-inp{
-    border-radius: 20px;
     width: 500px;
-    border: black;
+    border: none;
+    background-color: #1f1f1f;
+    border-bottom: 1px solid white;
+    color: white;
 }
 
 .senha-inp{
-    border-radius: 20px;
     width: 500px;
-    border: black;
+    border: none;
+    background-color: #1f1f1f;
+    border-bottom: 1px solid white;
+    color: white;
 }
 
 form input {
     padding-left: 20px;
 }
+
+form input:focus {
+    outline: none;
+}
+
 .div1{
     color: #ffff;
     display: flex;
