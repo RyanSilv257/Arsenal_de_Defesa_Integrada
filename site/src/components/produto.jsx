@@ -55,6 +55,8 @@ import StarRating from './StarRating';
                     <div class="stars">
                         <StarRating />
                     </div>
+                    <textarea class="" id="" cols="30" rows="5" placeholder='Deixe sua opinão:'></textarea>
+                    <button class="envy">Enviar</button>
             </div>
         </div>
         </>

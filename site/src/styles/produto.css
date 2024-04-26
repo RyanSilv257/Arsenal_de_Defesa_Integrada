@@ -109,3 +109,13 @@
 .content-ft h1{
     text-decoration: underline;
 }
+.envy{
+    background-color: #c86d19;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.envy:hover{
+    color: white;
+    background: #FFAF66;
+}
