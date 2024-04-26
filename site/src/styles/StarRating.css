@@ -1,0 +1,11 @@
+.rating {
+    color: #cccccc; /* Cor das estrelas vazias */
+  }
+  
+  .star {
+    cursor: pointer;
+  }
+  
+  .filled {
+    color: #ffc107; /* Cor das estrelas preenchidas */
+  }

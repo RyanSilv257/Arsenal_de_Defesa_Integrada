@@ -1,6 +1,9 @@
 import '../styles/produto.css'
+import React from 'react';
+import StarRating from './StarRating';
+  
     
-function Produto (){
+    function Produto (){
             return(
         <>
         <div class="content-bd">
@@ -48,13 +51,15 @@ function Produto (){
                     Peso: 750g. <br />
                     <br />
                     Capacidade do carregador: 15.</p>
-            </div>
-            <div class="stars">
-                
+                    <h2>Deixe sua avalição:</h2>
+                    <div class="stars">
+                        <StarRating />
+                    </div>
             </div>
         </div>
         </>
         )
             }
+        
 
 export default Produto
