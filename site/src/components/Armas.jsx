@@ -1,6 +1,6 @@
 import'../styles/geral.css';
-import  produto1 from "../Produtos/PISTOLA TAURUS 838C CALIBRE .380ACP.jpeg"
-import  produto2 from "../Produtos/PISTOLA STOEGER STR9 CAL 9MM.jpeg"
+import  produto1 from "../Produtos/pistola-stoeger-str9-9mm.jpg"
+import  produto2 from "../Produtos/PISTOLA TAURUS 838C CALIBRE .380ACP.jpeg"
 import  produto3 from "../Produtos/RIFLE .22 SEMIAUTOMÁTICO TACTICAL CORONHA TÁTICA EM POLIPROPILENO PRETA- CBC R$3.652,00.jpeg"
 import  produto4 from "../Produtos/REVÓLVER RT 065 TAURUS CAL 357 MAG.jpeg"
 import  produto5 from "../Produtos/RIFLE CBC PUMP ACTION GALERY CAL 22LR CORONHA DE MADEIRA.jpeg"
@@ -9,8 +9,9 @@ import  produto7 from "../Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg"
 import  produto8 from "../Produtos/Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250 R$2,890.00.jpeg"
 import  produto9 from "../Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg"
 import  produto10 from "../Produtos/ESPINGARDA CBC PUMP MILITARY 3.0 19POL CAL 12.jpeg"
-import  produto11 from "../Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg"
-import  produto12 from "../Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg"
+import  produto11 from "../Produtos/PISTOLA TAURUS TH380 CALIBRE .380ACP.jpeg"
+import  produto12 from "../Produtos/PISTOLA TAURUS TS9C GRAPHENE.jpeg"
+import { Link } from 'react-router-dom';
 /*_____________________________________________________________________________________________________*/
 function Armas(){
     return(
@@ -32,14 +33,16 @@ function Armas(){
     <section>
         <div class="product">
             <img src={produto1} alt="Acessório de caça 1"/>
-            <h2>PISTOLA TAURUS 838C CALIBRE .380ACP</h2>
+            <h2>PISTOLA TAURUS stoeger str9 9mm</h2>
             <p>R$8.089,90</p>
+            <Link to="/Produto">
             <button>Adicionar ao carrinho</button>
+            </Link>
         </div>
 { /*____________________________________________2____________________________________________________________*/ }
         <div class="product">
             <img src={produto2} alt="Acessório de caça 2"/>
-            <h2>PISTOLA STOEGER STR9 CAL 9MM</h2>
+            <h2>PISTOLA TAURUS 838C CALIBRE .380ACP</h2>
             <p>R$8.559,00</p>
             <button>Adicionar ao carrinho</button>
         </div>
@@ -82,35 +85,35 @@ function Armas(){
     <div class="product">
         <img src={produto8} alt="Acessório de caça 8"/>
         <h2>Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250</h2>
-        <p>R$R$2,890.00</p>
+        <p>R$2.890,00</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*_____________________________________________9___________________________________________________________*/ }
     <div class="product">
         <img src={produto9} alt="Acessório de caça 9"/>
         <h2>Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250</h2>
-        <p>R$R$2,890.00</p>
+        <p>R$2.890,00</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*_____________________________________________10___________________________________________________________*/ }
     <div class="product">
         <img src={produto10} alt="Acessório de caça 10"/>
         <h2>ESPINGARDA CBC PUMP MILITARY 3.0 19POL CAL 12</h2>
-        <p>R$R$8.299,90</p>
+        <p>R$8.299,90</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*_____________________________________________11___________________________________________________________*/ }
     <div class="product">
         <img src={produto11} alt="Acessório de caça 11"/>
-        <h2>Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250</h2>
-        <p>R$R$2,890.00</p>
+        <h2>PISTOLA TAURUS TH380 CALIBRE .380ACP</h2>
+        <p>R$8.149,90</p>
         <button>Adicionar ao carrinho</button>
     </div>
     { /*_____________________________________________12___________________________________________________________*/ }
     <div class="product">
         <img src={produto12} alt="Acessório de caça 12"/>
-        <h2>Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250</h2>
-        <p>R$R$2,890.00</p>
+        <h2>PISTOLA TAURUS TS9C GRAPHENE</h2>
+        <p>R$9.549,00</p>
         <button>Adicionar ao carrinho</button>
     </div>
     </section>

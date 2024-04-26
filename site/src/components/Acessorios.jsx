@@ -1,16 +1,16 @@
 import'../styles/geral.css';
-import  produto1 from "../Produtos/Colete Tático Modular Presilhas WWART AERO Preto R$ 389,00.jpeg"
-import  produto2 from "../Produtos/Paracord Planet Certificado de Paracord Tipo III Mil-C-5040 R$109,99.jpeg"
-import  produto3 from "../Produtos/Spray Para Defesa Pessoal Poly Defensor 50g.jpeg"
-import  produto4 from "../Produtos/ACAGALA Bússola multifuncional de sobrevivência R$159,00.jpeg"
-import  produto5 from "../Produtos/8252710 PORTA PENTE CARREGADOR DUPLO FOBUS TAURUS .380, .40 E 9MM R$ 139,99.jpeg"
-import  produto6 from "../Produtos/ÓCULOS SOLAR TÁTICO FOCUS - COYOTE R$ 229,00.jpeg"
-import  produto7 from "../Produtos/Lanterna Choque Taser Defesa Pessoal Portátil 928 Type Recarregavel.jpeg"
-import  produto8 from "../Produtos/Lanterna de Choque - Defesa Pessoal 800 TYPE.jpeg"
-import  produto9 from "../Produtos/FOREGRIP TÁTICO ROTATIVO BIPÉ T-POD-G2 - FABDEFENSE® R$ 900,00.jpeg"
-import  produto10 from "../Produtos/Red Dot Frenzy-S 1x17x24 MIC - Vector Optics.jpeg"
-import  produto11 from "../Produtos/Ferramenta multiuso tática Spor TAG em aço inox R$ 62,90.jpeg"
-import  produto12 from "../Produtos/Cinto Tático Bélica (Fivela em Polímero) - Preto R$ 188,10.jpeg"
+import  produto30 from "../Produtos/Colete Tático Modular Presilhas WWART AERO Preto R$ 389,00.jpeg"
+import  produto31 from "../Produtos/Paracord Planet Certificado de Paracord Tipo III Mil-C-5040 R$109,99.jpeg"
+import  produto32 from "../Produtos/Spray Para Defesa Pessoal Poly Defensor 50g.jpeg"
+import  produto33 from "../Produtos/ACAGALA Bússola multifuncional de sobrevivência R$159,00.jpeg"
+import  produto34 from "../Produtos/8252710 PORTA PENTE CARREGADOR DUPLO FOBUS TAURUS .380, .40 E 9MM R$ 139,99.jpeg"
+import  produto35 from "../Produtos/ÓCULOS SOLAR TÁTICO FOCUS - COYOTE R$ 229,00.jpeg"
+import  produto36 from "../Produtos/Lanterna Choque Taser Defesa Pessoal Portátil 928 Type Recarregavel.jpeg"
+import  produto37 from "../Produtos/Lanterna de Choque - Defesa Pessoal 800 TYPE.jpeg"
+import  produto38 from "../Produtos/FOREGRIP TÁTICO ROTATIVO BIPÉ T-POD-G2 - FABDEFENSE® R$ 900,00.jpeg"
+import  produto39 from "../Produtos/Red Dot Frenzy-S 1x17x24 MIC - Vector Optics.jpeg"
+import  produto40 from "../Produtos/Ferramenta multiuso tática Spor TAG em aço inox R$ 62,90.jpeg"
+import  produto41 from "../Produtos/Cinto Tático Bélica (Fivela em Polímero) - Preto R$ 188,10.jpeg"
 /*_____________________________________________________________________________________________________*/
 function Acessorios(){
     return(
@@ -31,84 +31,84 @@ function Acessorios(){
     
     <section>
         <div class="product">
-            <img src={produto1} alt="Acessório de caça 1"/>
+            <img src={produto30} alt="Acessório de caça 1"/>
             <h2>Colete Tático Modular Presilhas WWART AERO Preto</h2>
             <p>R$389,00</p>
             <button>Adicionar ao carrinho</button>
         </div>
 { /*____________________________________________2____________________________________________________________*/ }
         <div class="product">
-            <img src={produto2} alt="Acessório de caça 2"/>
+            <img src={produto31} alt="Acessório de caça 2"/>
             <h2>Paracord Planet Certificado de Paracord Tipo III Mil-C-5040</h2>
             <p>R$109,99</p>
             <button>Adicionar ao carrinho</button>
         </div>
  { /*___________________________________________3_____________________________________________________________*/ }
         <div class="product">
-            <img src={produto3} alt="Acessório de caça 3"/>
+            <img src={produto32} alt="Acessório de caça 3"/>
             <h2>Spray Para Defesa Pessoal Poly Defensor 50g</h2>
             <p>R$105,00</p>
             <button>Adicionar ao carrinho</button>
         </div>
 { /*____________________________________________4____________________________________________________________*/ }
         <div class="product">
-            <img src={produto4} alt="Acessório de caça 4"/>
+            <img src={produto33} alt="Acessório de caça 4"/>
             <h2>ACAGALA Bússola multifuncional de sobrevivência</h2>
             <p>R$159,00</p>
             <button>Adicionar ao carrinho</button>
         </div>
 { /*____________________________________________5____________________________________________________________*/ }
     <div class="product">
-        <img src={produto5} alt="Acessório de caça 5"/>
+        <img src={produto34} alt="Acessório de caça 5"/>
         <h2>8252710 PORTA PENTE CARREGADOR DUPLO FOBUS TAURUS .380, .40 E 9MM</h2>
         <p>R$139,99</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*____________________________________________6____________________________________________________________*/ }
     <div class="product">
-        <img src={produto6} alt="Acessório de caça 6"/>
+        <img src={produto35} alt="Acessório de caça 6"/>
         <h2>ÓCULOS SOLAR TÁTICO FOCUS - COYOTE</h2>
         <p>R$229,00</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*____________________________________________7____________________________________________________________*/ }
     <div class="product">
-        <img src={produto7} alt="Acessório de caça 7"/>
+        <img src={produto36} alt="Acessório de caça 7"/>
         <h2>Lanterna Choque Taser Defesa Pessoal Portátil 928 Type Recarregavel</h2>
         <p>R$119,00</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*____________________________________________8____________________________________________________________*/ }
     <div class="product">
-        <img src={produto8} alt="Acessório de caça 8"/>
+        <img src={produto37} alt="Acessório de caça 8"/>
         <h2>Lanterna de Choque - Defesa Pessoal 800 TYPE</h2>
         <p>R$109,00</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*____________________________________________9____________________________________________________________*/ }
     <div class="product">
-        <img src={produto9} alt="Acessório de caça 8"/>
+        <img src={produto38} alt="Acessório de caça 8"/>
         <h2>FOREGRIP TÁTICO ROTATIVO BIPÉ T-POD-G2 - FABDEFENSE®</h2>
         <p>R$900,00</p>
          <button>Adicionar ao carrinho</button>
     </div>
 { /*____________________________________________10____________________________________________________________*/ }
     <div class="product">
-        <img src={produto10} alt="Acessório de caça 8"/>
+        <img src={produto39} alt="Acessório de caça 8"/>
         <h2>Red Dot Frenzy-S 1x17x24 MIC - Vector Optics</h2>
         <p>R$2.081,70</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*_____________________________________________11___________________________________________________________*/ }
     <div class="product">
-        <img src={produto11} alt="Acessório de caça 8"/>
+        <img src={produto40} alt="Acessório de caça 8"/>
         <h2>Ferramenta multiuso tática Spor TAG em aço inox</h2>
         <p>R$62,90</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*_____________________________________________12___________________________________________________________*/ }
     <div class="product">
-        <img src={produto12} alt="Acessório de caça 8"/>
+        <img src={produto41} alt="Acessório de caça 8"/>
         <h2>Cinto Tático Bélica (Fivela em Polímero) - Preto</h2>
         <p>R$188,10</p>
         <button>Adicionar ao carrinho</button>

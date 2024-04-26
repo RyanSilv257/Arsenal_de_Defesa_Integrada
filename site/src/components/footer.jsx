@@ -3,6 +3,7 @@ function Footer(){
     return (
         <>
         <footer>
+            <div class ="footer">
             <div class="top-bar">
                 <p class="content-txt1" >ADI</p>
                 <img class="content-img" src="/logo_header2.png"/>
@@ -20,6 +21,7 @@ function Footer(){
             <div class="low-bar3">
                 <p class ="content-txt4">Formas de pagamento aceitas: cartões de crédito 
                 (Visa, MasterCard, Elo e American Express), cartões de débito (Visa e Elo), Boleto e Pix.</p>
+            </div>
             </div>
         </footer> 
         </>
