@@ -6,11 +6,11 @@ import  produto4 from "../Produtos/Lanterna de Choque - Defesa Pessoal 800 TYPE.
 import  produto5 from "../Produtos/Faca Armada NTK Tático Empunhadura Soco-inglês Militar Caça R$ 208,90.jpeg"
 import  produto6 from "../Produtos/Spray Para Defesa Pessoal Poly Defensor 50g.jpeg"
 import  produto7 from "../Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg"
-import  produto8 from "../Produtos/Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250 R$2,890.00.jpeg"
-import  produto9 from "../Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg"
+import  produto8 from "../Produtos/ACAGALA Bússola multifuncional de sobrevivência R$159,00.jpeg"
+import  produto9 from "../Produtos/Luva Bunker Invictus - Tática Militar Profissional.JPG R$ 266.jpg"
 import  produto10 from "../Produtos/ESPINGARDA CBC PUMP MILITARY 3.0 19POL CAL 12.jpeg"
-import  produto11 from "../Produtos/PISTOLA TAURUS TH380 CALIBRE .380ACP.jpeg"
-import  produto12 from "../Produtos/PISTOLA TAURUS TS9C GRAPHENE.jpeg"
+import  produto11 from "../Produtos/Jaqueta Jeans Militar Masculina Com Zíper, Jaqueta Bomber R$ 193.jpg"
+import  produto12 from "../Produtos/Machado Tático.jpeg"
 import { Link } from 'react-router-dom';
 /*_____________________________________________________________________________________________________*/
 function MaisVendidos(){
@@ -91,8 +91,8 @@ function MaisVendidos(){
 { /*_____________________________________________9___________________________________________________________*/ }
     <div class="product">
         <img src={produto9} alt="Acessório de caça 9"/>
-        <h2>Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250</h2>
-        <p>R$2,890.00</p>
+        <h2>Luva Bunker Invictus - Tática Militar Profissional</h2>
+        <p>R$266,00</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*_____________________________________________10___________________________________________________________*/ }
@@ -105,15 +105,15 @@ function MaisVendidos(){
 { /*_____________________________________________11___________________________________________________________*/ }
     <div class="product">
         <img src={produto11} alt="Acessório de caça 11"/>
-        <h2>PISTOLA TAURUS TH380 CALIBRE .380ACP</h2>
-        <p>R$8.149,90</p>
+        <h2>Jaqueta Jeans Militar Masculina Com Zíper, Jaqueta Bomber</h2>
+        <p>R$193,90</p>
         <button>Adicionar ao carrinho</button>
     </div>
     { /*_____________________________________________12___________________________________________________________*/ }
     <div class="product">
         <img src={produto12} alt="Acessório de caça 12"/>
-        <h2>PISTOLA TAURUS TS9C GRAPHENE</h2>
-        <p>R$9.549,00</p>
+        <h2>Machado Tático</h2>
+        <p>R$197,00</p>
         <button>Adicionar ao carrinho</button>
     </div>
     </section>
