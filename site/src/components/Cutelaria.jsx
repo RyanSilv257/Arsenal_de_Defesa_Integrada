@@ -7,6 +7,8 @@ import  produto5 from "../Produtos/CANIVETE TÁTICO MILITAR SEMI AUTOMÁTICO XD-
 import  produto6 from "../Produtos/Canivete Tático Shark Green Militar Original Invictus R$118,90.jpeg"
 import  produto7 from "../Produtos/CANIVETE TORO SOCO INGLÊS TÁTICO NAUTIKA R$ 147,00.jpeg"
 import  produto8 from "../Produtos/Ferramenta multiuso tática Spor TAG em aço inox R$ 62,90.jpeg"
+import  produto9 from "../Produtos/Faca Armada NTK Tático Empunhadura Soco-inglês Militar Caça R$ 208,90.jpeg"
+
 /*_____________________________________________________________________________________________________*/
 function Cutelaria(){
     return(
@@ -79,6 +81,13 @@ function Cutelaria(){
         <img src={produto8} alt="Acessório de caça 8"/>
         <h2>Ferramenta multiuso tática Spor TAG em aço inox</h2>
         <p>R$62,90</p>
+        <button>Adicionar ao carrinho</button>
+    </div>
+    { /*_____________________________________________8___________________________________________________________*/ }
+    <div class="product">
+        <img src={produto9} alt="Acessório de caça 8"/>
+        <h2>Faca Armada NTK Tático Empunhadura Soco-inglês Militar Caça</h2>
+        <p>R$208,90</p>
         <button>Adicionar ao carrinho</button>
     </div>
     </section>

@@ -1,6 +1,6 @@
 import'../styles/geral.css';
 import  produto1 from "../Produtos/PISTOLA TAURUS 838C CALIBRE .380ACP.jpeg"
-import  produto2 from "../Produtos/PISTOLA STOEGER STR9 CAL 9MM.jpeg"
+import  produto2 from "../Produtos/bolsa1.jpg"
 import  produto3 from "../Produtos/RIFLE .22 SEMIAUTOMÁTICO TACTICAL CORONHA TÁTICA EM POLIPROPILENO PRETA- CBC R$3.652,00.jpeg"
 import  produto4 from "../Produtos/REVÓLVER RT 065 TAURUS CAL 357 MAG.jpeg"
 import  produto5 from "../Produtos/RIFLE CBC PUMP ACTION GALERY CAL 22LR CORONHA DE MADEIRA.jpeg"
@@ -24,7 +24,7 @@ function MaisVendidos(){
     <header>
     <div class='sub-div'>
         <div class='sub-title'>
-            <h1 id='title1'>ARMAMENTO</h1>
+            <h1 id='title1'>MAIS VENDIDOS</h1>
             <hr />
         </div>
      </div>   
