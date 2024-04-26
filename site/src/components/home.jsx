@@ -38,15 +38,18 @@ function Home(){
     
         <div class='items-div'>
 
+
+        <Link to="/Produto">
         <a href='#'>
             <div class='item'>
-            <Link to="/Produto">
                 <img class="products" src="Produtos/pistola-stoeger-str9-9mm.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
-            </Link>
             </div>
+        </a>
+        </Link>
+
                    
-            </a><a href='#'>
+            <a href='#'>
             <div class='item'>
                 <img class ="products" src="Produtos/bolsa1.jpg" alt=''/>
                 <p>Bolsa Tática Guerrilha</p>
