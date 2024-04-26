@@ -36,7 +36,7 @@ function Home(){
         <div class='items-div'>
         <a href='#'>
             <div class='item'>
-                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
+                <img class="products" src="Produtos/pistola-stoeger-str9-9mm.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
             </a><a href='#'>
