@@ -1,4 +1,7 @@
 import "../styles/home.css";
+import"../components/produto.jsx";
+import { Link } from "react-router-dom";
+
 
 function Home(){
     return(
@@ -34,11 +37,15 @@ function Home(){
         </div>
     
         <div class='items-div'>
+
         <a href='#'>
             <div class='item'>
+            <Link to="/Produto">
                 <img class="products" src="Produtos/pistola-stoeger-str9-9mm.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
+            </Link>
             </div>
+                   
             </a><a href='#'>
             <div class='item'>
                 <img class ="products" src="Produtos/bolsa1.jpg" alt=''/>
