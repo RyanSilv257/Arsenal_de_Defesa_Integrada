@@ -85,14 +85,14 @@ function Armas(){
     <div class="product">
         <img src={produto8} alt="Acessório de caça 8"/>
         <h2>Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250</h2>
-        <p>R$2,890.00</p>
+        <p>R$2.890,00</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*_____________________________________________9___________________________________________________________*/ }
     <div class="product">
         <img src={produto9} alt="Acessório de caça 9"/>
         <h2>Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250</h2>
-        <p>R$2,890.00</p>
+        <p>R$2.890,00</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*_____________________________________________10___________________________________________________________*/ }

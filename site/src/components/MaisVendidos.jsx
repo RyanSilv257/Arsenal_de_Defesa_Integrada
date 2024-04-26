@@ -2,9 +2,9 @@ import'../styles/geral.css';
 import  produto1 from "../Produtos/PISTOLA TAURUS 838C CALIBRE .380ACP.jpeg"
 import  produto2 from "../Produtos/bolsa1.jpg"
 import  produto3 from "../Produtos/RIFLE .22 SEMIAUTOMÁTICO TACTICAL CORONHA TÁTICA EM POLIPROPILENO PRETA- CBC R$3.652,00.jpeg"
-import  produto4 from "../Produtos/REVÓLVER RT 065 TAURUS CAL 357 MAG.jpeg"
+import  produto4 from "../Produtos/Lanterna de Choque - Defesa Pessoal 800 TYPE.jpeg"
 import  produto5 from "../Produtos/Faca Armada NTK Tático Empunhadura Soco-inglês Militar Caça R$ 208,90.jpeg"
-import  produto6 from "../Produtos/Carabina Rossi Puma Tática .357 MAG - Preta R$ 9.690,00.jpeg"
+import  produto6 from "../Produtos/Spray Para Defesa Pessoal Poly Defensor 50g.jpeg"
 import  produto7 from "../Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg"
 import  produto8 from "../Produtos/Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250 R$2,890.00.jpeg"
 import  produto9 from "../Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg"
@@ -56,8 +56,8 @@ function MaisVendidos(){
 { /*____________________________________________4____________________________________________________________*/ }
         <div class="product">
             <img src={produto4} alt="Acessório de caça 4"/>
-            <h2>REVÓLVER RT 065 TAURUS CAL 357 MAG</h2>
-            <p>R$4590,00</p>
+            <h2>Lanterna de Choque - Defesa Pessoal 800 TYPE</h2>
+            <p>R$109,00</p>
             <button>Adicionar ao carrinho</button>
         </div>
 { /*____________________________________________5____________________________________________________________*/ }
@@ -70,8 +70,8 @@ function MaisVendidos(){
 { /*____________________________________________6____________________________________________________________*/ }
     <div class="product">
         <img src={produto6} alt="Acessório de caça 6"/>
-        <h2>Carabina Rossi Puma Tática .357 MAG - Preta</h2>
-        <p>R$9.690,00</p>
+        <h2>Spray Para Defesa Pessoal Poly Defensor 50g</h2>
+        <p>R$105,00</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*____________________________________________7____________________________________________________________*/ }
@@ -84,8 +84,8 @@ function MaisVendidos(){
 { /*_____________________________________________8___________________________________________________________*/ }
     <div class="product">
         <img src={produto8} alt="Acessório de caça 8"/>
-        <h2>Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250</h2>
-        <p>R$2,890.00</p>
+        <h2>ACAGALA Bússola multifuncional de sobrevivência</h2>
+        <p>R$159,00</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*_____________________________________________9___________________________________________________________*/ }
