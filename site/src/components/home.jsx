@@ -94,8 +94,8 @@ function Home(){
             </a>
             <a href='#'>
             <div class='item'>
-                <img class="products " src="Produtos/Capacete Tático cobertura Completa R$330,82.jpeg" alt=''/>
-                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+                <img class="products " src="Produtos/ÓCULOS SOLAR TÁTICO FOCUS - COYOTE R$ 229,00.jpeg" alt=''/>
+                <p>ÓCULOS SOLAR TÁTICO FOCUS - COYOTE</p>
             </div>
             </a><a href='#'>
             <div class='item'>
