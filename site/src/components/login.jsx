@@ -58,7 +58,7 @@ function Login(){
             required
             />
             </div>
-                <div class="div3">
+                <div class="div2">
                 <p class="category">Senha:</p>
             <input className="senha-inp"
             type="password"

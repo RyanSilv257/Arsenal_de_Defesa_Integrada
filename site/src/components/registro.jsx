@@ -3,14 +3,17 @@ import "../styles/registro.css";
 import { Link } from "react-router-dom";
 
 function Registro(){
+  
 
     const [nome, setNome] = useState('');
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
+    const [idade, setIdade] = useState('');
     
     const handleRegistro = (e) => {
         e.preventDefault(); 
 
+        if (idade >= 18){
         fetch('http://localhost:3001/registro', {
             method: 'POST',
             headers: {
@@ -19,7 +22,8 @@ function Registro(){
             body: JSON.stringify({
                 nome: nome,
                 email: email,
-                senha: senha
+                senha: senha,
+                idade: idade
             })
         })
             .then(response => response.json())
@@ -32,80 +36,11 @@ function Registro(){
                 console.error('Erro ao tentar fazer o registro:', err);
                 alert('Erro ao tentar fazer o registro. Por favor, tente novamente.');
             });
-    };
 
-
-
-
-
-
-    // const [result, setResult] = useState ([]);
-    // const [dataToInsert, setDataToInsert] = useState({
-    // nome: "",
-    // email: "",
-    // senha: ""
-    // });
-    // const [redirected, setRedirected ] = useState(false);
-    
-    // const navigate = useNavigate();
-
-    // useEffect(() => {
-    //     fetch("http://localhost:3000")
-    //         .then((res) => res.json())
-    //         .then((data) => {
-    //             setResult(data);
-            
-    //             // Procura o item com o mesmo ProductID que o pathname.
-    //             const foundItem = data.find(
-    //             (item) => window.location.pathname === `/modify/${item.id}`
-    //             );
-    
-    //             if (foundItem) {
-    //             setDataToInsert((prevState) => ({
-    //             ...prevState,
-    //             ...foundItem,
-    //     }));
-    // } else {
-    //         // Se não encontrar o item, redireciona para a página principal.
-    //         if (!redirected) {
-    //             setRedirected(true);
-    //             navigate("/Registro");
-    //          }
-    //     }   
-    // })
-    // .catch((err) => { 
-    //   console.error(err);
-    //     });
-    // },[]);
-
-    // // Envia as informações para o backend quando o botão de enviar é clicado.
-    // const handleSubmit = (e) => {
-    //     const foundItem = result.find(
-    // (item) => window.location.pathname === `/modify/${item.id}`
-    // );
-    // if (foundItem) {
-    //   fetch("http://localhost:3000", {
-    //     method: "PUT",
-    //     body: JSON.stringify(dataToInsert),
-    //     headers: {"Content-Type": "application/json"},
-    //     });
-    //     navigate("/Registro")
-    //     } else {
-    //         fetch("http://localhost:3000", {
-    //         method: "POST",
-    //         body: JSON.stringify(dataToInsert),
-    //         headers: {"Content-Type": "application/json"},
-    //         });
-    //     }
-    // };
-    // // Armazena as informações no estado conforme são digitados.
-    // const handleChange = (e) => {
-    //     setDataToInsert({
-    //     ...dataToInsert,
-    //     [e.target.name]: e.target.value,
-    //     });
-    // 
-
+    } else {
+        alert("Você precisa ter mais de 18 anos");
+    }
+    }
 
 
     return (
@@ -134,7 +69,7 @@ function Registro(){
                         autoComplete="none"        
                 />
                 </div>
-                <div class="div2">
+                <div class="div1">
                 <p class="category">E-mail:</p>
                 <input className="email-inp"
                     type="email"
@@ -146,7 +81,7 @@ function Registro(){
                     autoComplete="none"        
                 />
                 </div>
-                <div class="div3">
+                <div class="div1">
                 <p class="category">Senha:</p>
                 <input className="senha-inp"
                     type="password"
@@ -158,6 +93,39 @@ function Registro(){
                     autoComplete="none"        
                 />
                 </div>
+                <div class="div1">
+                <p class="category">Informe sua idade:</p>
+                <input className="senha-inp"
+                    min="1"
+                    max="150"
+                    type="number"
+                    value={idade}
+                    name="senha"
+                    onChange={(e) => setIdade(e.target.value)}
+                    placeholder="Idade"
+                    required
+                    autoComplete="none"        
+                />
+                </div>
+
+                <div class="div3">
+                <input
+                type="checkbox"
+                id="registro-check"
+                />
+                <label for="registro-check">Possui registro de porte de armas?</label>
+                </div>
+
+                <div id="porte" class="div1">
+                <p class="category">Nº do registro do porte</p>
+                <input className="senha-inp"
+                    type="number"
+                    placeholder="Nº do registro"
+                    required
+                    autoComplete="none"        
+                />
+                </div>
+
                 <div class="cnt">
                     <div class="btn-s">
                         <Link to="/">
@@ -199,8 +167,6 @@ function Registro(){
         </div>
         </>
     )
-
-
 };
 
 export default Registro;
