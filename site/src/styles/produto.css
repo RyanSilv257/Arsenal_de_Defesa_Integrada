@@ -83,8 +83,29 @@
     text-decoration: underline;
 }
 .content-dcp{
+    margin-top: 40px;
+    gap: 50px;
     flex-direction: row;
     display: flex;
-    align-items: center;
-
+    text-align: start;
+    justify-content: center;
+}
+.content-description{
+    flex-direction: column;
+    display: flex;
+    width: 45vw;
+    gap: 40px;
+}
+.dcpt{
+    text-decoration: underline;
+}
+.content-ft{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    width: 30vw;
+    margin-left:50px ;
+}
+.content-ft h1{
+    text-decoration: underline;
 }

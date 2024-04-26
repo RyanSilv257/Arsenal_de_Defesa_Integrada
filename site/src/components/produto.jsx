@@ -21,7 +21,7 @@ function Produto (){
         </div>
         <div class="content-dcp">
             <div class="content-description">
-                <h1 class="dcpt">Descição do produto:</h1>
+                <h1 class="dcpt">Descrição do produto:</h1>
                 <p class="dect">Esta 9mm disparada por Striker vem <br />com recursos que você esperaria de uma pistola<br />
                 que custa o dobro. <br />Seu trilho integrado, segurança interna, <br />
                 liberação de magazine reversível, <br />
@@ -36,6 +36,21 @@ function Produto (){
                 Seu design ergonômico proporciona conforto durante o manuseio, <br />
                 enquanto os controles ambidestros garantem <br />
                 acessibilidade para usuários destros e canhotos. <p />
+                
+            </div>
+            <div class="content-ft">
+                <h1>Ficha Técnica:</h1>
+                <p>Comprimento total da arma: 189mm. <br />
+
+                    <br />
+                    Quantidade de canos: 1.  <br />
+                    <br />
+                    Peso: 750g. <br />
+                    <br />
+                    Capacidade do carregador: 15.</p>
+            </div>
+            <div class="stars">
+                
             </div>
         </div>
         </>
