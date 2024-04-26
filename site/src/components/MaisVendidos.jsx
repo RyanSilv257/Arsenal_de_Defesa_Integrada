@@ -3,7 +3,7 @@ import  produto1 from "../Produtos/PISTOLA TAURUS 838C CALIBRE .380ACP.jpeg"
 import  produto2 from "../Produtos/bolsa1.jpg"
 import  produto3 from "../Produtos/RIFLE .22 SEMIAUTOMÁTICO TACTICAL CORONHA TÁTICA EM POLIPROPILENO PRETA- CBC R$3.652,00.jpeg"
 import  produto4 from "../Produtos/REVÓLVER RT 065 TAURUS CAL 357 MAG.jpeg"
-import  produto5 from "../Produtos/RIFLE CBC PUMP ACTION GALERY CAL 22LR CORONHA DE MADEIRA.jpeg"
+import  produto5 from "../Produtos/Faca Armada NTK Tático Empunhadura Soco-inglês Militar Caça R$ 208,90.jpeg"
 import  produto6 from "../Produtos/Carabina Rossi Puma Tática .357 MAG - Preta R$ 9.690,00.jpeg"
 import  produto7 from "../Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg"
 import  produto8 from "../Produtos/Carabina Winchester 22 Modelo 70 Featherweight Compact MID Calibre 22-250 R$2,890.00.jpeg"
@@ -42,8 +42,8 @@ function MaisVendidos(){
 { /*____________________________________________2____________________________________________________________*/ }
         <div class="product">
             <img src={produto2} alt="Acessório de caça 2"/>
-            <h2>PISTOLA STOEGER STR9 CAL 9MM</h2>
-            <p>R$8.559,00</p>
+            <h2>Bolsa de Ombro Defender Rapina Militar - Verde Oliva</h2>
+            <p>R$257,00</p>
             <button>Adicionar ao carrinho</button>
         </div>
  { /*___________________________________________3_____________________________________________________________*/ }
@@ -63,8 +63,8 @@ function MaisVendidos(){
 { /*____________________________________________5____________________________________________________________*/ }
     <div class="product">
         <img src={produto5} alt="Acessório de caça 5"/>
-        <h2>RIFLE CBC PUMP ACTION GALLERY CAL 22LR CORONHA DE MADEIRA</h2>
-        <p>R$5.849,90</p>
+        <h2>Faca Armada NTK Tático Empunhadura Soco-inglês Militar Caça</h2>
+        <p>R$208,90</p>
         <button>Adicionar ao carrinho</button>
     </div>
 { /*____________________________________________6____________________________________________________________*/ }

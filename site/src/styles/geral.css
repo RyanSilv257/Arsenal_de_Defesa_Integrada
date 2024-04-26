@@ -38,12 +38,13 @@
     height: auto;
     border-radius: 5px;
     margin-bottom: 15px;
-    max-height: 250px;
+    max-height: 225px;
   }
 /*Texto*/  
   .product h2 {
     font-size: 1.2rem;
     margin-bottom: 10px;
+    min-height: 150px;
   }
   
   .product p {

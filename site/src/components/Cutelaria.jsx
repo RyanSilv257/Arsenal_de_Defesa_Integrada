@@ -83,7 +83,7 @@ function Cutelaria(){
         <p>R$62,90</p>
         <button>Adicionar ao carrinho</button>
     </div>
-    { /*_____________________________________________8___________________________________________________________*/ }
+{ /*_____________________________________________9___________________________________________________________*/ }
     <div class="product">
         <img src={produto9} alt="Acessório de caça 8"/>
         <h2>Faca Armada NTK Tático Empunhadura Soco-inglês Militar Caça</h2>
