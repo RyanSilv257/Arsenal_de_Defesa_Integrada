@@ -21,6 +21,9 @@ db.run(
         "nome"	TEXT NOT NULL,
         "email"	INTEGER NOT NULL,
         "senha"	TEXT NOT NULL,
+        "dataNasc" INTEGER NOT NULL,
+        "porte" INTEGER,
+        "porteDate" INTEGER,
         PRIMARY KEY("id" AUTOINCREMENT)
     )`
 )
@@ -53,9 +56,9 @@ app.post('/login', (req, res) => {
 
 // Rota para cadastrar um novo usuário
 app.post('/registro', (req, res) => {
-    const { nome, email, senha } = req.body;
-    const sql = "INSERT INTO usuario (nome, email, senha) VALUES (?, ?, ?)";
-    db.run(sql, [nome, email, senha], (err, result) => {
+    const { nome, email, senha, dataNasc, porte, porteDate } = req.body;
+    const sql = "INSERT INTO usuario (nome, email, senha, dataNasc, porte, porteDate) VALUES (?, ?, ?, ?, ?, ?)";
+    db.run(sql, [nome, email, senha, dataNasc, porte, porteDate], (err, result) => {
         if (err) {
             console.error('Erro ao cadastrar usuário:', err);
             res.status(500).json({ message: "Erro ao cadastrar usuário." });

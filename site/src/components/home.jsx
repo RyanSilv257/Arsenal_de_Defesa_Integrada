@@ -1,4 +1,7 @@
 import "../styles/home.css";
+import"../components/produto.jsx";
+import { Link } from "react-router-dom";
+
 
 function Home(){
     return(
@@ -7,7 +10,7 @@ function Home(){
     <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
         <div class="carousel-item active">
-        <img src="carrossel.png" class="d-block w-100" alt="..."/>
+        <img src="carrossel.jpeg" class="d-block w-100" alt="..."/>
         </div>
         <div class="carousel-item">
         <img src="carrossel2.png" class="d-block w-100" alt="..."/>
@@ -34,12 +37,19 @@ function Home(){
         </div>
     
         <div class='items-div'>
+
+
+        <Link to="/Produto">
         <a href='#'>
             <div class='item'>
-                <img src="home/PISTOLA_TAURUS.jpg" alt=''/>
+                <img class="products" src="Produtos/pistola-stoeger-str9-9mm.jpg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
-            </a><a href='#'>
+        </a>
+        </Link>
+
+                   
+            <a href='#'>
             <div class='item'>
                 <img class ="products" src="Produtos/bolsa1.jpg" alt=''/>
                 <p>Bolsa Tática Guerrilha</p>
@@ -87,8 +97,8 @@ function Home(){
             </a>
             <a href='#'>
             <div class='item'>
-                <img class="products " src="Produtos/Capacete Tático cobertura Completa R$330,82.jpeg" alt=''/>
-                <p>Pistola Taurus TH380 Calibre .380ACP</p>
+                <img class="products " src="Produtos/ÓCULOS SOLAR TÁTICO FOCUS - COYOTE R$ 229,00.jpeg" alt=''/>
+                <p>ÓCULOS SOLAR TÁTICO FOCUS - COYOTE</p>
             </div>
             </a><a href='#'>
             <div class='item'>

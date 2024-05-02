@@ -21,7 +21,12 @@ function Login(){
         })
             .then(response => response.json())
             .then(data => {
-                if (data.message) {
+                if (data.message === "Login realizado com sucesso!") {
+                    alert(data.message);
+                    setTimeout(() => {
+                    window.location.href = '/';
+                }, 1000);
+                } else {
                     alert(data.message);
                 }
             })
@@ -58,7 +63,7 @@ function Login(){
             required
             />
             </div>
-                <div class="div3">
+                <div class="div1">
                 <p class="category">Senha:</p>
             <input className="senha-inp"
             type="password"

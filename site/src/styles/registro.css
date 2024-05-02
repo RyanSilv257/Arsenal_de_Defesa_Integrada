@@ -41,26 +41,37 @@ body{
     width: 100vw;
 }
 .name-inp{
-    border-radius: 20px;
     width: 500px;
-    border: black;
+    border: none;
+    background-color: #1f1f1f;
+    border-bottom: 1px solid white;
+    color: white;
 }
 
 .email-inp{
-    border-radius: 20px;
     width: 500px;
-    border: black;
+    border: none;
+    background-color: #1f1f1f;
+    border-bottom: 1px solid white;
+    color: white;
 }
 
 .senha-inp{
-    border-radius: 20px;
     width: 500px;
-    border: black;
+    border: none;
+    background-color: #1f1f1f;
+    border-bottom: 1px solid white;
+    color: white;
 }
 
 form input {
     padding-left: 20px;
 }
+
+form input:focus {
+    outline: none;
+}
+
 .div1{
     color: #ffff;
     display: flex;
@@ -72,19 +83,27 @@ form input {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.div3{
-    color: #ffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-bottom: 90px;
 }
+.div3{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 105px;
+    gap: 30px;
+}
+.div3 input{
+    width:20px;
+}
+
+
 .cnt{
     align-items: center;
     display: flex;
     padding-left: 400px ;
     padding-bottom: 50px;
+    margin-top: 70px;
 }
 .btn-s{
     display: flex;
