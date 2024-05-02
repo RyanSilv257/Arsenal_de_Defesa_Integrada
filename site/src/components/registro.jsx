@@ -3,17 +3,71 @@ import "../styles/registro.css";
 import { Link } from "react-router-dom";
 
 function Registro(){
+
+    const [showInput, setShowInput] = useState(false);
+  
+    const handleCheckboxChange = (e) => {
+      setShowInput(e.target.checked);
+    };
   
 
     const [nome, setNome] = useState('');
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
-    const [idade, setIdade] = useState('');
+    const [dataNasc, setDataNasc] = useState('');
+    const [porte, setPorte] = useState('');
+    const [porteDate, setPorteDate] = useState('');
     
+    const handleBirthdateChange = (event) => {
+        let formattedBirthdate = event.target.value
+            .replace(/\D/g, '') 
+            .replace(/(\d{2})(\d)/, '$1/$2') 
+            .replace(/(\d{2})(\d)/, '$1/$2'); 
+    
+
+        const [day, month, year] = formattedBirthdate.split('/').map(Number);
+    
+
+        const maxDay = 31;
+        const maxMonth = 12;
+        const maxYear = 2023;
+    
+        if (day > maxDay || month > maxMonth || year > maxYear) {
+            alert('Data de nascimento inválida');
+            return;
+        }
+
+    
+        setDataNasc(formattedBirthdate);
+    };
+
+    const handlePorteDateChange = (event) => {
+        let formattedPorteDate = event.target.value
+            .replace(/\D/g, '') 
+            .replace(/(\d{2})(\d)/, '$1/$2') 
+            .replace(/(\d{2})(\d)/, '$1/$2'); 
+    
+
+        const [day, month] = formattedPorteDate.split('/').map(Number);
+    
+
+        const maxDay = 31;
+        const maxMonth = 12;
+    
+        if (day > maxDay || month > maxMonth) {
+            alert('Data de validade do porte inválida');
+            return;
+        }
+
+    
+        setPorteDate(formattedPorteDate);
+    };
+
     const handleRegistro = (e) => {
         e.preventDefault(); 
 
-        if (idade >= 18){
+        
+
         fetch('http://localhost:3001/registro', {
             method: 'POST',
             headers: {
@@ -23,13 +77,16 @@ function Registro(){
                 nome: nome,
                 email: email,
                 senha: senha,
-                idade: idade
+                dataNasc: dataNasc,
+                porte: porte,
+                porteDate: porteDate
             })
         })
             .then(response => response.json())
             .then(data => {
                 if (data.message) {
                     alert(data.message);
+                    window.location.href = "http://localhost:3000/Login";
                 }
             })
             .catch(err => {
@@ -37,9 +94,6 @@ function Registro(){
                 alert('Erro ao tentar fazer o registro. Por favor, tente novamente.');
             });
 
-    } else {
-        alert("Você precisa ter mais de 18 anos");
-    }
     }
 
 
@@ -94,15 +148,13 @@ function Registro(){
                 />
                 </div>
                 <div class="div1">
-                <p class="category">Informe sua idade:</p>
+                <p class="category">Data de nascimento:</p>
                 <input className="senha-inp"
-                    min="1"
-                    max="150"
-                    type="number"
-                    value={idade}
-                    name="senha"
-                    onChange={(e) => setIdade(e.target.value)}
-                    placeholder="Idade"
+                    value={dataNasc}
+                    name="date"
+                    onChange={handleBirthdateChange}
+                    placeholder="Data de nascimento"
+                    maxLength="10"
                     required
                     autoComplete="none"        
                 />
@@ -111,20 +163,46 @@ function Registro(){
                 <div class="div3">
                 <input
                 type="checkbox"
+                onChange={handleCheckboxChange}
                 id="registro-check"
                 />
                 <label for="registro-check">Possui registro de porte de armas?</label>
                 </div>
+                {showInput && (
 
                 <div id="porte" class="div1">
                 <p class="category">Nº do registro do porte</p>
                 <input className="senha-inp"
+                    value={porte}
+                    name="porte"
+                    max="9999999999"
+                    onChange={(e) => {
+                        const maxLength = 10; // Maximum length allowed
+                        let value = e.target.value;
+                        if (value.length > maxLength) {
+                          value = value.slice(0, maxLength); // Truncate the value if it exceeds maxLength
+                        }
+                        setPorte(value)
+                    }}
                     type="number"
                     placeholder="Nº do registro"
                     required
                     autoComplete="none"        
                 />
-                </div>
+
+                <p class="category">Validade do Porte:</p>
+                <input className="senha-inp"
+                    value={porteDate}
+                    name="porteDate"
+                    onChange={handlePorteDateChange}
+                    placeholder="Data da validade"
+                    maxLength="10"
+                    required
+                    autoComplete="none"        
+                />
+                </div>  
+                
+                )}
 
                 <div class="cnt">
                     <div class="btn-s">

@@ -103,6 +103,7 @@ form input:focus {
     display: flex;
     padding-left: 400px ;
     padding-bottom: 50px;
+    margin-top: 70px;
 }
 .btn-s{
     display: flex;
