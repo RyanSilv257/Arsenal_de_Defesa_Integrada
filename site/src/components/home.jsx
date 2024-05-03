@@ -48,33 +48,46 @@ function Home(){
         </a>
         </Link>
 
-                   
+        <Link to="/Produto">          
             <a href='#'>
             <div class='item'>
                 <img class ="products" src="Produtos/bolsa1.jpg" alt=''/>
                 <p>Bolsa Tática Guerrilha</p>
             </div>
-            </a><a href='#'>
+            </a>
+            </Link>
+            <Link to="/Produto">
+            <a href='#'>
             <div class='item'>
                 <img class ="products" src="Produtos/Machado Tático.jpeg" alt=''/>
                 <p>Machado Tático AXEL</p>
             </div>
-            </a><a href='#'>
+            </a>
+            </Link>
+            <Link to="/Produto">
+            <a href='#'>
             <div class='item'>
                 <img class ="products" src="Produtos/MUNIÇÃO 9MM LUGER ETOG 124GR TREINA.jpeg" alt=''/>
                 <p>Munição 9MM Luger Etog 124GR Treina</p>
             </div>
-            </a><a href='#'>
+            </a>
+            </Link>
+            <Link to="/Produto">
+            <a href='#'>
             <div class='item'>
                 <img class="products" src="Produtos/REVÓLVER RT 065 TAURUS CAL 357 MAG.jpeg" alt=''/>
                 <p>Revólver RT 065 Taurus CAL 357 MAG</p>
             </div>
-            </a><a href='#'>
+            </a>
+            </Link>
+            <Link to="/Produto">
+            <a href='#'>
             <div class='item'>
                 <img class ="products"src="Produtos/MUNIÇÃO CBC .357 MAGNUM POLYMATCH 158GR.jpeg" alt=''/>
                 <p>Munição CBC.357 Magnum Polymach 158GR</p>
             </div>
             </a>
+            </Link>
 
 
         </div>
