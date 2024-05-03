@@ -95,10 +95,13 @@ function Home(){
 
         </div>
     </div>
-{ /*_____________________________________________7___________________________________________________________*/ }
+
+    <Link to="/MaisVendidos">
     <div class="link-for-products">
-        <a class="" href="#">veja mais.</a>
+        <a class="" href="#">Veja Mais</a>
     </div>
+    </Link>
+{ /*_____________________________________________7___________________________________________________________*/ }
     <div class='sub-div'>
         <div class='sub-title2'>
         <h1 id='title1'>PROMOÇÕES</h1>
@@ -143,9 +146,11 @@ function Home(){
 
         </div>
     </div>
+    <Link to="/MaisVendidos">
     <div class="link-for-products">
-        <a class="" href="#">veja mais.</a>
+        <a class="" href="#">Veja Mais</a>
     </div>
+    </Link>
     </div>
 </div>
 
