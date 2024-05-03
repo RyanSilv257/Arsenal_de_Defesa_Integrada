@@ -109,29 +109,41 @@ function Home(){
         </div>
     
         <div class='items-div'>
+        <Link to="/MaisVendidos">
             <a href='#'>
             <div class='item'>
                 <img class="products" src="Produtos/ESPINGARDA CBC PUMP MILITARY 3.0 19POL CAL 12.jpeg" alt=''/>
                 <p>Pistola Taurus TH380 Calibre .380ACP</p>
             </div>
             </a>
+            </Link>
+            <Link to="/MaisVendidos">
             <a href='#'>
             <div class='item'>
                 <img class="products " src="Produtos/ÓCULOS SOLAR TÁTICO FOCUS - COYOTE R$ 229,00.jpeg" alt=''/>
                 <p>ÓCULOS SOLAR TÁTICO FOCUS - COYOTE</p>
             </div>
-            </a><a href='#'>
+            </a>
+            </Link>
+            <Link to="/MaisVendidos">
+            <a href='#'>
             <div class='item'>
                 <img src="Produtos/REVÓLVER RT066 TAURUS CAL 357MAG.jpeg" alt=''/>
                 <p>Revólver RT 066 Taurus Cal 357Mag
                 </p>
             </div>
-            </a><a href='#'>
+            </a>
+            </Link>
+            <Link to="/MaisVendidos">
+            <a href='#'>
             <div class='item'>
                 <img class="products"src="Produtos/RIFLE CBC PUMP ACTION GALERY CAL 22LR CORONHA DE MADEIRA.jpeg" alt=''/>
                 <p>Rifle CBC Pump Action Galery Cal 22LR</p>
             </div>
-            </a><a href='#'>
+            </a>
+            </Link>
+            
+            <a href='#'>
             <div class='item'>
                 <img class="products" src="Produtos/RIFLE .22 SEMIAUTOMÁTICO TACTICAL CORONHA TÁTICA EM POLIPROPILENO PRETA- CBC R$3.652,00.jpeg" alt=''/>
                 <p>Rifle.22 Tactical Coronha Tática CBC</p>
