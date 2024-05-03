@@ -8,7 +8,7 @@ import  produto26 from "../Lanternas/storm.jpg"
 import  produto27 from "../Lanternas/sigma.jpg"
 import  produto28 from "../Lanternas/sirius.jpg"
 import  produto29 from "../Lanternas/Lanterna de Cabeça Multifuncional Invictus Atlas 600 Lúmens.jpg"
-
+import { Link } from 'react-router-dom';
 /*---------------------------------------------------------------------------------------*/
 function Lanternas(){
     return(

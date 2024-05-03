@@ -11,7 +11,7 @@ import  produto50 from "../Produtos/Luva Tática Oficial Militar Em Couro Legít
 import  produto51 from "../Produtos/Luva Bunker Invictus - Tática Militar Profissional.JPG R$ 266.jpg"
 import  produto52 from "../Produtos/Luvas Tatica Militar Airsoft Paintball Meio Dedo Microfibra R$64.jpg"
 import  produto53 from "../Produtos/Calça Masculina Tática Militares À Prova Dágua R$ 137.jpg"
-
+import { Link } from 'react-router-dom';
 /*_____________________________________________________________________________________________________*/
 function Vestuario(){
     return(

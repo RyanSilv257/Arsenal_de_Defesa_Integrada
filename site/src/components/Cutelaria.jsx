@@ -8,7 +8,7 @@ import  produto18 from "../Produtos/Canivete Tático Shark Green Militar Origina
 import  produto19 from "../Produtos/CANIVETE TORO SOCO INGLÊS TÁTICO NAUTIKA R$ 147,00.jpeg"
 import  produto20 from "../Produtos/Ferramenta multiuso tática Spor TAG em aço inox R$ 62,90.jpeg"
 import  produto21 from "../Produtos/Faca Armada NTK Tático Empunhadura Soco-inglês Militar Caça R$ 208,90.jpeg"
-
+import { Link } from 'react-router-dom';
 /*_____________________________________________________________________________________________________*/
 function Cutelaria(){
     return(
