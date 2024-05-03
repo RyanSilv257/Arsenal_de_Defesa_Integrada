@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Commerce } from 'commercejs';
-
+import '../styles/Carrinho.css';
 
 const commerce = new Commerce(process.env.REACT_APP_PUBLIC_KEY);
 
