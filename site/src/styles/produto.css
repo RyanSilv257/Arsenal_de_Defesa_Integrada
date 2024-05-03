@@ -109,13 +109,14 @@
 .content-ft h1{
     text-decoration: underline;
 }
-.envy{
+.btnOpenModal{
     background-color: #c86d19;
     border: none;
     border-radius: 5px;
     transition: 0.3s;
+    cursor: pointer;
 }
-.envy:hover{
+.btnOpenModal:hover{
     color: white;
     background: #FFAF66;
 }
