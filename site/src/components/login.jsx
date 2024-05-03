@@ -10,6 +10,7 @@ function Login(){
         e.preventDefault(); 
 
         fetch('http://localhost:3001/login', {
+            credentials: "include",
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -21,7 +22,7 @@ function Login(){
         })
             .then(response => response.json())
             .then(data => {
-                if (data.message === "Login realizado com sucesso!") {
+                if (data.message) {
                     alert(data.message);
                     setTimeout(() => {
                     window.location.href = '/';
