@@ -1,11 +1,19 @@
 import '../styles/produto.css'
-import React from 'react';
+import React, { useState } from 'react';
 import StarRating from './StarRating';
-  
-    
+import Modal from './Modal';
+
+
+
     function Produto (){
-            return(
-        <>
+        const [isModalOpen, setIsModalOpen] = useState(false);
+
+        const toggleModal = () => {
+            setIsModalOpen(!isModalOpen);
+        };
+    
+        return (
+            <>
         <div class="content-bd">
         <hr/>
         <h1>Produtos</h1>
@@ -56,7 +64,9 @@ import StarRating from './StarRating';
                         <StarRating />
                     </div>
                     <textarea class="" id="" cols="30" rows="5" placeholder='Deixe sua opinão:'></textarea>
-                    <button class="envy">Enviar</button>
+                    <button className="btnOpenModal" onClick={toggleModal}>Enviar</button>
+                    
+                    
             </div>
         </div>
         </>
@@ -64,4 +74,4 @@ import StarRating from './StarRating';
             }
         
 
-export default Produto
+export default Produto;

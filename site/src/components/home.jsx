@@ -80,7 +80,9 @@ function Home(){
         </div>
     </div>
     <div class="link-for-products">
-        <a class="" href="#">veja mais.</a>
+        <Link to ="/MaisVendidos">
+            <a class="" href="#">veja mais.</a>
+        </Link>
     </div>
     <div class='sub-div'>
         <div class='sub-title2'>
@@ -127,7 +129,9 @@ function Home(){
         </div>
     </div>
     <div class="link-for-products">
+        <Link to ="MaisVendidos">
         <a class="" href="#">veja mais.</a>
+        </Link>
     </div>
     </div>
 </div>
