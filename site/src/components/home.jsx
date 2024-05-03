@@ -99,9 +99,6 @@ function Home(){
     <Link to="/MaisVendidos">
     <div class="link-for-products">
         <a class="" href="#">Veja Mais</a>
-        <Link to ="/MaisVendidos">
-            <a class="" href="#">veja mais.</a>
-        </Link>
     </div>
     </Link>
 { /*_____________________________________________7___________________________________________________________*/ }
@@ -152,9 +149,6 @@ function Home(){
     <Link to="/MaisVendidos">
     <div class="link-for-products">
         <a class="" href="#">Veja Mais</a>
-        <Link to ="MaisVendidos">
-        <a class="" href="#">veja mais.</a>
-        </Link>
     </div>
     </Link>
     </div>
