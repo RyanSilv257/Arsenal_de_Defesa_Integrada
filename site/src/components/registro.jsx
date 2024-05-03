@@ -112,48 +112,48 @@ function Registro(){
             <form onSubmit={handleRegistro}>
                     <div class="div1">
 
-                    <p class="category1">Nome:</p>
+                    <p class="category1">Nome:*</p>
                     <input className="name-inp"
                         type="text"
                         value={nome}
                         name="nome"
                         onChange={(e) => setNome(e.target.value)}
-                        placeholder="Nome"
+                        placeholder="Nome (obrigatório)"
                         required
                         autoComplete="none"        
                 />
                 </div>
                 <div class="div1">
-                <p class="category">E-mail:</p>
+                <p class="category">E-mail:*</p>
                 <input className="email-inp"
                     type="email"
                     value={email}
                     name="email"
                     onChange={(e) => setEmail(e.target.value)}
-                    placeholder="Email"
+                    placeholder="Email (obrigatório)"
                     required
                     autoComplete="none"        
                 />
                 </div>
                 <div class="div1">
-                <p class="category">Senha:</p>
+                <p class="category">Senha:*</p>
                 <input className="senha-inp"
                     type="password"
                     value={senha}
                     name="senha"
                     onChange={(e) => setSenha(e.target.value)}
-                    placeholder="Senha"
+                    placeholder="Senha (obrigatório)"
                     required
                     autoComplete="none"        
                 />
                 </div>
                 <div class="div1">
-                <p class="category">Data de nascimento:</p>
+                <p class="category">Data de nascimento:*</p>
                 <input className="senha-inp"
                     value={dataNasc}
                     name="date"
                     onChange={handleBirthdateChange}
-                    placeholder="Data de nascimento"
+                    placeholder="Data de nascimento (obrigatório)"
                     maxLength="10"
                     required
                     autoComplete="none"        
@@ -171,7 +171,7 @@ function Registro(){
                 {showInput && (
 
                 <div id="porte" class="div1">
-                <p class="category">Nº do registro do porte</p>
+                <p class="category">Nº do registro do porte:*</p>
                 <input className="senha-inp"
                     value={porte}
                     name="porte"
@@ -190,7 +190,7 @@ function Registro(){
                     autoComplete="none"        
                 />
 
-                <p class="category">Validade do Porte:</p>
+                <p class="category">Validade do Porte:*</p>
                 <input className="senha-inp"
                     value={porteDate}
                     name="porteDate"

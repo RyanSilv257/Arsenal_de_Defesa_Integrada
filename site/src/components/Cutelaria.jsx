@@ -8,7 +8,7 @@ import  produto18 from "../Produtos/Canivete Tático Shark Green Militar Origina
 import  produto19 from "../Produtos/CANIVETE TORO SOCO INGLÊS TÁTICO NAUTIKA R$ 147,00.jpeg"
 import  produto20 from "../Produtos/Ferramenta multiuso tática Spor TAG em aço inox R$ 62,90.jpeg"
 import  produto21 from "../Produtos/Faca Armada NTK Tático Empunhadura Soco-inglês Militar Caça R$ 208,90.jpeg"
-
+import { Link } from 'react-router-dom';    
 /*_____________________________________________________________________________________________________*/
 function Cutelaria(){
     return(
@@ -32,63 +32,81 @@ function Cutelaria(){
             <img src={produto13} alt="Acessório de caça 1"/>
             <h2>Machado Tático</h2>
             <p>R$197,00</p>
+            <Link to="/Produto">
             <button>Adicionar ao carrinho</button>
+            </Link>
         </div>
 { /*____________________________________________2____________________________________________________________*/ }
         <div class="product">
             <img src={produto14} alt="Acessório de caça 2"/>
             <h2>Canivete suiço tatico multifuncional</h2>
             <p>$179,90</p>
+            <Link to="/Produto">
             <button>Adicionar ao carrinho</button>
+            </Link>
         </div>
  { /*___________________________________________3_____________________________________________________________*/ }
         <div class="product">
             <img src={produto15} alt="Acessório de caça 3"/>
             <h2>Canivete Tático Militar Camuflado</h2>
             <p>R$149,00</p>
+            <Link to="/Produto">
             <button>Adicionar ao carrinho</button>
+            </Link>
         </div>
 { /*____________________________________________4____________________________________________________________*/ }
         <div class="product">
             <img src={produto16} alt="Acessório de caça 4"/>
             <h2>CANIVETE TÁTICO MILITAR LANTERNA PEDERNEIRA BORLOV NAUTIKA AÇO INOX SOBREVIVENCIA</h2>
             <p>R$88,26</p>
+            <Link to="/Produto">
             <button>Adicionar ao carrinho</button>
+            </Link>
         </div>
 { /*____________________________________________5____________________________________________________________*/ }
     <div class="product">
         <img src={produto17} alt="Acessório de caça 5"/>
         <h2>CANIVETE TÁTICO MILITAR SEMI AUTOMÁTICO XD-13</h2>
         <p>R$167,87</p>
-        <button>Adicionar ao carrinho</button>
+        <Link to="/Produto">
+            <button>Adicionar ao carrinho</button>
+        </Link>
     </div>
 { /*____________________________________________6____________________________________________________________*/ }
     <div class="product">
         <img src={produto18} alt="Acessório de caça 6"/>
         <h2>Canivete Tático Shark Green Militar Original Invictus R$118,90</h2>
         <p>R$118,90</p>
-        <button>Adicionar ao carrinho</button>
+        <Link to="/Produto">
+            <button>Adicionar ao carrinho</button>
+        </Link>
     </div>
 { /*____________________________________________7____________________________________________________________*/ }
     <div class="product">
         <img src={produto19} alt="Acessório de caça 7"/>
         <h2>CANIVETE TORO SOCO INGLÊS TÁTICO NAUTIKA R$ 147,00.jpeg</h2>
         <p>R$147,00</p>
-        <button>Adicionar ao carrinho</button>
+        <Link to="/Produto">
+            <button>Adicionar ao carrinho</button>
+        </Link>
     </div>
 { /*_____________________________________________8___________________________________________________________*/ }
     <div class="product">
         <img src={produto20} alt="Acessório de caça 8"/>
         <h2>Ferramenta multiuso tática Spor TAG em aço inox</h2>
         <p>R$62,90</p>
-        <button>Adicionar ao carrinho</button>
+        <Link to="/Produto">
+            <button>Adicionar ao carrinho</button>
+        </Link>
     </div>
 { /*_____________________________________________9___________________________________________________________*/ }
     <div class="product">
         <img src={produto21} alt="Acessório de caça 8"/>
         <h2>Faca Armada NTK Tático Empunhadura Soco-inglês Militar Caça</h2>
         <p>R$208,90</p>
-        <button>Adicionar ao carrinho</button>
+        <Link to="/Produto">
+            <button>Adicionar ao carrinho</button>
+        </Link>
     </div>
     </section>
         </>

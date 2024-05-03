@@ -11,7 +11,7 @@ import  produto50 from "../Produtos/Luva Tática Oficial Militar Em Couro Legít
 import  produto51 from "../Produtos/Luva Bunker Invictus - Tática Militar Profissional.JPG R$ 266.jpg"
 import  produto52 from "../Produtos/Luvas Tatica Militar Airsoft Paintball Meio Dedo Microfibra R$64.jpg"
 import  produto53 from "../Produtos/Calça Masculina Tática Militares À Prova Dágua R$ 137.jpg"
-
+import { Link } from 'react-router-dom';
 /*_____________________________________________________________________________________________________*/
 function Vestuario(){
     return(
@@ -35,84 +35,108 @@ function Vestuario(){
             <img src={produto42} alt="Acessório de caça 1"/>
             <h2>CALÇA CARGO VERDE MILITAR</h2>
             <p>R$199,90</p>
+            <Link to="/Produto">
             <button>Adicionar ao carrinho</button>
+            </Link>
         </div>
 { /*____________________________________________2____________________________________________________________*/ }
         <div class="product">
             <img src={produto43} alt="Acessório de caça 2"/>
             <h2>CALÇA TÁTICA MASCULINA COYOTE</h2>
             <p>R$199,90</p>
+            <Link to="/Produto">
             <button>Adicionar ao carrinho</button>
+            </Link>
         </div>
  { /*___________________________________________3_____________________________________________________________*/ }
         <div class="product">
             <img src={produto44} alt="Acessório de caça 3"/>
             <h2>COMBAT SHIRT WOODLAND ALPHA BRAVO</h2>
             <p>R$149,00</p>
+            <Link to="/Produto">
             <button>Adicionar ao carrinho</button>
+            </Link>
         </div>
 { /*____________________________________________4____________________________________________________________*/ }
         <div class="product">
             <img src={produto45} alt="Acessório de caça 4"/>
             <h2>Jaqueta Militar m65</h2>
             <p>R$318,00</p>
+            <Link to="/Produto">
             <button>Adicionar ao carrinho</button>
+            </Link>
         </div>
 { /*____________________________________________5____________________________________________________________*/ }
     <div class="product">
         <img src={produto46} alt="Acessório de caça 5"/>
         <h2>CALÇA TÁTICA MASCULINA WOODLAND</h2>
         <p>R$199,90</p>
-        <button>Adicionar ao carrinho</button>
+        <Link to="/Produto">
+            <button>Adicionar ao carrinho</button>
+        </Link>
     </div>
 { /*____________________________________________6____________________________________________________________*/ }
     <div class="product">
         <img src={produto47} alt="Acessório de caça 6"/>
         <h2>Jaqueta Jeans Militar Masculina Com Zíper, Jaqueta Bomber</h2>
         <p>R$193,00</p>
-        <button>Adicionar ao carrinho</button>
+        <Link to="/Produto">
+            <button>Adicionar ao carrinho</button>
+        </Link>
     </div>
 { /*____________________________________________7____________________________________________________________*/ }
     <div class="product">
         <img src={produto48} alt="Acessório de caça 7"/>
         <h2>Jaqueta Tática Raptor Tan - Evo Tactical Militar Camping</h2>
         <p>R$376,00</p>
-        <button>Adicionar ao carrinho</button>
+        <Link to="/Produto">
+            <button>Adicionar ao carrinho</button>
+        </Link>
     </div>
 { /*_____________________________________________8___________________________________________________________*/ }
     <div class="product">
         <img src={produto49} alt="Acessório de caça 8"/>
         <h2>Gandola Assault Jaqueta Militar Mult. Black</h2>
         <p>R$179,00</p>
-        <button>Adicionar ao carrinho</button>
+        <Link to="/Produto">
+            <button>Adicionar ao carrinho</button>
+        </Link>
     </div>
 { /*_____________________________________________9___________________________________________________________*/ }
     <div class="product">
         <img src={produto50} alt="Acessório de caça 9"/>
         <h2>Luva Tática Oficial Militar Em Couro Legítimo</h2>
         <p>R$79,90</p>
-        <button>Adicionar ao carrinho</button>
+        <Link to="/Produto">
+            <button>Adicionar ao carrinho</button>
+        </Link>
     </div>
 { /*_____________________________________________10___________________________________________________________*/ }
     <div class="product">
         <img src={produto51} alt="Acessório de caça 10"/>
         <h2>Luva Bunker Invictus - Tática Militar Profissional</h2>
         <p>R$266,00</p>
-        <button>Adicionar ao carrinho</button>
+        <Link to="/Produto">
+            <button>Adicionar ao carrinho</button>
+        </Link>
     </div>
 { /*_____________________________________________11___________________________________________________________*/ }
     <div class="product">
         <img src={produto52} alt="Acessório de caça 11"/>
         <h2>Luvas Tatica Militar Airsoft Paintball Meio Dedo Microfibra</h2>
         <p>R$64,90</p>
-        <button>Adicionar ao carrinho</button>
+        <Link to="/Produto">
+            <button>Adicionar ao carrinho</button>
+        </Link>
     </div>
 { /*_____________________________________________12___________________________________________________________*/ }
     <div class="product">
         <img src={produto53} alt="Acessório de caça 12"/>
         <h2>Calça Masculina Tática Militares À Prova Dágua</h2>
         <p>R$137,90</p>
-        <button>Adicionar ao carrinho</button>
+        <Link to="/Produto">
+            <button>Adicionar ao carrinho</button>
+        </Link>
     </div>
     </section>
         </>
