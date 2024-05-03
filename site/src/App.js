@@ -17,7 +17,7 @@ import Sobre from './components/Sobre';
 import Privacidade from './components/Privacidade';
 import Produto from './components/produto';
 import MaisVendidos from './components/MaisVendidos';
-import Contato from './components/Contato';
+import Contato from './components/contato';
 import { Routes, Route } from 'react-router-dom';
 
 
