@@ -158,7 +158,7 @@ function Home(){
 
         </div>
     </div>
-    <Link to="/MaisVendidos">
+    <Link to="/Promo">
     <div class="link-for-products">
         <a class="" href="#">Veja Mais</a>
     </div>

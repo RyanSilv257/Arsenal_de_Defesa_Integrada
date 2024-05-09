@@ -68,7 +68,7 @@ function Cutelaria(){
         <img src={produto17} alt="Acessório de caça 5"/>
         <h2>CANIVETE TÁTICO MILITAR SEMI AUTOMÁTICO XD-13</h2>
         <p>R$167,87</p>
-        <Link to="/Produto">
+        <Link to="/Produto5">
             <button>Adicionar ao carrinho</button>
         </Link>
     </div>
