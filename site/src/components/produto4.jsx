@@ -21,12 +21,12 @@ import Modal from './Modal';
         </div>
         <div class="pdt-maindiv">
             <div class="pdt-1">
-                <img class="pdt-img" src="Produtos/RIFLE .22 SEMIAUTOMÁTICO TACTICAL CORONHA TÁTICA EM POLIPROPILENO PRETA- CBC R$3.652,00.jpeg" alt="" />
-                <h1 class="pdt-price">R$3.652,00</h1>
+                <img class="pdt-img" src="Produtos/Jaqueta Jeans Militar Masculina Com Zíper, Jaqueta Bomber R$ 193.jpg" alt="" />
+                <h1 class="pdt-price">R$193,00</h1>
                 <p class ="pdt-sub">ou em até 10 vezes sem juros</p>
             </div>
             <div class="pdt-2">
-                <h1 class="pdt-name">RIFLE .22 SEMIAUTOMÁTICO TACTICAL CORONHA TÁTICA EM POLIPROPILENO PRETA- CBC</h1>
+                <h1 class="pdt-name">Jaqueta Jeans Militar Masculina Com Zíper, Jaqueta Bomber</h1>
                 <button class ="buy">Comprar</button>
             </div>
         </div>
