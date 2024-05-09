@@ -15,6 +15,8 @@ function Registro(){
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
     const [dataNasc, setDataNasc] = useState('');
+    const [cpf, setCpf] = useState('');
+    const [telefone, setTelefone] = useState('');
     const [porte, setPorte] = useState('');
     const [porteDate, setPorteDate] = useState('');
     
@@ -62,6 +64,25 @@ function Registro(){
     
         setPorteDate(formattedPorteDate);
     };
+    const handleCpf = (event) => {
+        let formattedCpf = event.target.value
+            .replace(/\D/g, '') 
+            .replace(/(\d{3})(\d)/, '$1.$2')
+            .replace(/(\d{3})(\d)/, '$1.$2')
+            .replace(/(\d{3})(\d)/, '$1-$2');
+        
+            setCpf(formattedCpf);
+    };
+
+    const handleTelefone = (event) => {
+        let formattedTelefone = event.target.value
+            .replace(/\D/g, '') 
+            .replace(/(\d{2})(\d)/, '(+$1) $2')
+            .replace(/(\d{2})(\d)/, '$1 $2')
+            .replace(/(\d{5})(\d)/, '$1-$2');
+
+        setTelefone(formattedTelefone);
+    };
 
     const handleRegistro = (e) => {
         e.preventDefault(); 
@@ -78,6 +99,8 @@ function Registro(){
                 email: email,
                 senha: senha,
                 dataNasc: dataNasc,
+                cpf: cpf,
+                telefone: telefone,
                 porte: porte,
                 porteDate: porteDate
             }),
@@ -160,6 +183,30 @@ function Registro(){
                     autoComplete="none"        
                 />
                 </div>
+                <div class="div1">
+                <p class="category">Cpf:*</p>
+                <input className="senha-inp"
+                    value={cpf}
+                    name="cpf"
+                    onChange={handleCpf}
+                    maxLength="14"
+                    placeholder="Cpf (obrigatório)"
+                    required
+                    autoComplete="none"        
+                />
+                </div>
+                <div class="div1">
+                <p class="category">Nº de Telefone:*</p>
+                <input className="senha-inp"
+                    value={telefone}
+                    name="telefone"
+                    onChange={handleTelefone}
+                    maxLength="19"
+                    placeholder="Telefone (obrigatório)"
+                    required
+                    autoComplete="none"        
+                />
+                </div>
 
                 <div class="div3">
                 <input
@@ -176,7 +223,6 @@ function Registro(){
                 <input className="senha-inp"
                     value={porte}
                     name="porte"
-                    max="9999999999"
                     onChange={(e) => {
                         const maxLength = 10; // Maximum length allowed
                         let value = e.target.value;

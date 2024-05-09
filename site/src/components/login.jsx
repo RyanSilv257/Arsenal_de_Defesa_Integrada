@@ -22,7 +22,7 @@ function Login(){
         })
             .then(response => response.json())
             .then(data => {
-                if (data.message) {
+                if (data.message === "Login realizado com sucesso!") {
                     alert(data.message);
                     setTimeout(() => {
                     window.location.href = '/';
