@@ -94,7 +94,7 @@ function Lanternas(){
     <img src={produto29} alt="Acessório de caça 4"/>
     <h2>Lanterna de Cabeça Multifuncional Invictus Atlas 600 Lúmens</h2>
     <p>R$289,00</p>
-    <Link to="/Produto">
+    <Link to="/Produto6">
         <button>Adicionar ao carrinho</button>
     </Link>
 </div>
