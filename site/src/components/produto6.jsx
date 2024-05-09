@@ -21,12 +21,12 @@ import Modal from './Modal';
         </div>
         <div class="pdt-maindiv">
             <div class="pdt-1">
-                <img class="pdt-img" src="Produtos/CANIVETE TÁTICO MILITAR SEMI AUTOMÁTICO XD-13 R$ 167,87.jpeg" alt="" />
-                <h1 class="pdt-price">R$167,87</h1>
+                <img class="pdt-img" src="Produtos/Lanterna de Cabeça Multifuncional Invictus Atlas 600 Lúmens.jpg" alt="" />
+                <h1 class="pdt-price">R$289,00</h1>
                 <p class ="pdt-sub">ou em até 10 vezes sem juros</p>
             </div>
             <div class="pdt-2">
-                <h1 class="pdt-name">CANIVETE TÁTICO MILITAR SEMI AUTOMÁTICO XD-13</h1>
+                <h1 class="pdt-name">Lanterna de Cabeça Multifuncional Invictus Atlas 600 Lúmens</h1>
                 <button class ="buy">Comprar</button>
             </div>
         </div>

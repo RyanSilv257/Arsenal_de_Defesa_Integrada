@@ -48,7 +48,7 @@ function Lanternas(){
         <div class="product">
             <img src={produto24} alt="Acessório de caça 3"/>
             <h2>Lanterna Corvus U2 300 Lúmens</h2>
-            <p>Preço: R$ 205,00</p>
+            <p>R$ 205,00</p>
             <Link to="/Produto">
             <button>Adicionar ao carrinho</button>
             </Link>
@@ -57,7 +57,7 @@ function Lanternas(){
         <div class="product">
             <img src={produto25} alt="Acessório de caça 4"/>
             <h2>Lanterna Scott T6 280 Lúmens</h2>
-            <p>Preço: R$229,00</p>
+            <p>R$229,00</p>
             <Link to="/Produto">
             <button>Adicionar ao carrinho</button>
             </Link>
@@ -66,7 +66,7 @@ function Lanternas(){
     <div class="product">
         <img src={produto26} alt="Acessório de caça 4"/>
         <h2>Lanterna Storm T6 280 Lúmens</h2>
-        <p>Preço: R$165,00</p>
+        <p>R$165,00</p>
         <Link to="/Produto">
             <button>Adicionar ao carrinho</button>
         </Link>
@@ -75,7 +75,7 @@ function Lanternas(){
 <div class="product">
     <img src={produto27} alt="Acessório de caça 4"/>
     <h2>Lanterna Tática Sigma 1000 Lúmens</h2>
-    <p>Preço: R$255,00</p>
+    <p>R$255,00</p>
     <Link to="/Produto">
         <button>Adicionar ao carrinho</button>
     </Link>
@@ -84,7 +84,7 @@ function Lanternas(){
 <div class="product">
     <img src={produto28} alt="Acessório de caça 4"/>
     <h2>Lanterna Tática Sirius 800 Lúmens</h2>
-    <p>Preço: R$309,99</p>
+    <p>R$309,99</p>
     <Link to="/Produto">
         <button>Adicionar ao carrinho</button>
     </Link>
@@ -93,7 +93,7 @@ function Lanternas(){
 <div class="product">
     <img src={produto29} alt="Acessório de caça 4"/>
     <h2>Lanterna de Cabeça Multifuncional Invictus Atlas 600 Lúmens</h2>
-    <p>Preço: R$289,00</p>
+    <p>R$289,00</p>
     <Link to="/Produto">
         <button>Adicionar ao carrinho</button>
     </Link>
