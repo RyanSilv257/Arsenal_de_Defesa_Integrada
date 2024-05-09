@@ -103,4 +103,4 @@ function Lanternas(){
     )
 }
 
-export default Lanternas
+export default Lanternas;

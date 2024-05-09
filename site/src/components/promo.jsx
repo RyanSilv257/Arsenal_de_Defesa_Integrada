@@ -13,7 +13,7 @@ import  produto11 from "../Produtos/Jaqueta Jeans Militar Masculina Com Zíper, 
 import  produto12 from "../Produtos/Machado Tático.jpeg"
 import { Link } from 'react-router-dom';
 /*_____________________________________________________________________________________________________*/
-function MaisVendidos(){
+function Promo(){
     return(
         <>
 
@@ -24,7 +24,7 @@ function MaisVendidos(){
     <header>
     <div class='sub-div'>
         <div class='sub-title'>
-            <h1 id='title1'>MAIS VENDIDOS</h1>
+            <h1 id='title1'>PROMOÇÕES</h1>
             <hr />
         </div>
      </div>   
@@ -143,4 +143,4 @@ function MaisVendidos(){
     )
 }
 
-export default MaisVendidos;
+export default Promo;

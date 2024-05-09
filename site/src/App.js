@@ -27,6 +27,7 @@ import Perfil from './components/Perfil';
 import Logout from './components/Logout';
 import UpdateData from './components/UpdateData';
 import { Routes, Route } from 'react-router-dom';
+import Promo from './components/promo';
 
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
         <Route path="/Produto5" element={<><Header /><Produto5 /><Footer /></>}/>
         <Route path="/Produto6" element={<><Header /><Produto6 /><Footer /></>}/>
         <Route path="/MaisVendidos" element={<><Header /><MaisVendidos /><Footer /></>}/>
+        <Route path="/Promo" element={<><Header /><Promo /><Footer /></>}/>
         <Route path="/Contato" element={<><Header /><Contato/><Footer /></>}/>
         <Route path="/Perfil" element={<><Header /><Perfil/><Footer /></>}/>
         <Route path="/Logout" element={<><Logout /></>}/>
