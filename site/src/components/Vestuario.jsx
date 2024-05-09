@@ -80,7 +80,7 @@ function Vestuario(){
         <img src={produto47} alt="Acessório de caça 6"/>
         <h2>Jaqueta Jeans Militar Masculina Com Zíper, Jaqueta Bomber</h2>
         <p>R$193,00</p>
-        <Link to="/Produto">
+        <Link to="/Produto4">
             <button>Adicionar ao carrinho</button>
         </Link>
     </div>
