@@ -53,7 +53,7 @@ function Acessorios(){
             <img src={produto32} alt="Acessório de caça 3"/>
             <h2>Spray Para Defesa Pessoal Poly Defensor 50g</h2>
             <p>R$105,00</p>
-            <Link to="/Produto">
+            <Link to="/produto2">
             <button>Adicionar ao carrinho</button>
             </Link>
         </div>

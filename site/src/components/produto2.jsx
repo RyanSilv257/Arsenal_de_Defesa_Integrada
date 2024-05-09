@@ -5,7 +5,7 @@ import Modal from './Modal';
 
 
 
-    function Produto (){
+    function Produto2 (){
         const [isModalOpen, setIsModalOpen] = useState(false);
 
         const toggleModal = () => {
@@ -21,12 +21,12 @@ import Modal from './Modal';
         </div>
         <div class="pdt-maindiv">
             <div class="pdt-1">
-                <img class="pdt-img" src="Produtos/pistola-stoeger-str9-9mm.jpg" alt="" />
-                <h1 class="pdt-price">R$8.089,90 </h1>
+                <img class="pdt-img" src="Produtos/Spray Para Defesa Pessoal Poly Defensor 50g.jpeg" alt="" />
+                <h1 class="pdt-price">R$105,00</h1>
                 <p class ="pdt-sub">ou em até 10 vezes sem juros</p>
             </div>
             <div class="pdt-2">
-                <h1 class="pdt-name">PISTOLA STOEGER STR9 CAL 9MM</h1>
+                <h1 class="pdt-name">Spray Para Defesa Pessoal Poly Defensor 50g</h1>
                 <button class ="buy">Comprar</button>
             </div>
         </div>
