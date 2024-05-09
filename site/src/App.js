@@ -18,6 +18,7 @@ import Privacidade from './components/Privacidade';
 import Produto from './components/produto';
 import Produto2 from './components/produto2';
 import Produto3 from './components/produto3';
+import Produto4 from './components/produto4';
 import MaisVendidos from './components/MaisVendidos';
 import Contato from './components/contato';
 import Perfil from './components/Perfil';
@@ -51,6 +52,7 @@ function App() {
         <Route path="/Produto" element={<><Header /><Produto /><Footer /></>}/>
         <Route path="/Produto2" element={<><Header /><Produto2 /><Footer /></>}/>
         <Route path="/Produto3" element={<><Header /><Produto3 /><Footer /></>}/>
+        <Route path="/Produto4" element={<><Header /><Produto4 /><Footer /></>}/>
         <Route path="/MaisVendidos" element={<><Header /><MaisVendidos /><Footer /></>}/>
         <Route path="/Contato" element={<><Header /><Contato/><Footer /></>}/>
         <Route path="/Perfil" element={<><Header /><Perfil/><Footer /></>}/>
