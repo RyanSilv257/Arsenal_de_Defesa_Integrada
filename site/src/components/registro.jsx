@@ -106,7 +106,7 @@ function Registro(){
             }),
             credentials: 'include'
         })
-            .then(response => response.json())
+            .then(response =>  response.json())
             .then(data => {
                 if (data.message === "Usuário cadastrado com sucesso!") {
                     alert(data.message);

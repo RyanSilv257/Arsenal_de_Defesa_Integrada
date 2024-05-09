@@ -51,7 +51,7 @@ function App() {
         <Route path="/Contato" element={<><Header /><Contato/><Footer /></>}/>
         <Route path="/Perfil" element={<><Header /><Perfil/><Footer /></>}/>
         <Route path="/Logout" element={<><Logout /></>}/>
-        <Route path="UpdateData" element={<><UpdateData/></>}/>
+        <Route path="/UpdateData" element={<><Header /><UpdateData/><Footer /></>}/>
       </Routes>
 
     </>

@@ -55,7 +55,7 @@ const Perfil = () => {
                     <p>Validade do porte: {usuario.porteDate || 'Não informado'}</p>
                     <hr class="usr-hr"/>
                     </div>
-
+                    <Link to="/UpdateData"><button class="">Editar dados</button></Link>
                 <div>
                     <Link to="/"><button class="home-btn">Voltar ao início</button></Link>
                     <Link to="/Logout"><button class="logout-btn">Sair da conta</button></Link>

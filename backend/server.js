@@ -94,6 +94,7 @@ app.post('/registro', (req, res) => {
     });
 });
 
+// Possivel checagem de sessão
 app.get('/security', (req, res) => {
     if (req.session.usuario) {
         console.log("Está logado");
@@ -105,6 +106,7 @@ app.get('/security', (req, res) => {
     }
 })
 
+// Terminar sessão
 app.get('/logout', (req, res) => {
     req.session.destroy((err) => {
         if (err) {
@@ -115,6 +117,7 @@ app.get('/logout', (req, res) => {
     });
 });
 
+// Envia valores da sessão para o frontend (perfil)
 app.get('/session', (req, res) => {
     if (req.session && req.session.usuario) {
         res.json({ usuario: req.session.usuario });
@@ -136,11 +139,43 @@ app.put('/UpdateData', (req, res) => {
                  SET nome = ?, email = ?, senha = ?, dataNasc = ?, cpf = ?, telefone = ?, porte = ?, porteDate = ? 
                  WHERE id = ?`;
 
-    db.run(sql, [nome, email, senha, dataNasc, cpf, telefone, porte, porteDate, id], (err) => {
+    // Create an array to hold the parameters for the SQL query
+    const params = [];
+
+    // Push non-null values to the parameters array
+    if (nome !== null) params.push(nome);
+    if (email !== null) params.push(email);
+    if (senha !== null) params.push(senha);
+    if (dataNasc !== null) params.push(dataNasc);
+    if (cpf !== null) params.push(cpf);
+    if (telefone !== null) params.push(telefone);
+    if (porte !== null) params.push(porte);
+    if (porteDate !== null) params.push(porteDate);
+
+    // Add the user ID parameter at the end
+    params.push(id);
+
+    db.run(sql, params, (err) => {
         if (err) {
             console.error('Error updating user data:', err);
             return res.status(500).json({ error: 'Erro interno do servidor' });
         }
+
+        const updatedUserData = {
+            id,
+            nome: nome || req.session.usuario.nome, 
+            email: email || req.session.usuario.email, 
+            senha: senha || req.session.usuario.senha, 
+            dataNasc: dataNasc || req.session.usuario.dataNasc,
+            cpf: cpf || req.session.usuario.cpf, 
+            telefone: telefone || req.session.usuario.telefone,
+            porte: porte || req.session.usuario.porte, 
+            porteDate: porteDate || req.session.usuario.porteDate,
+        };
+
+        // Update session data with new user data
+        req.session.usuario = updatedUserData;
+
         res.json({ message: 'Dados do usuário atualizados com sucesso' });
     });
 });
