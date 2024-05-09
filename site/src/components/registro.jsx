@@ -80,11 +80,12 @@ function Registro(){
                 dataNasc: dataNasc,
                 porte: porte,
                 porteDate: porteDate
-            })
+            }),
+            credentials: 'include'
         })
             .then(response => response.json())
             .then(data => {
-                if (data.message) {
+                if (data.message === "Usuário cadastrado com sucesso!") {
                     alert(data.message);
                     window.location.href = "http://localhost:3000/Login";
                 }

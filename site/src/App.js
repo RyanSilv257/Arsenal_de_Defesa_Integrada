@@ -18,6 +18,7 @@ import Privacidade from './components/Privacidade';
 import Produto from './components/produto';
 import MaisVendidos from './components/MaisVendidos';
 import Contato from './components/contato';
+import Perfil from './components/Perfil';
 import { Routes, Route } from 'react-router-dom';
 
 
@@ -46,6 +47,8 @@ function App() {
         <Route path="/Produto" element={<><Header /><Produto /><Footer /></>}/>
         <Route path="/MaisVendidos" element={<><Header /><MaisVendidos /><Footer /></>}/>
         <Route path="/Contato" element={<><Header /><Contato/><Footer /></>}/>
+        <Route path="/Perfil" element={<><Perfil/></>}/>
+
       </Routes>
 
     </>
