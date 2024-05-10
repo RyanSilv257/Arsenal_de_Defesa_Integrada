@@ -1,6 +1,7 @@
 import '../styles/produto.css'
 import React, { useState } from 'react';
 import StarRating from './StarRating';
+import { Link } from 'react-router-dom';
 import Modal from './Modal';
 
 
@@ -25,9 +26,12 @@ import Modal from './Modal';
                 <h1 class="pdt-price">R$8.089,90 </h1>
                 <p class ="pdt-sub">ou em até 10 vezes sem juros</p>
             </div>
+            
             <div class="pdt-2">
                 <h1 class="pdt-name">PISTOLA STOEGER STR9 CAL 9MM</h1>
+                <Link to ="/Carrinho">
                 <button class ="buy">Comprar</button>
+                </Link>
             </div>
         </div>
         <div class="content-dcp">
