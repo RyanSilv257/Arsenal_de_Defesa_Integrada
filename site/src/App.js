@@ -22,7 +22,7 @@ import Produto4 from './components/produto4';
 import Produto5 from './components/produto5';
 import Produto6 from './components/produto6';
 import MaisVendidos from './components/MaisVendidos';
-import Contato from './components/contato';
+import Contato from './components/Contato';
 import Perfil from './components/Perfil';
 import Logout from './components/Logout';
 import UpdateData from './components/UpdateData';

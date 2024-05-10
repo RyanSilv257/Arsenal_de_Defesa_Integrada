@@ -35,6 +35,7 @@ function Contato(){
 
     return (
         <>
+
             <div className="main-div">
                 <div className="t-bar">
                     <p className="logo-txt1">ADI</p>
@@ -71,13 +72,15 @@ function Contato(){
                     </div>
                     <div className="div3">
                         <p className="category">Mensagem:</p>
+                        
                         <textarea className="mensagem-inp"
                             value={mensagem}
                             name="mensagem"
                             onChange={(e) => setMensagem(e.target.value)}
                             placeholder="Mensagem"
                             required
-                            autoComplete="none"        
+                            autoComplete="none"
+                            style={{ width: '70%', minHeight: '200px' }}
                         />
                     </div>
                     <div className="cnt">
