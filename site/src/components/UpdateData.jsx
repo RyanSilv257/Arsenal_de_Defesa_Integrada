@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import "../styles/update.css"
 
 function UpdateData() {
     const [usuario, setUsuario] = useState('');
@@ -138,11 +139,13 @@ const handleBirthdateChange = (event) => {
         <div>
             {usuario ? (
                 <>
-            <h2>Atualizar Dados do Usuário</h2>
+        <div class="updt-maindiv">
+            <h2 class="updt-title">Atualizar Dados do Usuário</h2>
             <form onSubmit={handleSubmit}>
+            <div class="updtform-div">
             <div class="div1">
 
-            <p class="category1">Nome:*</p>
+            <p class="category1">Nome:</p>
             <input className="name-inp"
                 type="text"
                 value={nome || (usuario && usuario.nome)}
@@ -154,7 +157,7 @@ const handleBirthdateChange = (event) => {
             />
             </div>
             <div class="div1">
-            <p class="category">E-mail:*</p>
+            <p class="category">E-mail:</p>
             <input className="email-inp"
                 type="email"
                 value={email || (usuario && usuario.email)}
@@ -166,7 +169,7 @@ const handleBirthdateChange = (event) => {
             />
             </div>
             <div class="div1">
-            <p class="category">Senha:*</p>
+            <p class="category">Senha:</p>
             <input className="senha-inp"
                 type="password"
                 value={senha || (usuario && usuario.senha)}
@@ -178,7 +181,7 @@ const handleBirthdateChange = (event) => {
             />
             </div>
             <div class="div1">
-            <p class="category">Data de nascimento:*</p>
+            <p class="category">Data de nascimento:</p>
             <input className="senha-inp"
                 value={dataNasc || (usuario && usuario.dataNasc)}
                 name="date"
@@ -190,7 +193,7 @@ const handleBirthdateChange = (event) => {
             />
             </div>
             <div class="div1">
-            <p class="category">Cpf:*</p>
+            <p class="category">Cpf:</p>
             <input className="senha-inp"
                 value={cpf || (usuario && usuario.cpf)}
                 name="cpf"
@@ -202,7 +205,7 @@ const handleBirthdateChange = (event) => {
             />
             </div>
             <div class="div1">
-            <p class="category">Nº de Telefone:*</p>
+            <p class="category">Nº de Telefone:</p>
             <input className="senha-inp"
                 value={telefone || (usuario && usuario.telefone)}
                 name="telefone"
@@ -215,7 +218,7 @@ const handleBirthdateChange = (event) => {
             </div>
 
             <div id="porte" class="div1">
-                <p class="category">Nº do registro do porte:*</p>
+                <p class="category">Nº do registro do porte:</p>
                 <input className="senha-inp"
                     value={porte || (usuario && usuario.porte)}
                     name="porte"
@@ -233,7 +236,7 @@ const handleBirthdateChange = (event) => {
                     autoComplete="none"        
                 />
 
-                <p class="category">Validade do Porte:*</p>
+                <p class="category">Validade do Porte:</p>
                 <input className="senha-inp"
                     value={porteDate || (usuario && usuario.porteDate)}
                     name="porteDate"
@@ -244,11 +247,13 @@ const handleBirthdateChange = (event) => {
                     autoComplete="none"        
                 />
                 </div>
-                <button className="form_button2"type="submit">Atualizar Dados</button>
+                <button className="form_button2 updt-btn" type="submit">Atualizar Dados</button>
+            </div>
             </form>
+        </div>
             </>
             ) : (
-                <p>Redirecionando para o Login...</p>
+                <p>...</p>
             )}
         </div>
         </>
