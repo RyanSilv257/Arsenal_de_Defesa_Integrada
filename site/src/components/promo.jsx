@@ -13,7 +13,7 @@ import  produto11 from "../Produtos/Jaqueta Jeans Militar Masculina Com Zíper, 
 import  produto12 from "../Produtos/Machado Tático.jpeg"
 import { Link } from 'react-router-dom';
 /*_____________________________________________________________________________________________________*/
-function MaisVendidos(){
+function Promo(){
     return(
         <>
 
@@ -24,7 +24,7 @@ function MaisVendidos(){
     <header>
     <div class='sub-div'>
         <div class='sub-title'>
-            <h1 id='title1'>MAIS VENDIDOS</h1>
+            <h1 id='title1'>PROMOÇÕES</h1>
             <hr />
         </div>
      </div>   
@@ -53,7 +53,7 @@ function MaisVendidos(){
             <img src={produto3} alt="Acessório de caça 3"/>
             <h2>RIFLE .22 SEMIAUTOMÁTICO TACTICAL CORONHA TÁTICA EM POLIPROPILENO PRETA- CBC</h2>
             <p>R$3.652,00</p>
-            <Link to="/Produto3">
+            <Link to="/Produto">
             <button>Adicionar ao carrinho</button>
             </Link>
         </div>
@@ -80,7 +80,7 @@ function MaisVendidos(){
         <img src={produto6} alt="Acessório de caça 6"/>
         <h2>Spray Para Defesa Pessoal Poly Defensor 50g</h2>
         <p>R$105,00</p>
-        <Link to="/Produto2">
+        <Link to="/Produto">
         <button>Adicionar ao carrinho</button>
         </Link>
     </div>
@@ -125,7 +125,7 @@ function MaisVendidos(){
         <img src={produto11} alt="Acessório de caça 11"/>
         <h2>Jaqueta Jeans Militar Masculina Com Zíper, Jaqueta Bomber</h2>
         <p>R$193,90</p>
-        <Link to="/Produto4">
+        <Link to="/Produto">
         <button>Adicionar ao carrinho</button>
         </Link>
     </div>
@@ -143,4 +143,4 @@ function MaisVendidos(){
     )
 }
 
-export default MaisVendidos;
+export default Promo;

@@ -53,7 +53,7 @@ function Armas(){
             <img src={produto3} alt="Acessório de caça 3"/>
             <h2>RIFLE .22 SEMIAUTOMÁTICO TACTICAL CORONHA TÁTICA EM POLIPROPILENO PRETA- CBC</h2>
             <p>R$3.652,00</p>
-            <Link to="/Produto">
+            <Link to="/Produto3">
             <button>Adicionar ao carrinho</button>
             </Link>
         </div>

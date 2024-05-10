@@ -16,10 +16,19 @@ import Vestuario from './components/Vestuario';
 import Sobre from './components/Sobre';
 import Privacidade from './components/Privacidade';
 import Produto from './components/produto';
+import Produto2 from './components/produto2';
+import Produto3 from './components/produto3';
+import Produto4 from './components/produto4';
+import Produto5 from './components/produto5';
+import Produto6 from './components/produto6';
 import MaisVendidos from './components/MaisVendidos';
 import Contato from './components/Contato';
 import Perfil from './components/Perfil';
+import Logout from './components/Logout';
+import UpdateData from './components/UpdateData';
 import { Routes, Route } from 'react-router-dom';
+import Promo from './components/promo';
+import Carrinho from './components/Carrinho';
 
 
 function App() {
@@ -45,10 +54,18 @@ function App() {
         <Route path="/Sobre" element={<><Header/><Sobre /><Footer /></>}/>
         <Route path="/Privacidade" element={<><Header /><Privacidade /><Footer /></>}/>
         <Route path="/Produto" element={<><Header /><Produto /><Footer /></>}/>
+        <Route path="/Produto2" element={<><Header /><Produto2 /><Footer /></>}/>
+        <Route path="/Produto3" element={<><Header /><Produto3 /><Footer /></>}/>
+        <Route path="/Produto4" element={<><Header /><Produto4 /><Footer /></>}/>
+        <Route path="/Produto5" element={<><Header /><Produto5 /><Footer /></>}/>
+        <Route path="/Produto6" element={<><Header /><Produto6 /><Footer /></>}/>
         <Route path="/MaisVendidos" element={<><Header /><MaisVendidos /><Footer /></>}/>
+        <Route path="/Promo" element={<><Header /><Promo /><Footer /></>}/>
         <Route path="/Contato" element={<><Header /><Contato/><Footer /></>}/>
-        <Route path="/Perfil" element={<><Perfil/></>}/>
-
+        <Route path="/Perfil" element={<><Header /><Perfil/><Footer /></>}/>
+        <Route path="/Logout" element={<><Logout /></>}/>
+        <Route path="/UpdateData" element={<><Header /><UpdateData/><Footer /></>}/>
+        <Route path="/Carrinho" element={<><Header /><Carrinho /><Footer />  </>}/>
       </Routes>
 
     </>

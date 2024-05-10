@@ -70,10 +70,12 @@ function Header() {
                 <input class="pesquisar" type="text" placeholder="Pesquisar"/>
             </form>
             <div class='sub-items'>
+                <Link to="/Carrinho">
                 <a href="#">
                 <img class="cart" src='carrinho.png'></img>
                 </a>
-                <Link to="/Login">
+                </Link>
+                <Link to="/Perfil">
                 <a href="#">
                 <img class=" user-img" src='usuario.png'></img>
                 </a>

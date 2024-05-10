@@ -2,7 +2,6 @@ const sqlite3 =  require("sqlite3").verbose();
 const express = require('express')
 const cors = require('cors')
 const session = require('express-session');
-const cookieParser = require('cookie-parser'); // Add cookie-parser
 const SQLiteStore = require('connect-sqlite3')(session);
 
 const app = express()
@@ -12,13 +11,12 @@ app.use(cors({
     methods: ['POST', 'PUT', 'GET', 'OPTIONS', 'HEAD'],
     credentials: true
   }))
+
 app.use(express.json());
-app.use(cookieParser()); // Use cookie-parser middleware
 
 
 const sessionOptions = {
     secret: '1263498712364981235482',
-    cookie: { maxAge: 30000 },
     resave: false,
     saveUninitialized: true,
     store: new SQLiteStore({
@@ -44,6 +42,8 @@ db.run(
         "email"	TEXT NOT NULL,
         "senha"	TEXT NOT NULL,
         "dataNasc" INTEGER NOT NULL,
+		"cpf" INTEGER NOT NULL,
+		"telefone" INTEGER NOT NULL,
         "porte" INTEGER,
         "porteDate" INTEGER,
         PRIMARY KEY("id" AUTOINCREMENT)
@@ -81,9 +81,9 @@ app.post('/login', (req, res) => {
 
 // Rota para cadastrar um novo usuário
 app.post('/registro', (req, res) => {
-    const { nome, email, senha, dataNasc, porte, porteDate } = req.body;
-    const sql = "INSERT INTO usuario (nome, email, senha, dataNasc, porte, porteDate) VALUES (?, ?, ?, ?, ?, ?)";
-    db.run(sql, [nome, email, senha, dataNasc, porte, porteDate], (err, result) => {
+    const { nome, email, senha, dataNasc, cpf, telefone, porte, porteDate } = req.body;
+    const sql = "INSERT INTO usuario (nome, email, senha, dataNasc, cpf, telefone, porte, porteDate) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+    db.run(sql, [nome, email, senha, dataNasc, cpf, telefone, porte, porteDate], (err, result) => {
         if (err) {
             console.error('Erro ao cadastrar usuário:', err);
             res.status(500).json({ message: "Erro ao cadastrar usuário." });
@@ -94,24 +94,93 @@ app.post('/registro', (req, res) => {
     });
 });
 
-app.get('/logout', (req, res) => {
-    req.session = {};
-    res.status(200).json({ message: "Sessão encerrada com sucesso." });
-});
-  
-app.get('/profile', (req, res) => {
+// Possivel checagem de sessão
+app.get('/security', (req, res) => {
     if (req.session.usuario) {
-        console.log('User data from session:', req.session.usuario);
-        return res.status(200).json({ message: "sim" });
+        console.log("Está logado");
+        setTimeout(() => {
+        window.location.href = '/Perfil';
+        }, 1000)
     } else {
-        return res.status(401).json({ message: "nao" });
+        window.location.href = '/Login';
+    }
+})
+
+// Terminar sessão
+app.get('/logout', (req, res) => {
+    req.session.destroy((err) => {
+        if (err) {
+            console.error('Erro terminando a sessão:', err);
+        } else {
+            res.sendStatus(200);
+        }
+    });
+});
+
+// Envia valores da sessão para o frontend (perfil)
+app.get('/session', (req, res) => {
+    if (req.session && req.session.usuario) {
+        res.json({ usuario: req.session.usuario });
+    } else {
+        res.status(401).json({ error: 'Não está logado' });
     }
 });
 
-app.get('/session', (req, res) => {
-    res.json({ usuario: req.session.usuario });
-    console.log(req.session.usuario)
-});
 
+// Rota para modificar dados
+app.put('/UpdateData', (req, res) => {
+    if (!req.session.usuario) {
+        return res.status(401).json({ error: 'Não está logado' });
+    }
+
+    const { id, nome, email, senha, dataNasc, cpf, telefone, porte, porteDate } = req.body;
+
+    const sql = `UPDATE usuario 
+                 SET nome = ?, email = ?, senha = ?, dataNasc = ?, cpf = ?, telefone = ?, porte = ?, porteDate = ? 
+                 WHERE id = ?`;
+
+    // Create an array to hold the parameters for the SQL query
+    const params = [];
+
+
+    // Push non-null and non-empty values to the parameters array
+    if (nome != null || nome !== '') params.push(nome);
+    if (email != null || email !== '') params.push(email);
+    if (senha != null || senha !== '') params.push(senha);
+    if (dataNasc != null || dataNasc !== '') params.push(dataNasc);
+    if (cpf != null || cpf !== '') params.push(cpf);
+    if (telefone != null || telefone !== '') params.push(telefone);
+    if (porte != null || porte !== '') params.push(porte);
+    if (porteDate != null || porteDate !== '') params.push(porteDate);
+
+    // Add the user ID parameter at the end
+    params.push(id);
+
+    db.run(sql, params, (err) => {
+        if (err) {
+            console.error('Error updating user data:', err);
+            return res.status(500).json({ error: 'Erro interno do servidor' });
+        }
+
+        console.log('User data updated successfully');
+
+        const updatedUserData = {
+            id,
+            nome: nome || req.session.usuario.nome, 
+            email: email || req.session.usuario.email, 
+            senha: senha || req.session.usuario.senha, 
+            dataNasc: dataNasc || req.session.usuario.dataNasc,
+            cpf: cpf || req.session.usuario.cpf, 
+            telefone: telefone || req.session.usuario.telefone,
+            porte: porte || req.session.usuario.porte, 
+            porteDate: porteDate || req.session.usuario.porteDate,
+        };
+
+        // atualiza a sessão
+        req.session.usuario = updatedUserData;
+
+        res.json({ message: 'Dados do usuário atualizados com sucesso' });
+    });
+});
 
 app.listen(3001 , () => console.log('Escutando no port 3001'))

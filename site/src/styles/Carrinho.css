@@ -1,0 +1,78 @@
+.body{
+    margin: none;
+}
+.body__Cart{
+    height: 900px;
+    
+}
+.sobre-title hr{
+    width: 36vw;
+}
+.Section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    justify-content: space-between;
+}
+.Pbd1{
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 600px;
+    background: #000;
+    align-items: center;
+    border-end-start-radius: 20px;
+    border-start-end-radius: 20px ;
+    text-align: center;
+    max-height: 700px;
+    padding: 5px;
+}
+
+.Psell1{
+    height: 300px;
+    border-start-end-radius: 20px ;
+   
+}
+.Exclude{
+    margin-top: 80px;
+    border: none;
+    transition: 0.3s;
+    color: white;
+    background: red;
+    width: 250px;
+    border-radius: 5px;
+}
+.Exclude:hover{
+    background-color: orange;
+    color: red;
+}
+.sct_fn{
+    height:300px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 70px;
+    gap: 160px;
+}
+.FC{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    transition: 0.3s;
+    border: none;
+    background: red;
+    color: white;
+
+}
+.FC:hover{
+    background: orange;
+    color: red;
+}
+.sct_fn h1{
+    color: #fcbf87;
+    padding-left: 60px;
+    text-decoration: underline;
+} 
