@@ -28,6 +28,7 @@ import Logout from './components/Logout';
 import UpdateData from './components/UpdateData';
 import { Routes, Route } from 'react-router-dom';
 import Promo from './components/promo';
+import Carrinho from './components/Carrinho';
 
 
 function App() {
@@ -64,6 +65,7 @@ function App() {
         <Route path="/Perfil" element={<><Header /><Perfil/><Footer /></>}/>
         <Route path="/Logout" element={<><Logout /></>}/>
         <Route path="/UpdateData" element={<><Header /><UpdateData/><Footer /></>}/>
+        <Route path="/Carrinho" element={<><Header /><Carrinho /><Footer />  </>}/>
       </Routes>
 
     </>
