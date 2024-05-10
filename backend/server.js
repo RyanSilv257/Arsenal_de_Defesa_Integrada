@@ -142,15 +142,16 @@ app.put('/UpdateData', (req, res) => {
     // Create an array to hold the parameters for the SQL query
     const params = [];
 
-    // Push non-null values to the parameters array
-    if (nome !== null) params.push(nome);
-    if (email !== null) params.push(email);
-    if (senha !== null) params.push(senha);
-    if (dataNasc !== null) params.push(dataNasc);
-    if (cpf !== null) params.push(cpf);
-    if (telefone !== null) params.push(telefone);
-    if (porte !== null) params.push(porte);
-    if (porteDate !== null) params.push(porteDate);
+
+    // Push non-null and non-empty values to the parameters array
+    if (nome != null || nome !== '') params.push(nome);
+    if (email != null || email !== '') params.push(email);
+    if (senha != null || senha !== '') params.push(senha);
+    if (dataNasc != null || dataNasc !== '') params.push(dataNasc);
+    if (cpf != null || cpf !== '') params.push(cpf);
+    if (telefone != null || telefone !== '') params.push(telefone);
+    if (porte != null || porte !== '') params.push(porte);
+    if (porteDate != null || porteDate !== '') params.push(porteDate);
 
     // Add the user ID parameter at the end
     params.push(id);
@@ -160,6 +161,8 @@ app.put('/UpdateData', (req, res) => {
             console.error('Error updating user data:', err);
             return res.status(500).json({ error: 'Erro interno do servidor' });
         }
+
+        console.log('User data updated successfully');
 
         const updatedUserData = {
             id,
@@ -173,7 +176,7 @@ app.put('/UpdateData', (req, res) => {
             porteDate: porteDate || req.session.usuario.porteDate,
         };
 
-        // Update session data with new user data
+        // atualiza a sessão
         req.session.usuario = updatedUserData;
 
         res.json({ message: 'Dados do usuário atualizados com sucesso' });

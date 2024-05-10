@@ -46,6 +46,8 @@ const Perfil = () => {
                     <hr/>
                     <p>Email: {usuario.email}</p>
                     <hr/>
+                    <p>Data de Nascimento: {usuario.dataNasc}</p>
+                    <hr />
                     <p>Cpf: {usuario.cpf}</p>
                     <hr/>
                     <p>Telefone: {usuario.telefone}</p>
@@ -55,7 +57,7 @@ const Perfil = () => {
                     <p>Validade do porte: {usuario.porteDate || 'Não informado'}</p>
                     <hr class="usr-hr"/>
                     </div>
-                    <Link to="/UpdateData"><button class="">Editar dados</button></Link>
+                    <Link to="/UpdateData"><button class="edit-btn">Editar dados</button></Link>
                 <div>
                     <Link to="/"><button class="home-btn">Voltar ao início</button></Link>
                     <Link to="/Logout"><button class="logout-btn">Sair da conta</button></Link>

@@ -103,6 +103,17 @@ const handleBirthdateChange = (event) => {
     const handleSubmit = async e => {
         e.preventDefault();
 
+        const updatedFields = {};
+
+        if (nome !== usuario.nome) updatedFields.nome = nome || usuario.nome;
+        if (email !== usuario.email) updatedFields.email = email || usuario.email;
+        if (senha !== usuario.senha) updatedFields.senha = senha || usuario.senha;
+        if (dataNasc !== usuario.dataNasc) updatedFields.dataNasc = dataNasc ||  usuario.dataNasc;
+        if (cpf !== usuario.cpf) updatedFields.cpf = cpf || usuario.cpf;
+        if (telefone !== usuario.telefone) updatedFields.telefone = telefone ||  usuario.telefone;
+        if (porte !== usuario.porte) updatedFields.porte = porte || usuario.porte;
+        if (porteDate !== usuario.porteDate) updatedFields.porteDate =  porteDate || usuario.porteDate;
+        
         fetch('http://localhost:3001/UpdateData', {
                 method: 'PUT',
                 headers: {
@@ -110,14 +121,15 @@ const handleBirthdateChange = (event) => {
                 },
                 body: JSON.stringify({
                     id: id,
-                    nome: nome,
-                    email: email,
-                    senha: senha,
-                    dataNasc: dataNasc,
-                    cpf: cpf,
-                    telefone: telefone,
-                    porte: porte,
-                    porteDate: porteDate
+                    ...updatedFields
+                    // nome: nome,
+                    // email: email,
+                    // senha: senha,
+                    // dataNasc: dataNasc,
+                    // cpf: cpf,
+                    // telefone: telefone,
+                    // porte: porte,
+                    // porteDate: porteDate
                 }),
                 credentials: 'include'
             })
@@ -126,6 +138,9 @@ const handleBirthdateChange = (event) => {
             .then(data => {
                 if (data.message === "Dados do usuário atualizados com sucesso") {
                     alert(data.message);
+                    setTimeout(() => {
+                        window.location.href = '/Perfil';
+                    }, 700);
                 }
             })
             .catch(err => {
@@ -232,7 +247,6 @@ const handleBirthdateChange = (event) => {
                     }}
                     type="number"
                     placeholder="Nº do registro"
-                    required
                     autoComplete="none"        
                 />
 
@@ -243,7 +257,6 @@ const handleBirthdateChange = (event) => {
                     onChange={handlePorteDateChange}
                     placeholder="Data da validade"
                     maxLength="10"
-                    required
                     autoComplete="none"        
                 />
                 </div>
