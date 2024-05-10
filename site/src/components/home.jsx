@@ -142,13 +142,15 @@ function Home(){
             </div>
             </a>
             </Link>
-            
+            <Link to="/produto3">
             <a href='#'>
             <div class='item'>
                 <img class="products" src="Produtos/RIFLE .22 SEMIAUTOMÁTICO TACTICAL CORONHA TÁTICA EM POLIPROPILENO PRETA- CBC R$3.652,00.jpeg" alt=''/>
                 <p>Rifle.22 Tactical Coronha Tática CBC</p>
             </div>
-            </a><a href='#'>
+            </a>
+            </Link>
+            <a href='#'>
             <div class='item'> 
                 <img class="products" src="Produtos/Red Dot Frenzy-S 1x17x24 MIC - Vector Optics.jpeg" alt=''/>
                 <p>Red Dot Vector 1x17x24 MIC</p>
