@@ -53,7 +53,7 @@ function MaisVendidos(){
             <img src={produto3} alt="Acessório de caça 3"/>
             <h2>RIFLE .22 SEMIAUTOMÁTICO TACTICAL CORONHA TÁTICA EM POLIPROPILENO PRETA- CBC</h2>
             <p>R$3.652,00</p>
-            <Link to="/Produto">
+            <Link to="/Produto3">
             <button>Adicionar ao carrinho</button>
             </Link>
         </div>
@@ -80,7 +80,7 @@ function MaisVendidos(){
         <img src={produto6} alt="Acessório de caça 6"/>
         <h2>Spray Para Defesa Pessoal Poly Defensor 50g</h2>
         <p>R$105,00</p>
-        <Link to="/Produto">
+        <Link to="/Produto2">
         <button>Adicionar ao carrinho</button>
         </Link>
     </div>
@@ -125,7 +125,7 @@ function MaisVendidos(){
         <img src={produto11} alt="Acessório de caça 11"/>
         <h2>Jaqueta Jeans Militar Masculina Com Zíper, Jaqueta Bomber</h2>
         <p>R$193,90</p>
-        <Link to="/Produto">
+        <Link to="/Produto4">
         <button>Adicionar ao carrinho</button>
         </Link>
     </div>
